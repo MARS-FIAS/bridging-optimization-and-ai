@@ -11,6 +11,11 @@ model is spatial, stochastic and expensive to simulate? The paper reviews
 direct optimization, optimization priors and neural simulation-based inference,
 and connects the different roles an objective can play in those approaches.
 
+![Three roles for a biological objective: direct optimization, optimization priors and neural simulation-based inference.](figures/methods_overview.svg)
+
+*Conceptual overview of the three strategies reviewed in the paper. The
+biological example below illustrates the neural approach.*
+
 This repository develops the reproducible worked example: a spatial stochastic
 model of early embryonic cell-fate specification, calibrated with neural
 simulation-based inference. It extends the

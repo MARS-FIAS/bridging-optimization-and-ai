@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="620" viewBox="0 0 1320 620" role="img" aria-labelledby="title description">
+  <title id="title">Three roles for a biological objective in parameter calibration</title>
+  <desc id="description">A conceptual comparison of direct optimization, optimization priors and neural simulation-based inference. Direct optimization searches for parameter sets, optimization priors weight a prior by utility before updating with observations, and neural inference learns a conditional parameter density. The repository illustrates the neural approach with a biological target.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="1320" height="620" rx="20" fill="#ffffff"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif" fill="#172b3a">
+    <text x="660" y="51" text-anchor="middle" font-size="32" font-weight="700">Three roles for a biological objective</text>
+    <text x="660" y="84" text-anchor="middle" font-size="21" fill="#526777">A review of calibration methods for spatial stochastic systems</text>
+    <path d="M660 105 V124 M232 124 H1088 M232 124 V150 M660 124 V150 M1088 124 V150" fill="none" stroke="#a7b7c4" stroke-width="2.5"/>
+
+    <rect x="34" y="154" width="396" height="381" rx="16" fill="#f1f7fb" stroke="#c6dbe9" stroke-width="1.5"/>
+    <rect x="462" y="154" width="396" height="381" rx="16" fill="#f3f8f4" stroke="#cee1d4" stroke-width="1.5"/>
+    <rect x="890" y="154" width="396" height="381" rx="16" fill="#f7f4fc" stroke="#ddd3ee" stroke-width="1.5"/>
+
+    <rect x="58" y="179" width="5" height="50" rx="2" fill="#326c96"/>
+    <rect x="486" y="179" width="5" height="50" rx="2" fill="#3d7c59"/>
+    <rect x="914" y="179" width="5" height="50" rx="2" fill="#7654a0"/>
+    <text x="80" y="211" font-size="27" font-weight="700">Direct optimization</text>
+    <text x="508" y="211" font-size="27" font-weight="700">Optimization priors</text>
+    <text x="936" y="199" font-size="26" font-weight="700">Neural simulation-</text>
+    <text x="936" y="232" font-size="26" font-weight="700">based inference</text>
+
+    <g font-size="15" font-weight="700" letter-spacing="1.4" fill="#526777">
+      <text x="64" y="276">ROLE OF THE OBJECTIVE</text>
+      <text x="492" y="276">ROLE OF THE OBJECTIVE</text>
+      <text x="920" y="276">ROLE OF THE OBJECTIVE</text>
+      <text x="64" y="386">PROCEDURE</text>
+      <text x="492" y="386">PROCEDURE</text>
+      <text x="920" y="386">PROCEDURE</text>
+      <text x="64" y="472">OUTPUT</text>
+      <text x="492" y="472">OUTPUT</text>
+      <text x="920" y="472">OUTPUT</text>
+    </g>
+    <g font-size="23">
+      <text x="64" y="312">Loss or score to optimize</text>
+      <text x="492" y="312">Utility shapes the prior</text>
+      <text x="920" y="310">Summary and predictive</text>
+      <text x="920" y="340">assessment criterion</text>
+      <text x="64" y="421">Search parameter space</text>
+      <text x="492" y="421">Update with observations</text>
+      <text x="920" y="421">Fit a conditional density</text>
+      <text x="64" y="509" font-weight="600" fill="#285d83">Selected parameter sets</text>
+      <text x="492" y="509" font-size="22" font-weight="600" fill="#32694b">Data-updated distribution</text>
+      <text x="920" y="498" font-size="22" font-weight="600" fill="#66448f">Conditional parameter</text>
+      <text x="920" y="526" font-size="22" font-weight="600" fill="#66448f">density</text>
+    </g>
+    <g stroke="#64748b" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M232 326 V354"/>
+      <path d="M660 326 V354"/>
+      <path d="M1088 346 V358"/>
+    </g>
+    <path d="M1088 538 V560 H820" fill="none" stroke="#a798bd" stroke-width="2"/>
+    <text x="660" y="592" text-anchor="middle" font-size="21" fill="#526777">Worked example: neural inference conditioned on a biological target</text>
+  </g>
+</svg>

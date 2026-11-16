@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "asset": "methods_overview.svg",
+  "sha256": "9e997449a6d1ba73a1a52103e54eab6d7792758d4a85ac42929fc95140996f42",
+  "scientific_status": "Conceptual review diagram; no numerical measurements.",
+  "source": "The review framework: direct optimization, optimization priors and neural conditional density estimation.",
+  "repository_implementation": "Goal-conditioned neural workflow for the blastocyst-cavity worked example.",
+  "author_request": "Place a methods-focused figure before the biological geometries in the README.",
+  "article_figure_asset_edited": false,
+  "format": "Editable native SVG; no external images, fonts, scripts or network resources."
+}
