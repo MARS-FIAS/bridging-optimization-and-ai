@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "label": "Reported paper workflow",
+  "rounds": 5,
+  "simulation_pairs_per_round": 100000,
+  "tasks": 10,
+  "fits_per_task": 2,
+  "posterior_summary_draws": 250000,
+  "map_num_init_samples": 250000,
+  "evaluation_pairs": 50,
+  "train_kwargs": {},
+  "map_kwargs": {},
+  "torch_threads": 1,
+  "keep_raw_trajectories": true,
+  "seed": null
+}

@@ -1,0 +1,4 @@
+# Installer versions used for the clean Python 3.8 checks.
+pip==25.0.1
+setuptools==75.3.2
+wheel==0.45.1

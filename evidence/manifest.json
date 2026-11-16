@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "parameter_keys": [
+    "N_N",
+    "G_G",
+    "FC_N",
+    "G_EA",
+    "G_N",
+    "N_G",
+    "FC_G",
+    "N_EA",
+    "MRNA",
+    "PRO",
+    "FL",
+    "td_FC",
+    "td_FM",
+    "td_FL",
+    "td_FS",
+    "tau_C",
+    "tau_M",
+    "tau_L",
+    "tau_S",
+    "tau_df_FD",
+    "tau_db_FD",
+    "tau_ef_EA",
+    "tau_eb_EA",
+    "tau_pf_NP",
+    "tau_pb_NP",
+    "chi_auto"
+  ],
+  "geometry_order": [
+    "1_1",
+    "2_2",
+    "3_3",
+    "4_4",
+    "5_5",
+    "5_3_1",
+    "7_5_3_1",
+    "9_7_5_3_1"
+  ],
+  "diagnostic_geometry": "5_3_1",
+  "diagnostic_estimator_sha256": "b5ee90796d1ced35d7d1fbe934ab9578c73195c147f69d152307f341cd41ec87",
+  "source_records": [
+    {
+      "source": "selection/candidates.csv",
+      "sha256": "4448353199575adcb903fe40303b75fa992c3aca6ab2eb0ce0e903d484cc51d2"
+    },
+    {
+      "source": "selection/trajectory_quantiles.csv",
+      "sha256": "147706212e3194fdd0a0ac8cd54af20c0d6f353985cf3e309a926c607671d3bb"
+    },
+    {
+      "source": "selection/selections.csv",
+      "sha256": "9257a81b23b886144fe1f0e4ca66ce1dc3a02acd99d0fa27b2193dac838a6dc5"
+    },
+    {
+      "source": "goal_predictive/biological_predictive_outcomes.npz",
+      "sha256": "7fdab9a80c1d73e4aab754474d148fe0d7416ffa1b2d2ea11ea630d2c26f3901"
+    },
+    {
+      "source": "goal_predictive/predictive_summary.json",
+      "sha256": "7a2bc13849a2d5395eb434a919a64a114b29fc63f881af79e0d50aee4d860dcb"
+    },
+    {
+      "source": "goal_predictive/independent_audit.json",
+      "sha256": "a56b36380546787cf0ae701efa336a26ea000b2057a00e98d61db7d94503e0f6"
+    },
+    {
+      "source": "marginal_sbc/sbc_rank_arrays.npz",
+      "sha256": "9a454358f252eb768a8774bed86c80da7efe630c669512da29adccf7d7e73d77"
+    },
+    {
+      "source": "marginal_sbc/sbc_arrays_verified.npz",
+      "sha256": "8bd1d7df229004e665d9fa0fd82f6075d859486347abb85235f8dea8c105d582"
+    },
+    {
+      "source": "marginal_sbc/sbc_summary.json",
+      "sha256": "85551e0148061b3fd80f05fc2b07cb5191b4f5e9c254c73bccba6b36e3936ed4"
+    },
+    {
+      "source": "marginal_sbc/independent_audit.json",
+      "sha256": "9f7e6f5066ac4d4a491ab50c7bacef271c14c837fce72ff51463e76510d18017"
+    },
+    {
+      "source": "marginal_sbc/reference_observation_summary.json",
+      "sha256": "7794133d1d891c11ad2cfe67c67bad0bc788bbe9de7d5fb3ca0c0a583927d8b9"
+    },
+    {
+      "source": "parameter_reference/selected_MAP_parameters.csv",
+      "sha256": "362beafa41a48f155ba35a7220ee5689cbfce36bf34a803c9675a01a91b34fb6"
+    },
+    {
+      "source": "parameter_reference/reference_density_quantiles_256.csv",
+      "sha256": "88515d56c38b82ad44ed82e4119f9e0c51f3c83d1c9161088e6debe6003f20c2"
+    }
+  ],
+  "export_code_sha256": "8e8ffa6891ed50fd7cb6d250f0ff32978356c3bacc6beeafe1cb21930e4e156f",
+  "prior_observation_hashes_sha256": "9edda26bb6f5ff00d0de64d8cc383565c5a1840396ff46572f2126b124dc997e",
+  "files": {
+    "selection_candidates.npz": {
+      "bytes": 27327,
+      "sha256": "658b2e417952e672489491b085c66025ad1c7b0bbe05b23a99477a2a72991b4c"
+    },
+    "goal_predictive.npz": {
+      "bytes": 5429,
+      "sha256": "59e8e012c0114981576896c57db1cc20a67ef728e3f85d1fa48d00f5e241f3b7"
+    },
+    "marginal_sbc.npz": {
+      "bytes": 278576,
+      "sha256": "7d2c14bbf6b23be6e160a92cf990f08f7892ced12f278f85906537e2d05b0cd0"
+    },
+    "prior_predictive.npz": {
+      "bytes": 8266,
+      "sha256": "0fbc06eee9083ea88168e088e5f78c454d8239239c839d75b6cfd52d0930fe5a"
+    },
+    "selected_MAP_parameters.csv": {
+      "bytes": 11364,
+      "sha256": "362beafa41a48f155ba35a7220ee5689cbfce36bf34a803c9675a01a91b34fb6"
+    },
+    "reference_density_quantiles_256.csv": {
+      "bytes": 5299,
+      "sha256": "88515d56c38b82ad44ed82e4119f9e0c51f3c83d1c9161088e6debe6003f20c2"
+    },
+    "selected_final_artifacts.csv": {
+      "bytes": 789,
+      "sha256": "98342fc0b51651bb355d5e467021b8d5c00b346012276593a72172e05d0845eb"
+    },
+    "expected_results.json": {
+      "bytes": 8061,
+      "sha256": "d479034119a1f2e18380d3271a272edd8dab538c042df7efb1e4c3f954bfd9ae"
+    }
+  },
+  "units": {
+    "time_h": "hours",
+    "scores_and_ranks": "dimensionless",
+    "fate_counts": "cells",
+    "parameter_coordinates": "native linear; units in config/model.json"
+  },
+  "raw_molecular_trajectories_included": false,
+  "full_posterior_draw_banks_included": false,
+  "training_testing_calibration_simulation_banks_included": false,
+  "new_simulations": 0,
+  "new_posterior_draws": 0,
+  "neural_training": false
+}

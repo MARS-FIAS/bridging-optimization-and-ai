@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and this software when using these materials."
+title: "Bridging Optimization and AI for Parameterizing Spatial Stochastic Systems"
+type: software
+version: 0.5.0
+license: MIT
+repository-code: "https://github.com/MARS-FIAS/bridging-optimization-and-ai"
+authors:
+  - family-names: "Ramirez Sierra"
+    given-names: "Michael Alexander"
+    orcid: "https://orcid.org/0009-0006-4292-4991"
+  - family-names: "Sokolowski"
+    given-names: "Thomas R."
+    orcid: "https://orcid.org/0000-0002-1287-3779"
+abstract: "Modeling and reproducibility tools for spatial stochastic blastocyst cell-fate specification, biological-objective conditioning and neural simulation-based inference."
+references:
+  - type: article
+    title: "AI-powered simulation-based inference of a genuinely spatial-stochastic gene regulation model of early mouse embryogenesis"
+    authors:
+      - family-names: "Ramirez Sierra"
+        given-names: "Michael Alexander"
+      - family-names: "Sokolowski"
+        given-names: "Thomas R."
+    year: 2024
+    doi: "10.1371/journal.pcbi.1012473"
+  - type: thesis
+    title: "Computational studies on the optimality of early embryonic cellular information processing strategies"
+    authors:
+      - family-names: "Ramirez Sierra"
+        given-names: "Michael Alexander"
+    year: 2025
+    doi: "10.21248/gups.92001"

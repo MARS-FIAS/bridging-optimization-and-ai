@@ -1,0 +1,8 @@
+# These definitions preserve the research source's formatting as well as its AST.
+# Keep its blank-line indentation; normal whitespace checks apply to new adapters.
+src/cavity_sbi/_model.py whitespace=-blank-at-eol
+src/cavity_sbi/geometry.py whitespace=-blank-at-eol
+src/cavity_sbi/_numerics/stem.py whitespace=-blank-at-eol
+src/cavity_sbi/_numerics/jump.py whitespace=-blank-at-eol
+src/cavity_sbi/_numerics/utils.py whitespace=-blank-at-eol
+src/cavity_sbi/_numerics/objective.py whitespace=-blank-at-eol

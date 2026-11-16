@@ -1,0 +1,18 @@
+{
+  "label": "Reduced interface example; not the reported diagnostic sample sizes",
+  "map_pairs": 2,
+  "predictive_pairs": 4,
+  "sbc_cases": 4,
+  "posterior_draws_per_case": 32,
+  "coverage_levels": [0.5, 0.8, 0.9, 0.95],
+  "alpha": 0.05,
+  "torch_threads": 1,
+  "max_sampling_batch_size": 10000,
+  "posterior_sampling_timeout_seconds": 180,
+  "seeds": {"evaluate-map": 20261116, "predictive": 20261113, "sbc": 20261114},
+  "forward_seed_roles": {"evaluate-map": 90, "predictive": 99, "sbc": 91},
+  "posterior_seed_offset": 100000,
+  "rank_seed_role": 92,
+  "keep_raw_trajectories": false,
+  "keep_posterior_samples": false
+}

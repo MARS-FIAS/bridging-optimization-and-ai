@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "geometries": [
+    {
+      "id": "1_1",
+      "layers": [
+        1,
+        1
+      ],
+      "physical_ICM_cells": 2,
+      "ICM_storage_positions": 2,
+      "inactive_padding_positions": 0,
+      "total_storage_positions": 3,
+      "active_ICM_indices": [
+        0,
+        1
+      ],
+      "shared_reservoir_index": 2
+    },
+    {
+      "id": "2_2",
+      "layers": [
+        2,
+        2
+      ],
+      "physical_ICM_cells": 4,
+      "ICM_storage_positions": 4,
+      "inactive_padding_positions": 0,
+      "total_storage_positions": 5,
+      "active_ICM_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "shared_reservoir_index": 4
+    },
+    {
+      "id": "3_3",
+      "layers": [
+        3,
+        3
+      ],
+      "physical_ICM_cells": 6,
+      "ICM_storage_positions": 6,
+      "inactive_padding_positions": 0,
+      "total_storage_positions": 7,
+      "active_ICM_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "shared_reservoir_index": 6
+    },
+    {
+      "id": "4_4",
+      "layers": [
+        4,
+        4
+      ],
+      "physical_ICM_cells": 8,
+      "ICM_storage_positions": 8,
+      "inactive_padding_positions": 0,
+      "total_storage_positions": 9,
+      "active_ICM_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "shared_reservoir_index": 8
+    },
+    {
+      "id": "5_5",
+      "layers": [
+        5,
+        5
+      ],
+      "physical_ICM_cells": 10,
+      "ICM_storage_positions": 10,
+      "inactive_padding_positions": 0,
+      "total_storage_positions": 11,
+      "active_ICM_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "shared_reservoir_index": 10
+    },
+    {
+      "id": "5_3_1",
+      "layers": [
+        5,
+        3,
+        1
+      ],
+      "physical_ICM_cells": 9,
+      "ICM_storage_positions": 15,
+      "inactive_padding_positions": 6,
+      "total_storage_positions": 16,
+      "active_ICM_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        12
+      ],
+      "shared_reservoir_index": 15
+    },
+    {
+      "id": "7_5_3_1",
+      "layers": [
+        7,
+        5,
+        3,
+        1
+      ],
+      "physical_ICM_cells": 16,
+      "ICM_storage_positions": 28,
+      "inactive_padding_positions": 12,
+      "total_storage_positions": 29,
+      "active_ICM_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16,
+        17,
+        18,
+        24
+      ],
+      "shared_reservoir_index": 28
+    },
+    {
+      "id": "9_7_5_3_1",
+      "layers": [
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "physical_ICM_cells": 25,
+      "ICM_storage_positions": 45,
+      "inactive_padding_positions": 20,
+      "total_storage_positions": 46,
+      "active_ICM_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        21,
+        22,
+        23,
+        24,
+        30,
+        31,
+        32,
+        40
+      ],
+      "shared_reservoir_index": 45
+    }
+  ]
+}

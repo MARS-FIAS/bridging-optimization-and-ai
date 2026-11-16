@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-15",
+  "method": "AST-selected original source definitions; no scientific body edits",
+  "records": [
+    {
+      "source": "Script_Bank/Resources/BiochemStem.py",
+      "source_sha256": "ad0214bc6c40873393a33edb0e0ac605625734a70cd93b04163dfae98790232c",
+      "destination": "src/cavity_sbi/_numerics/stem.py",
+      "destination_sha256": "2b5229d8fce9e4e4665c710877e615dd567af32265d31b123d502d4fb13d361c",
+      "definition_AST_hashes": {
+        "BiochemStem": "1417a7e39c3cfb047faa6833b458369993594e08350caaad18a7b871731cd813"
+      },
+      "all_definitions_unchanged": true
+    },
+    {
+      "source": "Script_Bank/Resources/BiochemSimulUltimate.py",
+      "source_sha256": "00d12bbbcaad79e0f9a0866344677666cbb05699af17a37cc654470984cf3989",
+      "destination": "src/cavity_sbi/_numerics/jump.py",
+      "destination_sha256": "16575c70679dbb81e908ab2bbdae131f219f5a4679e22cb262edf0ec9bc5c6f9",
+      "definition_AST_hashes": {
+        "BiochemSimulSwift": "c8bca929c2de00c780882bdbaeb5f4d786baa41cdd8a81b501d1a0a7a55c208c"
+      },
+      "all_definitions_unchanged": true
+    },
+    {
+      "source": "Script_Bank/Resources/Cell_Space.py",
+      "source_sha256": "7b580db18600b3fb02bd291a650021e1293314a45f2cb00120bf152adecbd638",
+      "destination": "src/cavity_sbi/geometry.py",
+      "destination_sha256": "e2a720f3495ea98362cac3cca7f8a278b6a38c4af916a7a353931058f27f0f89",
+      "definition_AST_hashes": {
+        "cell_placement": "e6be2584c539fcdb589533b0e58eb1bf8af795bfad8ec03f83db0e985fb5c69c",
+        "cell_distance": "ed06dc7ac740ac8597d5ee3997c09b9831546857c3f1634e9fd168ddc03508e4",
+        "cell_slay": "0be1019f9c638f35945eba82cd97e742984d0c27743ab627cb4c71a5b4f783bc",
+        "_hood_pro_vet": "86a0bd16291a1936d68fa0da499b54deaccd4bca8f6759e19e1d140a75825742",
+        "cell_neighborhood": "c4293e5972304db0d28c3221ce3b1c84e41afa796fb66fa53736db422c32e97c",
+        "make_rho_mat": "46b40306d1a709a454505fa288368fe33c5afb0688bc522817f7562f40bd1734",
+        "make_sigma_vet": "41862e8f773ce244d22b7d8a434ade80c0108290e621a2198a2b62e328f74de2",
+        "_draw_initial_patterns_Harsh": "1118d1d8fe8071843efdcf3f923e14c05bed2b7e8b067aecbe94669b2de6740e",
+        "_make_initial_pattern_Harsh": "4e6177bd982ae19a527c4bc1c863bb73c3b2effb3ee2e8b37ac62a1e20aba2b2",
+        "_make_initial_pattern_Slide": "cdc57fa18e3c204476d1968d5d3b0b197a6f3ae31ae13ad6829ec9bc021f591d",
+        "_make_initial_pattern_IPA": "89936b7fcb187a57fd4e54e63a421addd8895a911b8554921a1636de9405d271",
+        "_make_initial_pattern_SAP": "3151bb068fb6d65f6ac1f5354dccc0dcbc3b1bf7df071ba81062f3554f22482f",
+        "_trial_Fish_Bind": "d68912fd0557eeedc8149c376a8985c73198325d293c1352d7608c9d0f62fa68",
+        "_make_initial_pattern_Fish_Bind": "dd2ed7fc7870bc3445a53ba6bb43e65729bbe83f37c8736fa36f7a4cb482b0ed",
+        "_trial_Uni_Fish_Bind": "fd0ed8f1f78f55c669a94375033cba9145691c4d5e792e0fbe20b375eb902a4a",
+        "_make_initial_pattern_Uni_Fish_Bind": "88811e9de4c109c129993e97ffbdbfc8855382cab832caed12cb0c0fed952bd6",
+        "make_initial_pattern": "af46600f8e2213dc2051878287228bdba579e26254c6cc2bd9b0fe5e88443e80"
+      },
+      "all_definitions_unchanged": true
+    },
+    {
+      "source": "Script_Bank/Resources/Utilities_Twin.py",
+      "source_sha256": "3344f21386eccf9dabed6a0628149cc602c39d45871fd3dc036269b68b55e09b",
+      "destination": "src/cavity_sbi/_numerics/utils.py",
+      "destination_sha256": "2a0ed78fdf9e47609388a69100e30f1451bb3949a862c43372648313ae948610",
+      "definition_AST_hashes": {
+        "interpolator": "1aa60b46d465ca143a39ccf53757f6d179c2c76cd9df1e2e559a6766bc936ec3",
+        "plotful": "1e9f8b9e4c805917d6110e93d1e8788ea1e7672e2047eda9e84c693f215093ab",
+        "instate_state_tor": "7cd190469216d04ee8e300383bf4d15a66818ffb4c53e8d0e4d9530acfe5e383",
+        "instate_rate_mat": "dc4cdf9f682e96c466114ae15387f6ff0c96fda50cefd950e9fb5bae6222af3c",
+        "make_paras": "a2bbeb93b87e6b8efd965c62df6c6cf2a9b289528813f54846d8e69d8fbc93d0",
+        "retrieve_paras": "f59cd6359810bfefc7f7846c34594bd99ac8ed0fe0164abacc6db1c965c97afe",
+        "make_para_fun": "68254499864a55bdd844d688162026c3f302329de5cdc5b17599aff19af50fbc",
+        "make_prior": "4b1e05efbbb432e59ad4b26fd8ac443128dc46d2e0623d8bc448629975d4b2a1",
+        "make_simulator_ready": "ad8e8d557968861c964203dab260b402a80eff9d1df3e95233f7107dc7be8ae7"
+      },
+      "all_definitions_unchanged": true
+    },
+    {
+      "source": "Script_Bank/Resources/ObjectiveFunL1L2.py",
+      "source_sha256": "b4fafe3348b77f14af21ea97f3beeec18d59b7c08313c66b7aba9db7e7e0869a",
+      "destination": "src/cavity_sbi/_numerics/objective.py",
+      "destination_sha256": "042280054c6d67524e8a58441aef86c3c10e8346752dee6181f9a5470687195b",
+      "definition_AST_hashes": {
+        "ObjectiveFunTemplate": "583632a941a103497231086a6fb5ff0d7605988bfe6c006401fe1590a05cdb15",
+        "ObjectiveFunPanelRule": "cd6267ee87dd4eca53093c6fb250bb15a8c1de12a5ab3aa4e75e5a0db33e9588"
+      },
+      "all_definitions_unchanged": true
+    },
+    {
+      "source": "Script_Bank/Prime/Panel_Alp_1_FL_Cellulate_0_0_Inference_Stage_L_1_Act_0.py",
+      "source_sha256": "cc3719949ca504b3400203ffdff8213e7b1364cc9a552cdd0ed97a48ef7ff7a7",
+      "destination": "src/cavity_sbi/_model.py",
+      "destination_sha256": "07e02b5088bac536bac9e2bfd0705246765f494c830491b1a5069ea7670e1bd7",
+      "definition_AST_hashes": {
+        "construct_stem": "071a588e50e9015cfe39ab782a9f9012be71653fe8b6c7f67518b66471b27fc7",
+        "simulator": "396a14b105a6c28d38da50e0093fac0720bbb5e208e3f3450e1539f8b833a366"
+      },
+      "all_definitions_unchanged": true
+    }
+  ],
+  "excluded_definition": "Optional Blender visualization helper; unused by model/simulator",
+  "new_simulations": 0,
+  "models_deserialized": false
+}

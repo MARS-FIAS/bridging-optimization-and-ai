@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "model": "blastocyst_cavity",
+  "parameter_mode": 0,
+  "parameters": [
+    {
+      "key": "N_N",
+      "reference_value": 125,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Activation of N transcription by N",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "G_G",
+      "reference_value": 275,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Activation of G transcription by G",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "FC_N",
+      "reference_value": 552,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Activation of FC transcription by N",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "G_EA",
+      "reference_value": 615,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Activation of G transcription by EA",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "G_N",
+      "reference_value": 412,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Repression of G transcription by N",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "N_G",
+      "reference_value": 411,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Repression of N transcription by G",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "FC_G",
+      "reference_value": 95,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Repression of FC transcription by G",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "N_EA",
+      "reference_value": 695,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Repression of N transcription by EA",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "MRNA",
+      "reference_value": 250,
+      "prior_low": 0,
+      "prior_high": 250,
+      "meaning": "Initial N_MRNA/G_MRNA randomization scale",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "PRO",
+      "reference_value": 1000,
+      "prior_low": 0,
+      "prior_high": 1000,
+      "meaning": "Initial N/G protein randomization scale",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "FL",
+      "reference_value": 2500,
+      "prior_low": 0,
+      "prior_high": 25000,
+      "meaning": "Initial luminal FGF4 loading coordinate",
+      "units": "molecule count",
+      "coordinate": "linear"
+    },
+    {
+      "key": "td_FC",
+      "reference_value": 13158,
+      "prior_low": 300,
+      "prior_high": 28800,
+      "meaning": "Cytoplasmic FGF4 degradation lifetime",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "td_FM",
+      "reference_value": 3456,
+      "prior_low": 300,
+      "prior_high": 28800,
+      "meaning": "Membrane-associated FGF4 degradation lifetime",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "td_FL",
+      "reference_value": 13158,
+      "prior_low": 300,
+      "prior_high": 28800,
+      "meaning": "Luminal FGF4 degradation lifetime",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "td_FS",
+      "reference_value": 3456,
+      "prior_low": 300,
+      "prior_high": 28800,
+      "meaning": "Shared degradation lifetime for both external sink pools",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_C",
+      "reference_value": 2303,
+      "prior_low": 300,
+      "prior_high": 45000,
+      "meaning": "Total cytoplasmic export time scale",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_M",
+      "reference_value": 1380,
+      "prior_low": 300,
+      "prior_high": 42000,
+      "meaning": "Membrane export time scale",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_L",
+      "reference_value": 2303,
+      "prior_low": 30,
+      "prior_high": 450000,
+      "meaning": "Luminal export time scale",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_S",
+      "reference_value": 1380,
+      "prior_low": 30,
+      "prior_high": 420000,
+      "meaning": "Shared external-pool export time scale",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_df_FD",
+      "reference_value": 100000,
+      "prior_low": 300,
+      "prior_high": 345600,
+      "meaning": "Inverse effective dimerization coefficient",
+      "units": "s in dimensionless-count convention",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_db_FD",
+      "reference_value": 360,
+      "prior_low": 30,
+      "prior_high": 345600,
+      "meaning": "Dimer dissociation time scale",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_ef_EA",
+      "reference_value": 31379,
+      "prior_low": 300,
+      "prior_high": 43200,
+      "meaning": "Inverse effective ERK-activation coefficient",
+      "units": "s in dimensionless-count convention",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_eb_EA",
+      "reference_value": 1025,
+      "prior_low": 30,
+      "prior_high": 43200,
+      "meaning": "ERK inactivation time scale",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_pf_NP",
+      "reference_value": 18944,
+      "prior_low": 300,
+      "prior_high": 43200,
+      "meaning": "Inverse effective NANOG-phosphorylation coefficient",
+      "units": "s in dimensionless-count convention",
+      "coordinate": "linear"
+    },
+    {
+      "key": "tau_pb_NP",
+      "reference_value": 21361,
+      "prior_low": 30,
+      "prior_high": 43200,
+      "meaning": "NANOG dephosphorylation time scale",
+      "units": "s",
+      "coordinate": "linear"
+    },
+    {
+      "key": "chi_auto",
+      "reference_value": 0.39,
+      "prior_low": 0,
+      "prior_high": 1,
+      "meaning": "Autocrine fraction of cytoplasmic export",
+      "units": "dimensionless",
+      "coordinate": "linear"
+    }
+  ],
+  "prior": "independent uniform box in native coordinates",
+  "species": [
+    "N",
+    "G",
+    "NP"
+  ],
+  "simulation_horizon_hours": 48,
+  "event_history_capacity": 10000000,
+  "faces": 6,
+  "observation_time_hours": {
+    "start": 0,
+    "stop_exclusive": 49,
+    "step": 0.25
+  },
+  "conditions": [
+    {
+      "rule": 0,
+      "name": "Fgf4 knockout",
+      "simulation_representation": "Ligand-export switch removes downstream signaling feedback.",
+      "lower_target": "EPI",
+      "upper_target": "EPI"
+    },
+    {
+      "rule": 1,
+      "name": "Wild type",
+      "lower_target": "PRE",
+      "upper_target": "EPI"
+    }
+  ],
+  "score": {
+    "window_hours": [
+      36,
+      48
+    ],
+    "time_hours": [
+      36.0,
+      36.25,
+      36.5,
+      36.75,
+      37.0,
+      37.25,
+      37.5,
+      37.75,
+      38.0,
+      38.25,
+      38.5,
+      38.75,
+      39.0,
+      39.25,
+      39.5,
+      39.75,
+      40.0,
+      40.25,
+      40.5,
+      40.75,
+      41.0,
+      41.25,
+      41.5,
+      41.75,
+      42.0,
+      42.25,
+      42.5,
+      42.75,
+      43.0,
+      43.25,
+      43.5,
+      43.75,
+      44.0,
+      44.25,
+      44.5,
+      44.75,
+      45.0,
+      45.25,
+      45.5,
+      45.75,
+      46.0,
+      46.25,
+      46.5,
+      46.75,
+      47.0,
+      47.25,
+      47.5,
+      47.75,
+      48.0
+    ],
+    "target": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "beta": 1,
+    "L": 1,
+    "aim_NT": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "aim_G": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "positive_NT": 500,
+    "negative_NT": 200,
+    "positive_G": 1000,
+    "negative_G": 200,
+    "cusp_NT": 5,
+    "cusp_G": 5,
+    "quantile_interpolation": "nearest",
+    "meta_score_rounding_digits": 4
+  },
+  "initialization": {
+    "distribution": "uniform-integer intensity, then Poisson/binomial thinning",
+    "MRNA_and_PRO": "randomization scales, not hard count ceilings",
+    "binomial_probability": 0.5,
+    "initial_inactive_ERK_per_ICM_cell": 1000
+  },
+  "random_seed": null
+}

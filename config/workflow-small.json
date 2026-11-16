@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "label": "Small interface example; not the paper analysis",
+  "rounds": 5,
+  "simulation_pairs_per_round": 20,
+  "tasks": 1,
+  "fits_per_task": 2,
+  "posterior_summary_draws": 256,
+  "map_num_init_samples": 256,
+  "evaluation_pairs": 2,
+  "train_kwargs": {
+    "max_num_epochs": 1
+  },
+  "map_kwargs": {
+    "num_iter": 5,
+    "num_to_optimize": 5
+  },
+  "torch_threads": 1,
+  "keep_raw_trajectories": true,
+  "seed": null
+}

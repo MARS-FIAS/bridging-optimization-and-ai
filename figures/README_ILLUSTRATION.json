@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-16",
+  "source": "Manuscript supplement: fig_supp_geometry.pdf",
+  "source_sha256": "d8504d9e6a47064dfb9563601e7cecbd3f945d744bbf5e0042320e6807eb3e9c",
+  "copied_vector_sha256": "d8504d9e6a47064dfb9563601e7cecbd3f945d744bbf5e0042320e6807eb3e9c",
+  "preview_sha256": "c17ac92d7c16a90437d558ce8bfbbd77b48211c8ec996fa94b9564e1b17be7bb",
+  "method": "Unmodified source PDF copied; PNG rendered with pdftoppm at width 1800 px.",
+  "scientific_status": "Illustrative geometry; not a computed cell-fate result.",
+  "article_asset_edited": false
+}

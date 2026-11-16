@@ -1,0 +1,346 @@
+{
+  "selection": {
+    "retained_candidates": 400,
+    "groups": 40,
+    "same_first_task": 34,
+    "tie_only": 2,
+    "strict_difference": 4,
+    "S_winner_maximizes_R25": 36,
+    "final_round_agreement": 8
+  },
+  "predictive": {
+    "mean_score": 0.8864694428623503,
+    "S": 0.7564309641256272,
+    "R25": 0.7564309641256269,
+    "fraction_of_draws_with_target_at_all_evaluated_times": 0.41796875,
+    "perfect_joint_pairs": 107
+  },
+  "prior_predictive": {
+    "mean_score": 0.05352619069799055,
+    "perfect_joint_pairs": 0
+  },
+  "calibration": {
+    "coverage_levels": [
+      0.5,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "parameters": [
+      {
+        "key": "N_N",
+        "KS_D": 0.5539248754203612,
+        "KS_p": 4.82672212066549e-289,
+        "Holm_adjusted_p": 1.1584133089597176e-287,
+        "central_interval_coverage": [
+          0.154,
+          0.274,
+          0.341,
+          0.387
+        ]
+      },
+      {
+        "key": "G_G",
+        "KS_D": 0.2411078485931256,
+        "KS_p": 1.187120829649517e-51,
+        "Holm_adjusted_p": 1.8993933274392273e-50,
+        "central_interval_coverage": [
+          0.224,
+          0.451,
+          0.58,
+          0.696
+        ]
+      },
+      {
+        "key": "FC_N",
+        "KS_D": 0.11652789850119924,
+        "KS_p": 2.75162065593897e-12,
+        "Holm_adjusted_p": 2.75162065593897e-12,
+        "central_interval_coverage": [
+          0.369,
+          0.66,
+          0.79,
+          0.868
+        ]
+      },
+      {
+        "key": "G_EA",
+        "KS_D": 0.2540141752287207,
+        "KS_p": 2.3026726384341824e-57,
+        "Holm_adjusted_p": 4.144810749181529e-56,
+        "central_interval_coverage": [
+          0.274,
+          0.532,
+          0.67,
+          0.79
+        ]
+      },
+      {
+        "key": "G_N",
+        "KS_D": 0.27926869299617485,
+        "KS_p": 1.845386899175985e-69,
+        "Holm_adjusted_p": 3.69077379835197e-68,
+        "central_interval_coverage": [
+          0.312,
+          0.539,
+          0.674,
+          0.765
+        ]
+      },
+      {
+        "key": "N_G",
+        "KS_D": 0.24108567666075584,
+        "KS_p": 1.21349339718998e-51,
+        "Holm_adjusted_p": 1.8993933274392273e-50,
+        "central_interval_coverage": [
+          0.262,
+          0.502,
+          0.636,
+          0.738
+        ]
+      },
+      {
+        "key": "FC_G",
+        "KS_D": 0.8804417022087728,
+        "KS_p": 0.0,
+        "Holm_adjusted_p": 0.0,
+        "central_interval_coverage": [
+          0.013,
+          0.036,
+          0.082,
+          0.153
+        ]
+      },
+      {
+        "key": "N_EA",
+        "KS_D": 0.18034471435270327,
+        "KS_p": 6.261826950096746e-29,
+        "Holm_adjusted_p": 4.383278865067723e-28,
+        "central_interval_coverage": [
+          0.263,
+          0.466,
+          0.595,
+          0.707
+        ]
+      },
+      {
+        "key": "MRNA",
+        "KS_D": 0.23372650201997514,
+        "KS_p": 1.5858940367052577e-48,
+        "Holm_adjusted_p": 2.220251651387361e-47,
+        "central_interval_coverage": [
+          0.242,
+          0.481,
+          0.606,
+          0.718
+        ]
+      },
+      {
+        "key": "PRO",
+        "KS_D": 0.2178252516632574,
+        "KS_p": 3.871243489116811e-42,
+        "Holm_adjusted_p": 4.645492186940174e-41,
+        "central_interval_coverage": [
+          0.249,
+          0.489,
+          0.632,
+          0.749
+        ]
+      },
+      {
+        "key": "FL",
+        "KS_D": 0.31869643066897063,
+        "KS_p": 7.923035843812066e-91,
+        "Holm_adjusted_p": 1.7430678856386545e-89,
+        "central_interval_coverage": [
+          0.234,
+          0.427,
+          0.522,
+          0.63
+        ]
+      },
+      {
+        "key": "td_FC",
+        "KS_D": 0.5723791494979917,
+        "KS_p": 1.42543591152075e-310,
+        "Holm_adjusted_p": 3.563589778801874e-309,
+        "central_interval_coverage": [
+          0.157,
+          0.373,
+          0.514,
+          0.627
+        ]
+      },
+      {
+        "key": "td_FM",
+        "KS_D": 0.24906200382521526,
+        "KS_p": 3.902105171497142e-55,
+        "Holm_adjusted_p": 6.633578791545141e-54,
+        "central_interval_coverage": [
+          0.368,
+          0.599,
+          0.729,
+          0.828
+        ]
+      },
+      {
+        "key": "td_FL",
+        "KS_D": 0.2054493377315547,
+        "KS_p": 1.7163118909602525e-37,
+        "Holm_adjusted_p": 1.7163118909602526e-36,
+        "central_interval_coverage": [
+          0.262,
+          0.525,
+          0.669,
+          0.771
+        ]
+      },
+      {
+        "key": "td_FS",
+        "KS_D": 0.19631460548391177,
+        "KS_p": 3.044026651453963e-34,
+        "Holm_adjusted_p": 2.7396239863085664e-33,
+        "central_interval_coverage": [
+          0.26,
+          0.495,
+          0.623,
+          0.724
+        ]
+      },
+      {
+        "key": "tau_C",
+        "KS_D": 0.3015839619701429,
+        "KS_p": 3.544419499316396e-81,
+        "Holm_adjusted_p": 7.443280948564431e-80,
+        "central_interval_coverage": [
+          0.255,
+          0.48,
+          0.597,
+          0.693
+        ]
+      },
+      {
+        "key": "tau_M",
+        "KS_D": 0.22826356189025976,
+        "KS_p": 2.8048794297918665e-46,
+        "Holm_adjusted_p": 3.6463432587294265e-45,
+        "central_interval_coverage": [
+          0.296,
+          0.567,
+          0.699,
+          0.809
+        ]
+      },
+      {
+        "key": "tau_L",
+        "KS_D": 0.26545507311212013,
+        "KS_p": 1.081358475759433e-62,
+        "Holm_adjusted_p": 2.054581103942923e-61,
+        "central_interval_coverage": [
+          0.295,
+          0.528,
+          0.645,
+          0.748
+        ]
+      },
+      {
+        "key": "tau_S",
+        "KS_D": 0.13574063047376606,
+        "KS_p": 1.565718541706379e-16,
+        "Holm_adjusted_p": 4.697155625119137e-16,
+        "central_interval_coverage": [
+          0.309,
+          0.559,
+          0.702,
+          0.809
+        ]
+      },
+      {
+        "key": "tau_df_FD",
+        "KS_D": 0.21560150216283053,
+        "KS_p": 2.7775530689983235e-41,
+        "Holm_adjusted_p": 3.055308375898156e-40,
+        "central_interval_coverage": [
+          0.244,
+          0.487,
+          0.605,
+          0.71
+        ]
+      },
+      {
+        "key": "tau_db_FD",
+        "KS_D": 0.12227396682794117,
+        "KS_p": 1.7325061849371868e-13,
+        "Holm_adjusted_p": 3.4650123698743736e-13,
+        "central_interval_coverage": [
+          0.345,
+          0.621,
+          0.751,
+          0.829
+        ]
+      },
+      {
+        "key": "tau_ef_EA",
+        "KS_D": 0.1438872121558421,
+        "KS_p": 1.572629470066455e-18,
+        "Holm_adjusted_p": 6.29051788026582e-18,
+        "central_interval_coverage": [
+          0.281,
+          0.527,
+          0.668,
+          0.777
+        ]
+      },
+      {
+        "key": "tau_eb_EA",
+        "KS_D": 0.15282155319116103,
+        "KS_p": 7.396415553394901e-21,
+        "Holm_adjusted_p": 3.698207776697451e-20,
+        "central_interval_coverage": [
+          0.402,
+          0.682,
+          0.819,
+          0.896
+        ]
+      },
+      {
+        "key": "tau_pf_NP",
+        "KS_D": 0.169942808846529,
+        "KS_p": 1.0190394679297418e-25,
+        "Holm_adjusted_p": 6.114236807578451e-25,
+        "central_interval_coverage": [
+          0.272,
+          0.499,
+          0.621,
+          0.739
+        ]
+      },
+      {
+        "key": "tau_pb_NP",
+        "KS_D": 0.18379373023801437,
+        "KS_p": 4.881264372268331e-30,
+        "Holm_adjusted_p": 3.905011497814665e-29,
+        "central_interval_coverage": [
+          0.249,
+          0.469,
+          0.607,
+          0.724
+        ]
+      },
+      {
+        "key": "chi_auto",
+        "KS_D": 0.39444565738790593,
+        "KS_p": 9.206025834855074e-141,
+        "Holm_adjusted_p": 2.117385942016667e-139,
+        "central_interval_coverage": [
+          0.268,
+          0.443,
+          0.558,
+          0.648
+        ]
+      }
+    ],
+    "familywise_DKW_band": 0.058936304567454086,
+    "Holm_rejections": 26
+  }
+}

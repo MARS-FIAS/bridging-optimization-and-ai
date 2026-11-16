@@ -1,0 +1,16 @@
+{
+  "parameter_groups": [
+    {"title": "Transcriptional regulation", "parameters": ["N_N", "G_G", "G_N", "N_G", "FC_N", "G_EA", "FC_G", "N_EA"]},
+    {"title": "Signaling reaction times", "parameters": ["tau_df_FD", "tau_db_FD", "tau_ef_EA", "tau_eb_EA", "tau_pf_NP", "tau_pb_NP"]},
+    {"title": "Ligand turnover and transport", "parameters": ["td_FC", "td_FM", "td_FL", "td_FS", "tau_C", "tau_M", "tau_L", "tau_S"]},
+    {"title": "Initialization and autocrine fraction", "parameters": ["MRNA", "PRO", "FL", "chi_auto"]}
+  ],
+  "rank_histogram_bins": 20,
+  "rank_bin_reference_level": 0.95,
+  "coverage_color_limit_percentage_points": 25,
+  "parameter_reference_geometry": "5_3_1",
+  "parameter_reference_draws": 256,
+  "correlation_grid_resolution": 250,
+  "correlation_condition": "source-rounded-map",
+  "correlation_display_order": ["N_N", "G_G", "G_N", "N_G", "FC_N", "G_EA", "FC_G", "N_EA", "tau_df_FD", "tau_db_FD", "tau_ef_EA", "tau_eb_EA", "tau_pf_NP", "tau_pb_NP", "td_FC", "td_FM", "td_FL", "td_FS", "tau_C", "tau_M", "tau_L", "tau_S", "MRNA", "PRO", "FL", "chi_auto"]
+}

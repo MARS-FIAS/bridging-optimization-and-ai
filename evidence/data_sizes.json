@@ -1,0 +1,14 @@
+{
+  "inventory_date": "2026-11-09T11:58:52.603277+00:00",
+  "inventory_sha256": "aaca0e9efb1e68059753c86cea23cbebf14beb7a82c161a554e738afdb700faa",
+  "GB_definition_bytes": 1000000000,
+  "reported_workflow_training_tensors": {
+    "files": 7900,
+    "bytes": 290018317172,
+    "scope": "Catalogued parameter and molecular-trajectory tensors used for the reported training workflow; estimator files and later diagnostic outputs are separate."
+  },
+  "included_final_estimators": {
+    "files": 8,
+    "bytes": 3702176
+  }
+}

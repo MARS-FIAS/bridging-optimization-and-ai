@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "imported_on": "2026-11-09",
+  "files": [
+    {
+      "path": "Script_Bank/Prime/Panel_Alp_1_FL_Cellulate.py",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_FL_Cellulate.py",
+      "imported_sha256": "6586993960ffbf27eda2a55f3a09549f4ef1ca664a2f9089aa6b3abe2579f210",
+      "bytes": 33427,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "072f311cd17fc7c651edbe10fb165cc38aacc0d045e97e9a514b87cabc9e51ad",
+      "published_bytes": 33522
+    },
+    {
+      "path": "Script_Bank/Prime/Panel_Alp_1_Cellulate.py",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_Cellulate.py",
+      "imported_sha256": "f8d05f268a22e84a16b974bc6710502ac69192e09afacdbc2b23416d452e9c8a",
+      "bytes": 33356,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "267927a202f47c0ae61314c1be46753875ce0a94bd4cc101942b4b1749993f43",
+      "published_bytes": 33451
+    },
+    {
+      "path": "Script_Bank/Prime/Panel_Alp_1_FL_Cellulate_0_0_Inference_Stage_L_1_Act_0.py",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_FL_Cellulate_0_0_Inference_Stage_L_1_Act_0.py",
+      "imported_sha256": "cc3719949ca504b3400203ffdff8213e7b1364cc9a552cdd0ed97a48ef7ff7a7",
+      "bytes": 33425,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "19c4b94650ea94626891158c1182545062b04255fc975d234f242a437b784006",
+      "published_bytes": 33520
+    },
+    {
+      "path": "Script_Bank/Prime/Panel_Alp_1_FL_Cellulate_0_0_Simulation_Stage_L_1_Act_0.py",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_FL_Cellulate_0_0_Simulation_Stage_L_1_Act_0.py",
+      "imported_sha256": "f87e659d85ee15ccdacd1596f368d447d5c60b073f535c9d2a927b735992fe6a",
+      "bytes": 33426,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "0232f8921cfd1208254e18eebddbc3d2e4c18daa3b8c381cf64db7697e9cb6b4",
+      "published_bytes": 33521
+    },
+    {
+      "path": "Script_Bank/Prime/Panel_Alp_1_Cellulate_0_0_Inference_Stage_L_1_Act_0.py",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_Cellulate_0_0_Inference_Stage_L_1_Act_0.py",
+      "imported_sha256": "1f47788f2f70ac5df93d36997815fdeae5e9b17a72fa3a5db17e8b7326d85d31",
+      "bytes": 33354,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "19aab74e1ba00b1e7183b092d80f2beb23613969499b09ab178edc2a65ba1bc0",
+      "published_bytes": 33449
+    },
+    {
+      "path": "Script_Bank/Prime/Panel_Alp_1_Cellulate_0_0_Simulation_Stage_L_1_Act_0.py",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_Cellulate_0_0_Simulation_Stage_L_1_Act_0.py",
+      "imported_sha256": "0d53de8ac5e0ff5cabcb664b3337462ebd32e5ac1bff9284b74f235adc6c53c9",
+      "bytes": 33355,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "f7bfc7b783af1ca73055acf4ea43378d52cc57ed01b6cc6505d7829a15c2d10c",
+      "published_bytes": 33450
+    },
+    {
+      "path": "Script_Bank/Resources/BiochemAnalysis.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/BiochemAnalysis.py",
+      "imported_sha256": "1e1adaa59f7ae0962a68722ecd24d31a973d9e90692f15c9608ef893d5691d77",
+      "bytes": 3705,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "1e1adaa59f7ae0962a68722ecd24d31a973d9e90692f15c9608ef893d5691d77",
+      "published_bytes": 3705
+    },
+    {
+      "path": "Script_Bank/Resources/BiochemBase.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/BiochemBase.py",
+      "imported_sha256": "7782dde5bc84b2c52df8d5058995c62aa020084a3c5bb85155d6adbe983ac605",
+      "bytes": 43,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "7782dde5bc84b2c52df8d5058995c62aa020084a3c5bb85155d6adbe983ac605",
+      "published_bytes": 43
+    },
+    {
+      "path": "Script_Bank/Resources/BiochemSimul.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/BiochemSimul.py",
+      "imported_sha256": "509a8c23d84268f87c534f7e53e2e52028130014b836cfffc16d1853b1e69c59",
+      "bytes": 21362,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "509a8c23d84268f87c534f7e53e2e52028130014b836cfffc16d1853b1e69c59",
+      "published_bytes": 21362
+    },
+    {
+      "path": "Script_Bank/Resources/BiochemSimulUltimate.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/BiochemSimulUltimate.py",
+      "imported_sha256": "00d12bbbcaad79e0f9a0866344677666cbb05699af17a37cc654470984cf3989",
+      "bytes": 23535,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "00d12bbbcaad79e0f9a0866344677666cbb05699af17a37cc654470984cf3989",
+      "published_bytes": 23535
+    },
+    {
+      "path": "Script_Bank/Resources/BiochemStem.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/BiochemStem.py",
+      "imported_sha256": "ad0214bc6c40873393a33edb0e0ac605625734a70cd93b04163dfae98790232c",
+      "bytes": 12525,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "ad0214bc6c40873393a33edb0e0ac605625734a70cd93b04163dfae98790232c",
+      "published_bytes": 12525
+    },
+    {
+      "path": "Script_Bank/Resources/Bootstrapper.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/Bootstrapper.py",
+      "imported_sha256": "0073e07b9f9dae50e25a3364de976789aa00329da5407654e2472a56f33308e1",
+      "bytes": 204,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "0073e07b9f9dae50e25a3364de976789aa00329da5407654e2472a56f33308e1",
+      "published_bytes": 204
+    },
+    {
+      "path": "Script_Bank/Resources/Cell_Space.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/Cell_Space.py",
+      "imported_sha256": "7b580db18600b3fb02bd291a650021e1293314a45f2cb00120bf152adecbd638",
+      "bytes": 17161,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "8b09ab41c6d735a635f20eecd5332205e871a95da422be814ae8590ce6be6cbe",
+      "published_bytes": 17102
+    },
+    {
+      "path": "Script_Bank/Resources/InferenceProd.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/InferenceProd.py",
+      "imported_sha256": "fb0e9f18075062b3bd58532dfc84cef55e3565e3063876439e9cd75695f74bdf",
+      "bytes": 9212,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "fb0e9f18075062b3bd58532dfc84cef55e3565e3063876439e9cd75695f74bdf",
+      "published_bytes": 9212
+    },
+    {
+      "path": "Script_Bank/Resources/InferenceProdConditional.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/InferenceProdConditional.py",
+      "imported_sha256": "25afb8045a779f0e23d89bcdaab7bab2c6942ffef7ad6ea7dccad1767ccde10f",
+      "bytes": 7981,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "25afb8045a779f0e23d89bcdaab7bab2c6942ffef7ad6ea7dccad1767ccde10f",
+      "published_bytes": 7981
+    },
+    {
+      "path": "Script_Bank/Resources/ObjectiveFun.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/ObjectiveFun.py",
+      "imported_sha256": "32e57b5f1e860ee08efecddc1cc93f5482b3be7c0ef086ab2ab2c3c8a91bf77f",
+      "bytes": 16033,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "32e57b5f1e860ee08efecddc1cc93f5482b3be7c0ef086ab2ab2c3c8a91bf77f",
+      "published_bytes": 16033
+    },
+    {
+      "path": "Script_Bank/Resources/ObjectiveFunL1L2.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/ObjectiveFunL1L2.py",
+      "imported_sha256": "b4fafe3348b77f14af21ea97f3beeec18d59b7c08313c66b7aba9db7e7e0869a",
+      "bytes": 22644,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "b4fafe3348b77f14af21ea97f3beeec18d59b7c08313c66b7aba9db7e7e0869a",
+      "published_bytes": 22644
+    },
+    {
+      "path": "Script_Bank/Resources/Utilities.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/Utilities.py",
+      "imported_sha256": "a9d0637c9e2ec0559ad74b7d544926a505871ae491d6214c87ea8445e9d7fc9e",
+      "bytes": 21900,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "a9d0637c9e2ec0559ad74b7d544926a505871ae491d6214c87ea8445e9d7fc9e",
+      "published_bytes": 21900
+    },
+    {
+      "path": "Script_Bank/Resources/Utilities_Twin.py",
+      "source_collection": "Panel",
+      "source_member": "Resources/Utilities_Twin.py",
+      "imported_sha256": "3344f21386eccf9dabed6a0628149cc602c39d45871fd3dc036269b68b55e09b",
+      "bytes": 25091,
+      "modification_status": "Unmodified reference resource",
+      "published_sha256": "3344f21386eccf9dabed6a0628149cc602c39d45871fd3dc036269b68b55e09b",
+      "published_bytes": 25091
+    },
+    {
+      "path": "Script_Bank/HPC/Panel_Alp_1_Cellulate_0_0_Inference_Stage_L_1_Act_0.sh",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_Cellulate_0_0_Inference_Stage_L_1_Act_0.sh",
+      "imported_sha256": "7fb9b3cfed868ee83c99fbf289f68affbc11b96aee7644a66e2668abe6c82750",
+      "bytes": 873,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "f8850a992f152f41968c3067e6019a1acd15e3f1ace4a88bad72638829386203",
+      "published_bytes": 1026
+    },
+    {
+      "path": "Script_Bank/HPC/Panel_Alp_1_Cellulate_0_0_Simulation_Stage_L_1_Act_0.sh",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_Cellulate_0_0_Simulation_Stage_L_1_Act_0.sh",
+      "imported_sha256": "97a2c3ebdb73bb88bf1e8ae19549ae794b9552612b64b618413702a797dae865",
+      "bytes": 877,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "08e26101354d07fb9e555a6759fc36ff728fc9ae578b5f35a38e25e22ac28141",
+      "published_bytes": 1030
+    },
+    {
+      "path": "Script_Bank/HPC/Panel_Alp_1_FL_Cellulate_0_0_Inference_Stage_L_1_Act_0.sh",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_FL_Cellulate_0_0_Inference_Stage_L_1_Act_0.sh",
+      "imported_sha256": "ef1072b266964c89d27d3e38c086ef4b84c939b6e718fef69ae031c9a15ae9a5",
+      "bytes": 879,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "f928ec33384642e42459479c69b7538ab31b8e84c74ad01ef29ff65b6bb9a9fe",
+      "published_bytes": 1032
+    },
+    {
+      "path": "Script_Bank/HPC/Panel_Alp_1_FL_Cellulate_0_0_Simulation_Stage_L_1_Act_0.sh",
+      "source_collection": "Panel",
+      "source_member": "Panel_Alp_1_FL_Cellulate_0_0_Simulation_Stage_L_1_Act_0.sh",
+      "imported_sha256": "e8f138c71f6214bd5425f6bf6a38ab263cae592f412a44e080f78e0b61850e10",
+      "bytes": 880,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "3e7e6b29a42c444b90c68653eb7176855842915262f67bc67d21ee615dac9978",
+      "published_bytes": 1033
+    },
+    {
+      "path": "Script_Bank/Analysis/Evaluation/Optimize_Exploration_Analysis_Service_0.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Evaluation/Optimize_Exploration_Analysis_Service_0.py",
+      "imported_sha256": "00d8392eef06a85003e82e58cf286a9e52aebcbb19acb2a919ee0a740e96ee3c",
+      "bytes": 20382,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "da2e5007362e2c2b8da80adc154c6802574c09c7c95139b0d9d492520a178ba1",
+      "published_bytes": 20509
+    },
+    {
+      "path": "Script_Bank/Analysis/Evaluation/Panel_Alp_1_FL_Cellulate_Primitive.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Evaluation/Panel_Alp_1_FL_Cellulate_Primitive.py",
+      "imported_sha256": "f70ea7a4dca7b6818cc512ffca243e76f992cbf797f82bd599a4de0afe8c574c",
+      "bytes": 7212,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "38982c5fefe588a2a41bb9a13c0d3fea6650ae8417c08079747a724e409aca9f",
+      "published_bytes": 7343
+    },
+    {
+      "path": "Script_Bank/Analysis/Evaluation/Panel_Alp_1_FL_Cellulate_Test_0.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Evaluation/Panel_Alp_1_FL_Cellulate_Test_0.py",
+      "imported_sha256": "d0f76317a4b63c89c3e7b51114cdbb1ac200748bc3b5e06fbe4353ee18bf320d",
+      "bytes": 3993,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "4162a6d3bba0e68d5fdd919bbf489134c646c69fbff69f5711e4738ca67f6e06",
+      "published_bytes": 4124
+    },
+    {
+      "path": "Script_Bank/Analysis/Fig0_Services.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Fig0_Services.py",
+      "imported_sha256": "effa81c120a15385f6b1e57327789968693aac39b9ed44252e67096266ee3f21",
+      "bytes": 23083,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "2e76e3710e7bd1dfa2bc6a666cbd1540d52de06c3929af8769470ac0bf46d661",
+      "published_bytes": 23189
+    },
+    {
+      "path": "Script_Bank/Analysis/Fig2[C][D].py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Fig2[C][D].py",
+      "imported_sha256": "9c0fe4858711dc45acb38760f9c1d23c6f1fe0aee3798caea34fbab0294f9e89",
+      "bytes": 7671,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "1b382a412567ccc7471872093704ba8fdb8760a98b5b15635871a61f65cb8b2a",
+      "published_bytes": 7802
+    },
+    {
+      "path": "Script_Bank/Analysis/Fig3.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Fig3.py",
+      "imported_sha256": "129c598b65cc8035abf0a9519fa3563deb8d8b8a2c0bd8aee4362306fc57affb",
+      "bytes": 9492,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "4add042caeb0e42118d3ea69ef6bf63537be53722d101ac9c253e87a2371c212",
+      "published_bytes": 9623
+    },
+    {
+      "path": "Script_Bank/Analysis/Fig4.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Fig4.py",
+      "imported_sha256": "ec273befbdeb6ad4879f83e41324389fa6d539de4a1979a10048dee08a2824dd",
+      "bytes": 7649,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "658dbe01cb342dd7f93fde9453ae22e7f32eb5e1197ca0355b6e3413c9bd7e5f",
+      "published_bytes": 7780
+    },
+    {
+      "path": "Script_Bank/Analysis/Fig5.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Fig5.py",
+      "imported_sha256": "fbf8618a4fe7135c8800b150dca1b484eeb911de9de74b6271db6e2c726c332f",
+      "bytes": 14015,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "b9fa9bbac803c1e24b34cd4131425eb9cac885eea6c3b2f02b7c0286df2f26ff",
+      "published_bytes": 14146
+    },
+    {
+      "path": "Script_Bank/Analysis/Fig6.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Fig6.py",
+      "imported_sha256": "39cf4e3100f007a239e3cb79a95e36bf272a6f0f844c3faeba1e6ff98a9fb4e7",
+      "bytes": 17301,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "09155d58982367856aa38ddbe0f1c05cfa4b489a88d525ab04e7f9f563fefaaa",
+      "published_bytes": 17432
+    },
+    {
+      "path": "Script_Bank/Analysis/Fig7.py",
+      "source_collection": "Chapter_Draft_C",
+      "source_member": "Fig7.py",
+      "imported_sha256": "5bd8254aad7ae3c51e7af48ed4558a121f178b59371b5f0c0a03b56402704cd2",
+      "bytes": 22506,
+      "modification_status": "Reference copy: filesystem-prefix placeholders and/or execution guard; see Script_Bank/README.md",
+      "published_sha256": "9591e1022a120d3f54ed1c2af667e408ce87f926cf1607dd91a2211d9c1941d1",
+      "published_bytes": 22637
+    }
+  ],
+  "publication_preparation": {
+    "date": "2026-11-16",
+    "scope": "Reference listings only. Installed numerical modules, configurations and model weights are unchanged.",
+    "original_hash_field": "imported_sha256",
+    "publication_hash_field": "published_sha256"
+  }
+}

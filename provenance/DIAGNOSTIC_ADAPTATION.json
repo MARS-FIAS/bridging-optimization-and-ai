@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "source_descriptions": [
+    {
+      "role": "Completed CPU density-wide predictive runner",
+      "sha256": "b5499390a6fd4a10914f4867fa6a49dcc4f46022e42c23ef5e26fd2d54ddc340"
+    },
+    {
+      "role": "Completed CPU frozen-estimator marginal SBC runner",
+      "sha256": "c1e7ac14694c647605ea846bceafb2695f96532baeaae1adc3d33c1af5de1811"
+    }
+  ],
+  "adaptation": {
+    "diagnostics.py": "Portable previews, fixed parameter banks, optional per-condition streams, complete-case identities/checksums, retained failures and restartable observations/conditional draws.",
+    "diagnostic_stats.py": "Retains rank tie randomization and jitter, central sample quantiles, KS/Holm and DKW arithmetic; predictive nearest quartiles use the shared ensemble meta-score implementation.",
+    "diagnostic_reports.py": "Recomputes complete saved-result summaries without neural loading, sampling or forward simulation.",
+    "model.py": "Public wrapper accepts separate condition streams, matching the completed diagnostic runners. Original model/simulator and other extracted numerical bodies remain unchanged."
+  },
+  "scientific_scope": "Selected-MAP checks, density-wide biological target attainment and original-box-prior global marginal calibration remain distinct. Completed distribution-wide results use one final 5_3_1 estimator.",
+  "packaging_validation": "Analytic controls, synthetic observations, test-double estimators, native model loading and reconciliation of compact completed evidence; no new RDME run or neural fitting.",
+  "reported_estimator_sha256": "b5ee90796d1ced35d7d1fbe934ab9578c73195c147f69d152307f341cd41ec87"
+}
