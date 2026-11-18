@@ -6,3 +6,7 @@ src/cavity_sbi/_numerics/stem.py whitespace=-blank-at-eol
 src/cavity_sbi/_numerics/jump.py whitespace=-blank-at-eol
 src/cavity_sbi/_numerics/utils.py whitespace=-blank-at-eol
 src/cavity_sbi/_numerics/objective.py whitespace=-blank-at-eol
+
+# Preserve exact supplied SVG path serialization and font licence notices.
+figures/paper/*.svg whitespace=-blank-at-eol,-blank-at-eof
+figures/fonts/OFL-*.txt whitespace=-blank-at-eol,-blank-at-eof
