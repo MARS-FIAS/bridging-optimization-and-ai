@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="1872" viewBox="0 0 660 1872" role="img" aria-labelledby="title description">
+  <title id="title">Three roles for a biological objective in parameter calibration</title>
+  <desc id="description">A conceptual comparison of direct optimization, optimization priors and neural simulation-based inference. Direct optimization searches for parameter sets, optimization priors weight a prior by utility before updating with observations, and neural inference learns a conditional parameter density. The repository illustrates the neural approach with a biological target.</desc>
+  <rect x="0.75" y="0.75" width="658.5" height="1870.5" rx="20" fill="#ffffff" stroke="#e1e7ec" stroke-width="1.5"/>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif" fill="#172b3a">
+    <!-- heading -->
+    <text x="330.0" y="64" text-anchor="middle" font-size="38" font-weight="700">Three roles for a</text>
+    <text x="330.0" y="110" text-anchor="middle" font-size="38" font-weight="700">biological objective</text>
+    <text x="330.0" y="152" text-anchor="middle" font-size="24" fill="#526777">A review of calibration methods</text>
+    <text x="330.0" y="184" text-anchor="middle" font-size="24" fill="#526777">for spatial stochastic systems</text>
+    <path d="M330.0 200 V216" stroke="#a7b7c4" stroke-width="2.5" stroke-linecap="round"/>
+    <g id="direct-optimization">
+    <rect x="30" y="250" width="600" height="448" rx="16" fill="#f1f7fb" stroke="#c6dbe9" stroke-width="1.5"/>
+    <text x="330.0" y="330" text-anchor="middle" font-size="30" font-weight="700">Direct optimization</text>
+    <path d="M70 399 V471.0" fill="none" stroke="#64748b" stroke-width="2.4" stroke-linecap="round"/><path d="M64.4 470.0 H75.6 L70 479 Z" fill="#64748b"/>
+    <path d="M70 505 V543.0" fill="none" stroke="#64748b" stroke-width="2.4" stroke-linecap="round"/><path d="M64.4 542.0 H75.6 L70 551 Z" fill="#64748b"/>
+    <circle cx="70" cy="386" r="8" fill="#ffffff" stroke="#326c96" stroke-width="2.6"/>
+    <circle cx="70" cy="492" r="8" fill="#ffffff" stroke="#326c96" stroke-width="2.6"/>
+    <circle cx="70" cy="564" r="8" fill="#326c96" stroke="#326c96" stroke-width="2.6"/>
+    <text x="100" y="391" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">ROLE OF THE OBJECTIVE</text>
+    <text x="100" y="497" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">PROCEDURE</text>
+    <text x="100" y="569" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">OUTPUT</text>
+    <text x="100" y="423" font-size="26">Loss or score to optimize</text>
+    <text x="100" y="529" font-size="26">Search parameter space</text>
+    <rect x="54" y="586" width="552" height="72" rx="12" fill="#ffffff" stroke="#326c96" stroke-width="2"/>
+    <text x="72" y="631" font-size="25" font-weight="600" fill="#285d83">Selected parameter sets</text>
+    </g>
+    <circle cx="330.0" cy="250" r="34" fill="#ffffff" stroke="#326c96" stroke-width="2.5"/>
+    <g id="motif-direct-optimization"><ellipse cx="335.0" cy="254" rx="21" ry="15" fill="none" stroke="#a9cbe2" stroke-width="1.6"/><ellipse cx="335.0" cy="254" rx="13.5" ry="9.5" fill="none" stroke="#a9cbe2" stroke-width="1.6"/><path d="M310.0 232 C308.0 246 322.0 244 331.0 252" fill="none" stroke="#326c96" stroke-width="1.8" stroke-dasharray="3.5 3" stroke-linecap="round"/><circle cx="310.0" cy="232" r="2.6" fill="#326c96"/><polygon points="335.0,245.8 337.2,251.0 342.8,251.5 338.5,255.1 339.8,260.6 335.0,257.7 330.2,260.6 331.5,255.1 327.2,251.5 332.8,251.0" fill="#326c96"/></g>
+    <path d="M330.0 698 V724" stroke="#a7b7c4" stroke-width="2.5" stroke-linecap="round"/>
+    <g id="optimization-priors">
+    <rect x="30" y="758" width="600" height="448" rx="16" fill="#f3f8f4" stroke="#cee1d4" stroke-width="1.5"/>
+    <text x="330.0" y="838" text-anchor="middle" font-size="30" font-weight="700">Optimization priors</text>
+    <path d="M70 907 V979.0" fill="none" stroke="#64748b" stroke-width="2.4" stroke-linecap="round"/><path d="M64.4 978.0 H75.6 L70 987 Z" fill="#64748b"/>
+    <path d="M70 1013 V1051.0" fill="none" stroke="#64748b" stroke-width="2.4" stroke-linecap="round"/><path d="M64.4 1050.0 H75.6 L70 1059 Z" fill="#64748b"/>
+    <circle cx="70" cy="894" r="8" fill="#ffffff" stroke="#3d7c59" stroke-width="2.6"/>
+    <circle cx="70" cy="1000" r="8" fill="#ffffff" stroke="#3d7c59" stroke-width="2.6"/>
+    <circle cx="70" cy="1072" r="8" fill="#3d7c59" stroke="#3d7c59" stroke-width="2.6"/>
+    <text x="100" y="899" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">ROLE OF THE OBJECTIVE</text>
+    <text x="100" y="1005" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">PROCEDURE</text>
+    <text x="100" y="1077" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">OUTPUT</text>
+    <text x="100" y="931" font-size="26">Utility shapes the prior</text>
+    <text x="100" y="1037" font-size="26">Update with observations</text>
+    <rect x="54" y="1094" width="552" height="72" rx="12" fill="#ffffff" stroke="#3d7c59" stroke-width="2"/>
+    <text x="72" y="1139" font-size="25" font-weight="600" fill="#32694b">Data-updated distribution</text>
+    </g>
+    <circle cx="330.0" cy="758" r="34" fill="#ffffff" stroke="#3d7c59" stroke-width="2.5"/>
+    <g id="motif-optimization-priors"><path d="M306.0 768.3 L307.2 767.6 L308.4 766.8 L309.6 766.0 L310.8 765.0 L312.0 764.0 L313.2 763.0 L314.4 761.9 L315.6 760.8 L316.8 759.8 L318.0 758.8 L319.2 757.8 L320.4 757.0 L321.6 756.3 L322.8 755.7 L324.0 755.3 L325.2 755.1 L326.4 755.0 L327.6 755.1 L328.8 755.4 L330.0 755.9 L331.2 756.6 L332.4 757.3 L333.6 758.2 L334.8 759.2 L336.0 760.2 L337.2 761.3 L338.4 762.3 L339.6 763.4 L340.8 764.4 L342.0 765.4 L343.2 766.3 L344.4 767.1 L345.6 767.9 L346.8 768.6 L348.0 769.2 L349.2 769.7 L350.4 770.1 L351.6 770.5 L352.8 770.8 L354.0 771.1" fill="none" stroke="#a8ccb6" stroke-width="1.8" stroke-dasharray="3.5 3"/><path d="M306.0 772.0 L307.2 772.0 L308.4 772.0 L309.6 772.0 L310.8 772.0 L312.0 772.0 L313.2 772.0 L314.4 772.0 L315.6 772.0 L316.8 771.9 L318.0 771.8 L319.2 771.6 L320.4 771.3 L321.6 770.7 L322.8 769.7 L324.0 768.3 L325.2 766.3 L326.4 763.5 L327.6 760.2 L328.8 756.3 L330.0 752.2 L331.2 748.2 L332.4 744.9 L333.6 742.8 L334.8 742.0 L336.0 742.8 L337.2 744.9 L338.4 748.2 L339.6 752.2 L340.8 756.3 L342.0 760.2 L343.2 763.5 L344.4 766.3 L345.6 768.3 L346.8 769.7 L348.0 770.7 L349.2 771.3 L350.4 771.6 L351.6 771.8 L352.8 771.9 L354.0 772.0 L354.0 772 L306.0 772 Z" fill="#a8ccb6" fill-opacity="0.55"/><path d="M306.0 772.0 L307.2 772.0 L308.4 772.0 L309.6 772.0 L310.8 772.0 L312.0 772.0 L313.2 772.0 L314.4 772.0 L315.6 772.0 L316.8 771.9 L318.0 771.8 L319.2 771.6 L320.4 771.3 L321.6 770.7 L322.8 769.7 L324.0 768.3 L325.2 766.3 L326.4 763.5 L327.6 760.2 L328.8 756.3 L330.0 752.2 L331.2 748.2 L332.4 744.9 L333.6 742.8 L334.8 742.0 L336.0 742.8 L337.2 744.9 L338.4 748.2 L339.6 752.2 L340.8 756.3 L342.0 760.2 L343.2 763.5 L344.4 766.3 L345.6 768.3 L346.8 769.7 L348.0 770.7 L349.2 771.3 L350.4 771.6 L351.6 771.8 L352.8 771.9 L354.0 772.0" fill="none" stroke="#3d7c59" stroke-width="2.2" stroke-linejoin="round"/><path d="M305.0 772 H355.0" stroke="#32694b" stroke-width="1.6" stroke-linecap="round"/></g>
+    <path d="M330.0 1206 V1232" stroke="#a7b7c4" stroke-width="2.5" stroke-linecap="round"/>
+    <g id="neural-sbi">
+    <rect x="30" y="1266" width="600" height="448" rx="16" fill="#f7f4fc" stroke="#c4b1dd" stroke-width="2.5"/>
+    <text x="330.0" y="1328" text-anchor="middle" font-size="30" font-weight="700">Neural simulation-</text>
+    <text x="330.0" y="1364" text-anchor="middle" font-size="30" font-weight="700">based inference</text>
+    <path d="M70 1415 V1487.0" fill="none" stroke="#64748b" stroke-width="2.4" stroke-linecap="round"/><path d="M64.4 1486.0 H75.6 L70 1495 Z" fill="#64748b"/>
+    <path d="M70 1521 V1559.0" fill="none" stroke="#64748b" stroke-width="2.4" stroke-linecap="round"/><path d="M64.4 1558.0 H75.6 L70 1567 Z" fill="#64748b"/>
+    <circle cx="70" cy="1402" r="8" fill="#ffffff" stroke="#7654a0" stroke-width="2.6"/>
+    <circle cx="70" cy="1508" r="8" fill="#ffffff" stroke="#7654a0" stroke-width="2.6"/>
+    <circle cx="70" cy="1580" r="8" fill="#7654a0" stroke="#7654a0" stroke-width="2.6"/>
+    <text x="100" y="1407" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">ROLE OF THE OBJECTIVE</text>
+    <text x="100" y="1513" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">PROCEDURE</text>
+    <text x="100" y="1585" font-size="16" font-weight="700" letter-spacing="1.4" fill="#526777">OUTPUT</text>
+    <text x="100" y="1439" font-size="26">Summary and predictive</text>
+    <text x="100" y="1474" font-size="26">assessment criterion</text>
+    <text x="100" y="1545" font-size="26">Fit a conditional density</text>
+    <rect x="54" y="1602" width="552" height="72" rx="12" fill="#ffffff" stroke="#7654a0" stroke-width="2"/>
+    <text x="72" y="1647" font-size="25" font-weight="600" fill="#66448f">Conditional parameter density</text>
+    </g>
+    <circle cx="330.0" cy="1266" r="34" fill="#ffffff" stroke="#7654a0" stroke-width="2.5"/>
+    <g id="motif-neural-sbi"><path d="M310.0 1251 L330.0 1251" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M310.0 1251 L330.0 1266" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M310.0 1251 L330.0 1281" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M310.0 1266 L330.0 1251" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M310.0 1266 L330.0 1266" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M310.0 1266 L330.0 1281" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M310.0 1281 L330.0 1251" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M310.0 1281 L330.0 1266" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M310.0 1281 L330.0 1281" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M330.0 1251 L350.0 1258.5" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M330.0 1251 L350.0 1273.5" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M330.0 1266 L350.0 1258.5" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M330.0 1266 L350.0 1273.5" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M330.0 1281 L350.0 1258.5" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><path d="M330.0 1281 L350.0 1273.5" stroke="#7654a0" stroke-opacity="0.45" stroke-width="1.3"/><circle cx="310.0" cy="1251" r="4.6" fill="#ffffff" stroke="#7654a0" stroke-width="1.9"/><circle cx="310.0" cy="1266" r="4.6" fill="#ffffff" stroke="#7654a0" stroke-width="1.9"/><circle cx="310.0" cy="1281" r="4.6" fill="#ffffff" stroke="#7654a0" stroke-width="1.9"/><circle cx="330.0" cy="1251" r="4.6" fill="#ffffff" stroke="#7654a0" stroke-width="1.9"/><circle cx="330.0" cy="1266" r="4.6" fill="#ffffff" stroke="#7654a0" stroke-width="1.9"/><circle cx="330.0" cy="1281" r="4.6" fill="#ffffff" stroke="#7654a0" stroke-width="1.9"/><circle cx="350.0" cy="1258.5" r="4.6" fill="#7654a0" stroke="#7654a0" stroke-width="1.9"/><circle cx="350.0" cy="1273.5" r="4.6" fill="#7654a0" stroke="#7654a0" stroke-width="1.9"/></g>
+    <!-- the strategy implemented in this repository -->
+    <path d="M330.0 1714 V1736" stroke="#c4b1dd" stroke-width="2.5"/>
+    <g id="worked-example">
+    <rect x="30" y="1736" width="600" height="108" rx="23" fill="#f7f4fc" stroke="#c4b1dd" stroke-width="1.5"/>
+    <text x="330.0" y="1782" text-anchor="middle" font-size="24" fill="#172b3a"><tspan font-weight="700" fill="#66448f">Worked example:</tspan> neural inference</text>
+    <text x="330.0" y="1815" text-anchor="middle" font-size="24" fill="#172b3a">conditioned on a biological target</text>
+    </g>
+  </g>
+</svg>

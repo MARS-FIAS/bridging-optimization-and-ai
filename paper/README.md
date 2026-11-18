@@ -9,6 +9,9 @@ The software's [citation metadata](../CITATION.cff) identifies the project and
 authors. The [paper reproduction map](../docs/REPRODUCTION_MAP.md) connects its
 scientific results to code, configurations and numerical evidence.
 
+The [enhanced manuscript figures](../figures/paper/README.md) are supplied as
+PDFs, editable SVGs and PNG previews, with font licences and provenance.
+
 The underlying ICM model is described in
 [PLOS Computational Biology (2024)](https://doi.org/10.1371/journal.pcbi.1012473),
 and the cavity extension in the

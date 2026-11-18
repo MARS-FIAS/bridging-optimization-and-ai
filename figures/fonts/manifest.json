@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-18",
+  "license": "SIL Open Font License 1.1",
+  "font_file_sha256": {
+    "STIXTwoMath-Regular.ttf": "b80a1090bdc35438b1c4b86d40188938345778a0e30727ab4001b3686e769471",
+    "STIXTwoText-Bold.ttf": "a7146bdeab94f9937ecb254c1247f4b210e33ee7c707272e04874d04be908bc0",
+    "STIXTwoText-BoldItalic.ttf": "3e2367384f4ab8d54bdb25e2a8f544880e3228b13b867135ecf7538890447f11",
+    "STIXTwoText-Italic.ttf": "1f96a673a4b3fd16a4a13de43144245d7edf5bcaf90afbd8dd478b7da989df9a",
+    "STIXTwoText-Medium.ttf": "c732a514a1b4cd42cb9698b051d1aa3096db82e11a8f7e5a15f03f935f218b8e",
+    "STIXTwoText-MediumItalic.ttf": "a607a219858dc1a7de3ccf0ea1d5ff791a004ad9dea2832b3b125eb67dbc4e1c",
+    "STIXTwoText-Regular.ttf": "be96bfd9d6c5eeb32b34dcd0befc35d36b39708e3e77cab24d26e4e6a5ba0e5d",
+    "STIXTwoText-SemiBold.ttf": "9b34d88e4f230e374d1f68d8cd5939f74cd71522d64ff15f62f78752445cb51a",
+    "STIXTwoText-SemiBoldItalic.ttf": "e2c871f53cb2b78c87c20b1f2c86dcc416c328662ac6026d9dd8bb7ab2f2a322"
+  },
+  "license_files": [
+    "OFL-STIX-Two-Text.txt",
+    "OFL-STIX-Two-Math.txt"
+  ]
+}

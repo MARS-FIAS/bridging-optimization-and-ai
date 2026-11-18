@@ -1,10 +1,12 @@
 {
-  "date": "2026-11-16",
-  "source": "Manuscript supplement: fig_supp_geometry.pdf",
-  "source_sha256": "d8504d9e6a47064dfb9563601e7cecbd3f945d744bbf5e0042320e6807eb3e9c",
-  "copied_vector_sha256": "d8504d9e6a47064dfb9563601e7cecbd3f945d744bbf5e0042320e6807eb3e9c",
-  "preview_sha256": "c17ac92d7c16a90437d558ce8bfbbd77b48211c8ec996fa94b9564e1b17be7bb",
-  "method": "Unmodified source PDF copied; PNG rendered with pdftoppm at width 1800 px.",
-  "scientific_status": "Illustrative geometry; not a computed cell-fate result.",
+  "schema_version": 2,
+  "date": "2026-11-18",
+  "source": "Revised manuscript supplement, Figure S1: fig_supp_geometry.pdf",
+  "source_sha256": "af9713749c6b36f6f0e8c2f6197a26ea7099e57febae92031ca28eb5403a2b27",
+  "copied_vector_sha256": "af9713749c6b36f6f0e8c2f6197a26ea7099e57febae92031ca28eb5403a2b27",
+  "editable_svg_sha256": "34d93b53244d68de4d138d30b359c6367919a21d909dd1bb213825fbc436930d",
+  "preview_sha256": "cbe71c3e0fe7578ec54e7d643865e5d797cfa82ef26fbeaa4e4508522cd8bbf0",
+  "method": "Approved PDF, editable SVG and 300-dpi PNG copied without modification.",
+  "scientific_status": "Schematic fixed model geometries; cells are fate-neutral, equal-size model inputs.",
   "article_asset_edited": false
 }

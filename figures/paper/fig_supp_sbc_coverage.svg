@@ -1,0 +1,330 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414pt" height="433.5pt" viewBox="0 0 414 433.5" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','STIX Two Math','Times New Roman',serif" text-rendering="geometricPrecision">
+  <title id="title">Empirical marginal interval coverage</title>
+  <desc id="desc">Computed coverage table: rows are the 26 parameters, columns the nominal 50, 80, 90 and 95% central intervals. Each cell prints the empirical coverage in percent; colors show empirical minus nominal coverage in percentage points, clipped at plus or minus 25.</desc>
+  <rect width="414" height="433.5" fill="#FFFFFF"/>
+  <text x="1.00" y="11.60" font-size="12.4" fill="#15171B" xml:space="preserve" font-weight="700">Empirical marginal interval coverage</text>
+  <text x="1.00" y="25.00" font-size="9.5" fill="#5A6068" xml:space="preserve">Frozen (5,3,1) estimator; 1,000 original-prior cases</text>
+  <text x="413.00" y="25.00" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">Computed</text>
+  <line x1="1.00" y1="31.00" x2="413.00" y2="31.00" stroke="#23262C" stroke-width="0.9"/>
+  <text x="207.00" y="44.00" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="middle">Nominal central-interval level</text>
+  <text x="126.00" y="56.50" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">50%</text>
+  <text x="180.00" y="56.50" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">80%</text>
+  <text x="234.00" y="56.50" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">90%</text>
+  <text x="288.00" y="56.50" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">95%</text>
+  <text x="93.00" y="71.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">Nanog</tspan>·NANOG</text>
+  <rect x="99.00" y="61.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="70.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">15.4%</text>
+  <rect x="153.00" y="61.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="70.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">27.4%</text>
+  <rect x="207.00" y="61.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="70.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">34.1%</text>
+  <rect x="261.00" y="61.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="70.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">38.7%</text>
+  <text x="93.00" y="84.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">Gata6</tspan>·GATA6</text>
+  <rect x="99.00" y="74.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="84.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">22.4%</text>
+  <rect x="153.00" y="74.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="84.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">45.1%</text>
+  <rect x="207.00" y="74.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="84.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">58.0%</text>
+  <rect x="261.00" y="74.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="84.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">69.6%</text>
+  <text x="93.00" y="98.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">Fgf4</tspan>·NANOG</text>
+  <rect x="99.00" y="88.00" width="54.00" height="13.50" fill="#5fa5cd" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="97.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">36.9%</text>
+  <rect x="153.00" y="88.00" width="54.00" height="13.50" fill="#529dc8" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="97.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">66.0%</text>
+  <rect x="207.00" y="88.00" width="54.00" height="13.50" fill="#81bad8" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="97.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">79.0%</text>
+  <rect x="261.00" y="88.00" width="54.00" height="13.50" fill="#a9d1e5" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="97.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">86.8%</text>
+  <text x="93.00" y="111.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">Gata6</tspan>·A-ERK</text>
+  <rect x="99.00" y="101.50" width="54.00" height="13.50" fill="#124984" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="111.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">27.4%</text>
+  <rect x="153.00" y="101.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="111.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">53.2%</text>
+  <rect x="207.00" y="101.50" width="54.00" height="13.50" fill="#10457e" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="111.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">67.0%</text>
+  <rect x="261.00" y="101.50" width="54.00" height="13.50" fill="#3c8abe" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="111.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">79.0%</text>
+  <text x="93.00" y="125.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">Gata6</tspan>·NANOG</text>
+  <rect x="99.00" y="115.00" width="54.00" height="13.50" fill="#2870b1" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="124.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">31.2%</text>
+  <rect x="153.00" y="115.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="124.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">53.9%</text>
+  <rect x="207.00" y="115.00" width="54.00" height="13.50" fill="#124984" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="124.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">67.4%</text>
+  <rect x="261.00" y="115.00" width="54.00" height="13.50" fill="#2b73b3" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="124.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">76.5%</text>
+  <text x="93.00" y="138.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">Nanog</tspan>·GATA6</text>
+  <rect x="99.00" y="128.50" width="54.00" height="13.50" fill="#0c3d73" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="138.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">26.2%</text>
+  <rect x="153.00" y="128.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="138.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">50.2%</text>
+  <rect x="207.00" y="128.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="138.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">63.6%</text>
+  <rect x="261.00" y="128.50" width="54.00" height="13.50" fill="#1a5899" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="138.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">73.8%</text>
+  <text x="93.00" y="152.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">Fgf4</tspan>·GATA6</text>
+  <rect x="99.00" y="142.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="151.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">1.3%</text>
+  <rect x="153.00" y="142.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="151.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">3.6%</text>
+  <rect x="207.00" y="142.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="151.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">8.2%</text>
+  <rect x="261.00" y="142.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="151.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">15.3%</text>
+  <text x="93.00" y="165.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">Nanog</tspan>·A-ERK</text>
+  <rect x="99.00" y="155.50" width="54.00" height="13.50" fill="#0c3d73" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="165.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">26.3%</text>
+  <rect x="153.00" y="155.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="165.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">46.6%</text>
+  <rect x="207.00" y="155.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="165.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">59.5%</text>
+  <rect x="261.00" y="155.50" width="54.00" height="13.50" fill="#08366a" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="165.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">70.7%</text>
+  <text x="93.00" y="179.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end">mRNA</text>
+  <rect x="99.00" y="169.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="178.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">24.2%</text>
+  <rect x="153.00" y="169.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="178.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">48.1%</text>
+  <rect x="207.00" y="169.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="178.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">60.6%</text>
+  <rect x="261.00" y="169.00" width="54.00" height="13.50" fill="#0f437b" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="178.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">71.8%</text>
+  <text x="93.00" y="192.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end">PROTEIN</text>
+  <rect x="99.00" y="182.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="192.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">24.9%</text>
+  <rect x="153.00" y="182.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="192.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">48.9%</text>
+  <rect x="207.00" y="182.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="192.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">63.2%</text>
+  <rect x="261.00" y="182.50" width="54.00" height="13.50" fill="#2065ab" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="192.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">74.9%</text>
+  <text x="93.00" y="206.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end">FGF4-LUMEN</text>
+  <rect x="99.00" y="196.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="205.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">23.4%</text>
+  <rect x="153.00" y="196.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="205.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">42.7%</text>
+  <rect x="207.00" y="196.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="205.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">52.2%</text>
+  <rect x="261.00" y="196.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="205.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">63.0%</text>
+  <text x="93.00" y="219.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">d</tspan><tspan dy="-2.09">·FGF4</tspan></text>
+  <rect x="99.00" y="209.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="219.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">15.7%</text>
+  <rect x="153.00" y="209.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="219.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">37.3%</text>
+  <rect x="207.00" y="209.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="219.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">51.4%</text>
+  <rect x="261.00" y="209.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="219.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">62.7%</text>
+  <text x="93.00" y="233.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">d</tspan><tspan dy="-2.09">·M-FGFR-FGF4</tspan></text>
+  <rect x="99.00" y="223.00" width="54.00" height="13.50" fill="#5fa5cd" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="232.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">36.8%</text>
+  <rect x="153.00" y="223.00" width="54.00" height="13.50" fill="#2065ab" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="232.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">59.9%</text>
+  <rect x="207.00" y="223.00" width="54.00" height="13.50" fill="#3480b9" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="232.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">72.9%</text>
+  <rect x="261.00" y="223.00" width="54.00" height="13.50" fill="#6eaed2" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="232.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">82.8%</text>
+  <text x="93.00" y="246.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">d</tspan><tspan dy="-2.09">·FGF4-LUMEN</tspan></text>
+  <rect x="99.00" y="236.50" width="54.00" height="13.50" fill="#0c3d73" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="246.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">26.2%</text>
+  <rect x="153.00" y="236.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="246.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">52.5%</text>
+  <rect x="207.00" y="236.50" width="54.00" height="13.50" fill="#0f437b" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="246.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">66.9%</text>
+  <rect x="261.00" y="236.50" width="54.00" height="13.50" fill="#2f79b5" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="246.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">77.1%</text>
+  <text x="93.00" y="260.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">d</tspan><tspan dy="-2.09">·FGF4-SINK</tspan></text>
+  <rect x="99.00" y="250.00" width="54.00" height="13.50" fill="#0a3b70" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="259.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">26.0%</text>
+  <rect x="153.00" y="250.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="259.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">49.5%</text>
+  <rect x="207.00" y="250.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="259.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">62.3%</text>
+  <rect x="261.00" y="250.00" width="54.00" height="13.50" fill="#124984" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="259.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">72.4%</text>
+  <text x="93.00" y="273.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">escape</tspan><tspan dy="-2.09">​</tspan></text>
+  <rect x="99.00" y="263.50" width="54.00" height="13.50" fill="#073467" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="273.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">25.5%</text>
+  <rect x="153.00" y="263.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="273.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">48.0%</text>
+  <rect x="207.00" y="263.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="273.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">59.7%</text>
+  <rect x="261.00" y="263.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="273.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">69.3%</text>
+  <text x="93.00" y="287.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">exchange</tspan><tspan dy="-2.09">​</tspan></text>
+  <rect x="99.00" y="277.00" width="54.00" height="13.50" fill="#1e61a5" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="286.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">29.6%</text>
+  <rect x="153.00" y="277.00" width="54.00" height="13.50" fill="#0e4179" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="286.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">56.7%</text>
+  <rect x="207.00" y="277.00" width="54.00" height="13.50" fill="#2065ab" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="286.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">69.9%</text>
+  <rect x="261.00" y="277.00" width="54.00" height="13.50" fill="#4f9bc7" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="286.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">80.9%</text>
+  <text x="93.00" y="300.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">LUMEN</tspan><tspan dy="-2.09">​</tspan></text>
+  <rect x="99.00" y="290.50" width="54.00" height="13.50" fill="#1e61a5" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="300.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">29.5%</text>
+  <rect x="153.00" y="290.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="300.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">52.8%</text>
+  <rect x="207.00" y="290.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="300.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">64.5%</text>
+  <rect x="261.00" y="290.50" width="54.00" height="13.50" fill="#1f63a8" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="300.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">74.8%</text>
+  <text x="93.00" y="314.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">SINK</tspan><tspan dy="-2.09">​</tspan></text>
+  <rect x="99.00" y="304.00" width="54.00" height="13.50" fill="#276eb0" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="313.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">30.9%</text>
+  <rect x="153.00" y="304.00" width="54.00" height="13.50" fill="#09386d" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="313.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">55.9%</text>
+  <rect x="207.00" y="304.00" width="54.00" height="13.50" fill="#2267ac" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="313.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">70.2%</text>
+  <rect x="261.00" y="304.00" width="54.00" height="13.50" fill="#4f9bc7" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="313.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">80.9%</text>
+  <text x="93.00" y="327.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">dime</tspan><tspan dy="-2.09">·M-FGFR-FGF4</tspan></text>
+  <rect x="99.00" y="317.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="327.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">24.4%</text>
+  <rect x="153.00" y="317.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="327.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">48.7%</text>
+  <rect x="207.00" y="317.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="327.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">60.5%</text>
+  <rect x="261.00" y="317.50" width="54.00" height="13.50" fill="#0a3b70" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="327.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">71.0%</text>
+  <text x="93.00" y="341.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">mono</tspan><tspan dy="-2.09">·D-FGFR-FGF4</tspan></text>
+  <rect x="99.00" y="331.00" width="54.00" height="13.50" fill="#3f8ec0" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="340.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">34.5%</text>
+  <rect x="153.00" y="331.00" width="54.00" height="13.50" fill="#2f79b5" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="340.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">62.1%</text>
+  <rect x="207.00" y="331.00" width="54.00" height="13.50" fill="#4393c3" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="340.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">75.1%</text>
+  <rect x="261.00" y="331.00" width="54.00" height="13.50" fill="#71b0d3" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="340.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">82.9%</text>
+  <text x="93.00" y="354.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">pho</tspan><tspan dy="-2.09">·ERK</tspan></text>
+  <rect x="99.00" y="344.50" width="54.00" height="13.50" fill="#15508d" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="354.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">28.1%</text>
+  <rect x="153.00" y="344.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="354.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">52.7%</text>
+  <rect x="207.00" y="344.50" width="54.00" height="13.50" fill="#0f437b" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="354.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">66.8%</text>
+  <rect x="261.00" y="344.50" width="54.00" height="13.50" fill="#337eb8" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="354.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">77.7%</text>
+  <text x="93.00" y="368.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">doh</tspan><tspan dy="-2.09">·ERK</tspan></text>
+  <rect x="99.00" y="358.00" width="54.00" height="13.50" fill="#93c6de" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="367.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">40.2%</text>
+  <rect x="153.00" y="358.00" width="54.00" height="13.50" fill="#75b2d4" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="367.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">68.2%</text>
+  <rect x="207.00" y="358.00" width="54.00" height="13.50" fill="#a9d1e5" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="367.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">81.9%</text>
+  <rect x="261.00" y="358.00" width="54.00" height="13.50" fill="#cce2ef" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="367.95" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">89.6%</text>
+  <text x="93.00" y="381.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">pho</tspan><tspan dy="-2.09">·NANOG</tspan></text>
+  <rect x="99.00" y="371.50" width="54.00" height="13.50" fill="#114781" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="381.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">27.2%</text>
+  <rect x="153.00" y="371.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="381.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">49.9%</text>
+  <rect x="207.00" y="371.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="381.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">62.1%</text>
+  <rect x="261.00" y="371.50" width="54.00" height="13.50" fill="#1a5899" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="381.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">73.9%</text>
+  <text x="93.00" y="395.05" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">τ</tspan><tspan font-size="9" dy="2.09">doh</tspan><tspan dy="-2.09">·NANOG</tspan></text>
+  <rect x="99.00" y="385.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="394.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">24.9%</text>
+  <rect x="153.00" y="385.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="394.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">46.9%</text>
+  <rect x="207.00" y="385.00" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="394.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">60.7%</text>
+  <rect x="261.00" y="385.00" width="54.00" height="13.50" fill="#124984" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="394.95" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">72.4%</text>
+  <text x="93.00" y="408.55" font-size="9.5" fill="#23262C" xml:space="preserve" text-anchor="end"><tspan font-style="italic">χ</tspan><tspan font-size="9" dy="2.09">auto</tspan><tspan dy="-2.09">​</tspan></text>
+  <rect x="99.00" y="398.50" width="54.00" height="13.50" fill="#0f437b" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="126.00" y="408.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">26.8%</text>
+  <rect x="153.00" y="398.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="180.00" y="408.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">44.3%</text>
+  <rect x="207.00" y="398.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="234.00" y="408.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">55.8%</text>
+  <rect x="261.00" y="398.50" width="54.00" height="13.50" fill="#053061" stroke="#FFFFFF" stroke-width="0.6"/>
+  <text x="288.00" y="408.45" font-size="9" fill="#FFFFFF" xml:space="preserve" text-anchor="middle">64.8%</text>
+  <rect x="99.00" y="61.00" width="216.00" height="351.00" fill="none" stroke="#CDD1D7" stroke-width="0.6"/>
+  <text x="327.00" y="56.50" font-size="9" fill="#23262C" xml:space="preserve" font-weight="600">Empirical − nominal</text>
+  <text x="327.00" y="67.00" font-size="9" fill="#23262C" xml:space="preserve">(percentage points)</text>
+  <rect x="333.00" y="83.00" width="9.00" height="2.65" fill="#6d0220"/>
+  <rect x="333.00" y="85.50" width="9.00" height="2.65" fill="#790622"/>
+  <rect x="333.00" y="88.00" width="9.00" height="2.65" fill="#840924"/>
+  <rect x="333.00" y="90.50" width="9.00" height="2.65" fill="#900d26"/>
+  <rect x="333.00" y="93.00" width="9.00" height="2.65" fill="#9f1228"/>
+  <rect x="333.00" y="95.50" width="9.00" height="2.65" fill="#ab162a"/>
+  <rect x="333.00" y="98.00" width="9.00" height="2.65" fill="#b41c2d"/>
+  <rect x="333.00" y="100.50" width="9.00" height="2.65" fill="#ba2832"/>
+  <rect x="333.00" y="103.00" width="9.00" height="2.65" fill="#c13639"/>
+  <rect x="333.00" y="105.50" width="9.00" height="2.65" fill="#c6413e"/>
+  <rect x="333.00" y="108.00" width="9.00" height="2.65" fill="#cc4c44"/>
+  <rect x="333.00" y="110.50" width="9.00" height="2.65" fill="#d35a4a"/>
+  <rect x="333.00" y="113.00" width="9.00" height="2.65" fill="#d86551"/>
+  <rect x="333.00" y="115.50" width="9.00" height="2.65" fill="#dd7059"/>
+  <rect x="333.00" y="118.00" width="9.00" height="2.65" fill="#e27b62"/>
+  <rect x="333.00" y="120.50" width="9.00" height="2.65" fill="#e8896c"/>
+  <rect x="333.00" y="123.00" width="9.00" height="2.65" fill="#ec9374"/>
+  <rect x="333.00" y="125.50" width="9.00" height="2.65" fill="#f19e7d"/>
+  <rect x="333.00" y="128.00" width="9.00" height="2.65" fill="#f5a886"/>
+  <rect x="333.00" y="130.50" width="9.00" height="2.65" fill="#f6b394"/>
+  <rect x="333.00" y="133.00" width="9.00" height="2.65" fill="#f8bb9e"/>
+  <rect x="333.00" y="135.50" width="9.00" height="2.65" fill="#f9c4a9"/>
+  <rect x="333.00" y="138.00" width="9.00" height="2.65" fill="#fbccb4"/>
+  <rect x="333.00" y="140.50" width="9.00" height="2.65" fill="#fcd7c2"/>
+  <rect x="333.00" y="143.00" width="9.00" height="2.65" fill="#fdddcb"/>
+  <rect x="333.00" y="145.50" width="9.00" height="2.65" fill="#fce2d2"/>
+  <rect x="333.00" y="148.00" width="9.00" height="2.65" fill="#fae7dc"/>
+  <rect x="333.00" y="150.50" width="9.00" height="2.65" fill="#f9ebe3"/>
+  <rect x="333.00" y="153.00" width="9.00" height="2.65" fill="#f9f0eb"/>
+  <rect x="333.00" y="155.50" width="9.00" height="2.65" fill="#f8f4f2"/>
+  <rect x="333.00" y="158.00" width="9.00" height="2.65" fill="#f3f5f6"/>
+  <rect x="333.00" y="160.50" width="9.00" height="2.65" fill="#edf2f5"/>
+  <rect x="333.00" y="163.00" width="9.00" height="2.65" fill="#e7f0f4"/>
+  <rect x="333.00" y="165.50" width="9.00" height="2.65" fill="#e1edf3"/>
+  <rect x="333.00" y="168.00" width="9.00" height="2.65" fill="#dae9f2"/>
+  <rect x="333.00" y="170.50" width="9.00" height="2.65" fill="#d4e6f1"/>
+  <rect x="333.00" y="173.00" width="9.00" height="2.65" fill="#cce2ef"/>
+  <rect x="333.00" y="175.50" width="9.00" height="2.65" fill="#c2ddec"/>
+  <rect x="333.00" y="178.00" width="9.00" height="2.65" fill="#b6d7e8"/>
+  <rect x="333.00" y="180.50" width="9.00" height="2.65" fill="#acd2e5"/>
+  <rect x="333.00" y="183.00" width="9.00" height="2.65" fill="#a2cde3"/>
+  <rect x="333.00" y="185.50" width="9.00" height="2.65" fill="#96c7df"/>
+  <rect x="333.00" y="188.00" width="9.00" height="2.65" fill="#8ac0db"/>
+  <rect x="333.00" y="190.50" width="9.00" height="2.65" fill="#7eb8d7"/>
+  <rect x="333.00" y="193.00" width="9.00" height="2.65" fill="#71b0d3"/>
+  <rect x="333.00" y="195.50" width="9.00" height="2.65" fill="#62a7ce"/>
+  <rect x="333.00" y="198.00" width="9.00" height="2.65" fill="#569fc9"/>
+  <rect x="333.00" y="200.50" width="9.00" height="2.65" fill="#4997c5"/>
+  <rect x="333.00" y="203.00" width="9.00" height="2.65" fill="#408fc1"/>
+  <rect x="333.00" y="205.50" width="9.00" height="2.65" fill="#3a87bd"/>
+  <rect x="333.00" y="208.00" width="9.00" height="2.65" fill="#3480b9"/>
+  <rect x="333.00" y="210.50" width="9.00" height="2.65" fill="#2f79b5"/>
+  <rect x="333.00" y="213.00" width="9.00" height="2.65" fill="#2a71b2"/>
+  <rect x="333.00" y="215.50" width="9.00" height="2.65" fill="#2369ad"/>
+  <rect x="333.00" y="218.00" width="9.00" height="2.65" fill="#1e61a5"/>
+  <rect x="333.00" y="220.50" width="9.00" height="2.65" fill="#1a5899"/>
+  <rect x="333.00" y="223.00" width="9.00" height="2.65" fill="#144e8a"/>
+  <rect x="333.00" y="225.50" width="9.00" height="2.65" fill="#10457e"/>
+  <rect x="333.00" y="228.00" width="9.00" height="2.65" fill="#0c3d73"/>
+  <rect x="333.00" y="230.50" width="9.00" height="2.65" fill="#073467"/>
+  <polygon points="333.00,83.00 342.00,83.00 337.50,76.00" fill="#67001f"/>
+  <polygon points="333.00,233.00 342.00,233.00 337.50,240.00" fill="#053061"/>
+  <polygon points="333.00,83.00 337.50,76.00 342.00,83.00 342.00,233.00 337.50,240.00 333.00,233.00" fill="none" stroke="#7A818C" stroke-width="0.5"/>
+  <line x1="342.00" y1="83.00" x2="344.50" y2="83.00" stroke="#23262C" stroke-width="0.6"/>
+  <text x="346.50" y="86.10" font-size="9" fill="#23262C" xml:space="preserve">+25</text>
+  <line x1="342.00" y1="128.00" x2="344.50" y2="128.00" stroke="#23262C" stroke-width="0.6"/>
+  <text x="346.50" y="131.10" font-size="9" fill="#23262C" xml:space="preserve">+10</text>
+  <line x1="342.00" y1="158.00" x2="344.50" y2="158.00" stroke="#23262C" stroke-width="0.6"/>
+  <text x="346.50" y="161.10" font-size="9" fill="#23262C" xml:space="preserve">0</text>
+  <line x1="342.00" y1="188.00" x2="344.50" y2="188.00" stroke="#23262C" stroke-width="0.6"/>
+  <text x="346.50" y="191.10" font-size="9" fill="#23262C" xml:space="preserve">−10</text>
+  <line x1="342.00" y1="233.00" x2="344.50" y2="233.00" stroke="#23262C" stroke-width="0.6"/>
+  <text x="346.50" y="236.10" font-size="9" fill="#23262C" xml:space="preserve">−25</text>
+  <text x="327.00" y="259.00" font-size="9" fill="#23262C" xml:space="preserve">Colors clipped at ±25</text>
+  <text x="327.00" y="269.60" font-size="9" fill="#23262C" xml:space="preserve">percentage points;</text>
+  <text x="327.00" y="280.20" font-size="9" fill="#23262C" xml:space="preserve">numbers show full</text>
+  <text x="327.00" y="290.80" font-size="9" fill="#23262C" xml:space="preserve">coverage</text>
+  <line x1="1.00" y1="418.50" x2="413.00" y2="418.50" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="1.00" y="430.00" font-size="9.5" fill="#5A6068" xml:space="preserve" font-style="italic">Nominal 90% intervals cover 8.2–81.9% across parameters.</text>
+</svg>

@@ -1,5 +1,13 @@
 # Changes
 
+## Unreleased — artwork update, 18 November 2026
+
+- Enhanced methods overview with desktop and stacked mobile layouts.
+- Revised geometry illustration and all twelve manuscript figure PDF/SVG/PNG sets.
+- Figure navigation, checksums, editable-source fonts and original OFL licences.
+
+The scientific code, numerical evidence and frozen v0.5.0 release are unchanged.
+
 ## 0.5.0
 
 - Portable CPU generation, adjacent-round neural fitting, candidate selection,

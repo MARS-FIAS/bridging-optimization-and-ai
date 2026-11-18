@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414pt" height="480pt" viewBox="0 0 414 480" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','STIX Two Math','Times New Roman',serif" text-rendering="geometricPrecision">
+  <title id="title">Calibration strategies for spatial-stochastic biochemical models</title>
+  <desc id="desc">Illustrative comparison of three calibration strategies. Panel A: a parameter vector enters a stochastic simulator and produces model output; the likelihood is intractable. Panel B: direct optimization returns a selected parameter vector. Panel C: an optimization prior is updated with observational data to give a data-updated parameter distribution. Panel D: neural posterior estimation returns a conditional parameter density, assessed by predictive and calibration checks. Every panel is a conceptual illustration.</desc>
+  <rect width="414" height="480" fill="#FFFFFF"/>
+  <!-- Title -->
+  <text x="1.00" y="11.60" font-size="12.4" fill="#15171B" xml:space="preserve" font-weight="700">Calibration strategies for spatial–stochastic biochemical models</text>
+  <line x1="1.00" y1="17.60" x2="413.00" y2="17.60" stroke="#23262C" stroke-width="0.9"/>
+  <!-- Panel A: the calibration problem (illustrative) -->
+  <rect x="0.60" y="22.50" width="412.80" height="87.50" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="9.00" y="37.10" font-size="13" fill="#15171B" xml:space="preserve" font-weight="700" font-style="italic">A</text>
+  <text x="24.00" y="36.70" font-size="11" fill="#15171B" xml:space="preserve" font-weight="600">The calibration problem</text>
+  <text x="405.40" y="36.30" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">Illustrative</text>
+  <rect x="9.00" y="43.50" width="120.67" height="37.00" rx="2" fill="#FFFFFF" stroke="#3F6FA8" stroke-width="1.0"/>
+  <text x="16.00" y="56.50" font-size="9.5" fill="#3F6FA8" xml:space="preserve" font-weight="700">Parameter vector</text>
+  <text x="16.00" y="73.10" font-size="11.5" fill="#23262C" xml:space="preserve"><tspan font-style="italic">θ</tspan> ∈ Θ ⊂ ℝ<tspan font-style="italic" font-size="9" dy="-4.14">d</tspan><tspan dy="4.14">​</tspan></text>
+  <line x1="132.17" y1="62.00" x2="139.37" y2="62.00" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="144.17,62.00 139.37,64.02 139.37,59.98" fill="#23262C"/>
+  <rect x="146.67" y="43.50" width="120.67" height="37.00" rx="2" fill="#FFFFFF" stroke="#3A4250" stroke-width="1.0"/>
+  <text x="153.67" y="56.50" font-size="9.5" fill="#3A4250" xml:space="preserve" font-weight="700">Stochastic simulator</text>
+  <text x="153.67" y="73.10" font-size="11.5" fill="#23262C" xml:space="preserve"><tspan font-style="italic">x</tspan> ∼ <tspan font-style="italic">M</tspan>(<tspan font-style="italic">θ</tspan>; <tspan font-style="italic">ω</tspan>)</text>
+  <line x1="269.83" y1="62.00" x2="277.03" y2="62.00" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="281.83,62.00 277.03,64.02 277.03,59.98" fill="#23262C"/>
+  <rect x="284.33" y="43.50" width="120.67" height="37.00" rx="2" fill="#FFFFFF" stroke="#2E8B57" stroke-width="1.0"/>
+  <text x="291.33" y="56.50" font-size="9.5" fill="#2E8B57" xml:space="preserve" font-weight="700">Model output <tspan font-style="italic">x</tspan></text>
+  <rect x="90.67" y="58.50" width="32.00" height="17.50" rx="1.5" fill="#F1F4FA" stroke="#C2D1E8" stroke-width="0.6"/>
+  <circle cx="94.67" cy="63.50" r="0.95" fill="#3F6FA8"/>
+  <circle cx="99.67" cy="71.00" r="0.95" fill="#3F6FA8"/>
+  <circle cx="103.67" cy="65.00" r="0.95" fill="#3F6FA8"/>
+  <circle cx="108.67" cy="69.00" r="0.95" fill="#3F6FA8"/>
+  <circle cx="112.67" cy="63.00" r="0.95" fill="#3F6FA8"/>
+  <circle cx="117.17" cy="70.50" r="0.95" fill="#3F6FA8"/>
+  <circle cx="107.17" cy="73.00" r="0.95" fill="#3F6FA8"/>
+  <circle cx="118.67" cy="66.00" r="0.95" fill="#3F6FA8"/>
+  <circle cx="97.67" cy="67.10" r="0.95" fill="#3F6FA8"/>
+  <rect x="228.33" y="58.50" width="32.00" height="17.50" rx="1.5" fill="#F4F4F5" stroke="#D2D6DD" stroke-width="0.6"/>
+  <path d="M231.33333333333337,71.0 l3,-2.5 l3,1.5 l3,-4.5 l3,2 l3,-3.5 l3,1.5 l3,-3 l3,1.2" fill="none" stroke="#3A4250" stroke-width="0.8" stroke-linejoin="round"/>
+  <path d="M231.33333333333337,71.0 l3,1 l3,-3.2 l3,3 l3,-1.2 l3,1.8 l3,-3.4 l3,2.2 l3,-0.6" fill="none" stroke="#8A909B" stroke-width="0.8" stroke-linejoin="round"/>
+  <text x="291.33" y="72.50" font-size="9.5" fill="#5A6068" xml:space="preserve">e.g., spatial pattern</text>
+  <polygon points="378.62,56.90 375.50,58.70 372.38,56.90 372.38,53.30 375.50,51.50 378.62,53.30" fill="#DCEEE3" stroke="#8CC3A4" stroke-width="0.5"/>
+  <polygon points="384.85,56.90 381.74,58.70 378.62,56.90 378.62,53.30 381.74,51.50 384.85,53.30" fill="#DCEEE3" stroke="#8CC3A4" stroke-width="0.5"/>
+  <polygon points="391.09,56.90 387.97,58.70 384.85,56.90 384.85,53.30 387.97,51.50 391.09,53.30" fill="#8CC3A4" stroke="#2E8B57" stroke-width="0.5"/>
+  <polygon points="375.50,62.30 372.38,64.10 369.26,62.30 369.26,58.70 372.38,56.90 375.50,58.70" fill="#DCEEE3" stroke="#8CC3A4" stroke-width="0.5"/>
+  <polygon points="381.74,62.30 378.62,64.10 375.50,62.30 375.50,58.70 378.62,56.90 381.74,58.70" fill="#8CC3A4" stroke="#2E8B57" stroke-width="0.5"/>
+  <polygon points="387.97,62.30 384.85,64.10 381.74,62.30 381.74,58.70 384.85,56.90 387.97,58.70" fill="#8CC3A4" stroke="#2E8B57" stroke-width="0.5"/>
+  <polygon points="394.21,62.30 391.09,64.10 387.97,62.30 387.97,58.70 391.09,56.90 394.21,58.70" fill="#DCEEE3" stroke="#8CC3A4" stroke-width="0.5"/>
+  <polygon points="378.62,67.70 375.50,69.50 372.38,67.70 372.38,64.10 375.50,62.30 378.62,64.10" fill="#8CC3A4" stroke="#2E8B57" stroke-width="0.5"/>
+  <polygon points="384.85,67.70 381.74,69.50 378.62,67.70 378.62,64.10 381.74,62.30 384.85,64.10" fill="#DCEEE3" stroke="#8CC3A4" stroke-width="0.5"/>
+  <polygon points="391.09,67.70 387.97,69.50 384.85,67.70 384.85,64.10 387.97,62.30 391.09,64.10" fill="#DCEEE3" stroke="#8CC3A4" stroke-width="0.5"/>
+  <rect x="9.00" y="86.50" width="100.73" height="16.50" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="15.50" y="98.10" font-size="9.5" fill="#23262C" xml:space="preserve">large parameter space</text>
+  <text x="117.23" y="98.70" font-size="11" fill="#5A6068" xml:space="preserve" text-anchor="middle">+</text>
+  <rect x="124.73" y="86.50" width="95.48" height="16.50" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="131.23" y="98.10" font-size="9.5" fill="#23262C" xml:space="preserve">stochastic variability</text>
+  <line x1="225.21" y1="94.75" x2="256.21" y2="94.75" stroke="#BC6038" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="261.81,94.75 256.21,97.10 256.21,92.40" fill="#BC6038"/>
+  <rect x="265.81" y="86.50" width="139.19" height="16.50" rx="2" fill="#FBF1EA" stroke="#DDB199" stroke-width="0.8"/>
+  <text x="273.31" y="98.10" font-size="9.5" fill="#9E4A2E" xml:space="preserve" font-weight="600">intractable likelihood <tspan font-style="italic">p</tspan>(<tspan font-style="italic">x</tspan> | <tspan font-style="italic">θ</tspan>)</text>
+  <!-- Panel B: direct optimization (illustrative) -->
+  <rect x="0.60" y="113.50" width="412.80" height="94.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="9.00" y="128.10" font-size="13" fill="#15171B" xml:space="preserve" font-weight="700" font-style="italic">B</text>
+  <text x="24.00" y="127.70" font-size="11" fill="#15171B" xml:space="preserve" font-weight="600">Direct optimization</text>
+  <text x="405.40" y="127.30" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">Illustrative</text>
+  <text x="9.00" y="143.50" font-size="9.5" fill="#5A6068" xml:space="preserve" font-style="italic">objective enters as the quantity to minimize</text>
+  <rect x="9.00" y="149.50" width="126.98" height="20.00" rx="2" fill="#FFFFFF" stroke="#BC6038" stroke-width="0.8"/>
+  <text x="16.00" y="163.41" font-size="11.5" fill="#23262C" xml:space="preserve"><tspan font-style="italic">J</tspan>(<tspan font-style="italic">θ</tspan>) = 𝔼<tspan font-style="italic" font-size="9" dy="2.53">ω</tspan><tspan dy="-2.53"> </tspan><tspan font-style="italic">D</tspan>(<tspan font-style="italic">M</tspan>(<tspan font-style="italic">θ</tspan>; <tspan font-style="italic">ω</tspan>), <tspan font-style="italic">T</tspan>)</text>
+  <text x="16.00" y="186.50" font-size="11.5" fill="#23262C" xml:space="preserve"><tspan font-style="italic">θ</tspan>* = arg min<tspan font-style="italic" font-size="9" dy="2.53">θ</tspan><tspan dy="-2.53"> </tspan><tspan font-style="italic">J</tspan>(<tspan font-style="italic">θ</tspan>)</text>
+  <rect x="141.98" y="149.50" width="65.02" height="44.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="145.98" y="160.70" font-size="9.5" fill="#5A6068" xml:space="preserve"><tspan font-style="italic">J</tspan>(<tspan font-style="italic">θ</tspan>)</text>
+  <ellipse cx="182.00" cy="174.00" rx="20.00" ry="14.50" fill="none" stroke="#EAD3BD" stroke-width="0.7"/>
+  <ellipse cx="182.00" cy="174.00" rx="13.50" ry="9.60" fill="none" stroke="#DFBA9B" stroke-width="0.7"/>
+  <ellipse cx="182.00" cy="174.00" rx="7.40" ry="5.20" fill="#F4DBC6" stroke="#D3A07C" stroke-width="0.7"/>
+  <ellipse cx="153.48" cy="184.00" rx="7.60" ry="5.00" fill="none" stroke="#EAD3BD" stroke-width="0.7"/>
+  <ellipse cx="153.48" cy="184.00" rx="3.90" ry="2.60" fill="#F4DBC6" stroke="#D3A07C" stroke-width="0.7"/>
+  <path d="M172.9755,155.5 C165.9755,164.5 172.9755,166.5 177.8,171.6" fill="none" stroke="#23262C" stroke-width="0.8" stroke-dasharray="2 1.6"/>
+  <circle cx="172.98" cy="155.50" r="1.30" fill="#23262C"/>
+  <polygon points="182.00,169.60 183.16,172.40 186.18,172.64 183.88,174.61 184.59,177.56 182.00,175.98 179.41,177.56 180.12,174.61 177.82,172.64 180.84,172.40" fill="#BC6038" stroke="#FFFFFF" stroke-width="0.5"/>
+  <rect x="219.00" y="134.50" width="186.00" height="67.00" rx="2.5" fill="#FBF1EA"/>
+  <text x="226.00" y="145.50" font-size="9" fill="#9E4A2E" xml:space="preserve" font-weight="700" letter-spacing="0.9">OUTPUT</text>
+  <text x="226.00" y="157.50" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600">Selected parameter vector <tspan font-style="italic">θ</tspan>*</text>
+  <text x="226.00" y="173.30" font-size="9" fill="#9E4A2E" xml:space="preserve" font-weight="700" letter-spacing="0.9">ASSESSMENT</text>
+  <text x="226.00" y="185.30" font-size="9.5" fill="#23262C" xml:space="preserve">Additional sensitivity or resampling</text>
+  <text x="226.00" y="196.50" font-size="9.5" fill="#23262C" xml:space="preserve">analyses</text>
+  <line x1="209.00" y1="154.30" x2="212.90" y2="154.30" stroke="#BC6038" stroke-width="1.1" stroke-linecap="round"/>
+  <polygon points="217.50,154.30 212.90,156.23 212.90,152.37" fill="#BC6038"/>
+  <!-- Panel C: optimization priors (illustrative) -->
+  <rect x="0.60" y="211.00" width="412.80" height="103.50" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="9.00" y="225.60" font-size="13" fill="#15171B" xml:space="preserve" font-weight="700" font-style="italic">C</text>
+  <text x="24.00" y="225.20" font-size="11" fill="#15171B" xml:space="preserve" font-weight="600">Optimization priors</text>
+  <text x="405.40" y="224.80" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">Illustrative</text>
+  <text x="9.00" y="241.00" font-size="9.5" fill="#5A6068" xml:space="preserve" font-style="italic">utility shapes the prior</text>
+  <rect x="9.00" y="246.50" width="64.36" height="25.50" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <path d="M14.00,266.09 L15.13,265.76 L16.26,265.37 L17.40,264.92 L18.53,264.40 L19.66,263.81 L20.79,263.16 L21.93,262.44 L23.06,261.66 L24.19,260.82 L25.32,259.94 L26.46,259.03 L27.59,258.10 L28.72,257.17 L29.85,256.26 L30.99,255.39 L32.12,254.58 L33.25,253.85 L34.38,253.22 L35.52,252.71 L36.65,252.33 L37.78,252.09 L38.91,252.00 L40.05,252.06 L41.18,252.28 L42.31,252.64 L43.44,253.13 L44.58,253.74 L45.71,254.46 L46.84,255.25 L47.97,256.12 L49.11,257.02 L50.24,257.95 L51.37,258.88 L52.50,259.80 L53.64,260.68 L54.77,261.53 L55.90,262.32 L57.03,263.05 L58.17,263.71 L59.30,264.31 L60.43,264.84 L61.56,265.30 L62.70,265.70 L63.83,266.04 L64.96,266.33 L66.09,266.57 L67.23,266.77 L68.36,266.93 L68.36,267.50 L14.00,267.50 Z" fill="#E6DEF3"/>
+  <path d="M14.00,266.09 L15.13,265.76 L16.26,265.37 L17.40,264.92 L18.53,264.40 L19.66,263.81 L20.79,263.16 L21.93,262.44 L23.06,261.66 L24.19,260.82 L25.32,259.94 L26.46,259.03 L27.59,258.10 L28.72,257.17 L29.85,256.26 L30.99,255.39 L32.12,254.58 L33.25,253.85 L34.38,253.22 L35.52,252.71 L36.65,252.33 L37.78,252.09 L38.91,252.00 L40.05,252.06 L41.18,252.28 L42.31,252.64 L43.44,253.13 L44.58,253.74 L45.71,254.46 L46.84,255.25 L47.97,256.12 L49.11,257.02 L50.24,257.95 L51.37,258.88 L52.50,259.80 L53.64,260.68 L54.77,261.53 L55.90,262.32 L57.03,263.05 L58.17,263.71 L59.30,264.31 L60.43,264.84 L61.56,265.30 L62.70,265.70 L63.83,266.04 L64.96,266.33 L66.09,266.57 L67.23,266.77 L68.36,266.93" fill="none" stroke="#7E5CA8" stroke-width="1.0"/>
+  <line x1="13.00" y1="267.50" x2="69.36" y2="267.50" stroke="#7A818C" stroke-width="0.6"/>
+  <text x="9.00" y="282.80" font-size="9.5" fill="#6A569E" xml:space="preserve" font-weight="600">Optimization prior</text>
+  <rect x="9.00" y="287.50" width="129.22" height="20.00" rx="2" fill="#FFFFFF" stroke="#7E5CA8" stroke-width="0.8"/>
+  <text x="16.00" y="301.41" font-size="11.5" fill="#23262C" xml:space="preserve"><tspan font-style="italic">p</tspan><tspan font-style="italic" font-size="9" dy="2.53">U</tspan><tspan dy="-2.53">(</tspan><tspan font-style="italic">θ</tspan> | <tspan font-style="italic">β</tspan>) ∝ exp{<tspan font-style="italic">β</tspan> · <tspan font-style="italic">U</tspan>(<tspan font-style="italic">θ</tspan>)}</text>
+  <rect x="153.00" y="246.50" width="54.00" height="25.50" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <path d="M157.00,266.09 L157.96,265.76 L158.92,265.37 L159.88,264.92 L160.83,264.40 L161.79,263.81 L162.75,263.16 L163.71,262.44 L164.67,261.66 L165.62,260.82 L166.58,259.94 L167.54,259.03 L168.50,258.10 L169.46,257.17 L170.42,256.26 L171.38,255.39 L172.33,254.58 L173.29,253.85 L174.25,253.22 L175.21,252.71 L176.17,252.33 L177.12,252.09 L178.08,252.00 L179.04,252.06 L180.00,252.28 L180.96,252.64 L181.92,253.13 L182.88,253.74 L183.83,254.46 L184.79,255.25 L185.75,256.12 L186.71,257.02 L187.67,257.95 L188.62,258.88 L189.58,259.80 L190.54,260.68 L191.50,261.53 L192.46,262.32 L193.42,263.05 L194.38,263.71 L195.33,264.31 L196.29,264.84 L197.25,265.30 L198.21,265.70 L199.17,266.04 L200.12,266.33 L201.08,266.57 L202.04,266.77 L203.00,266.93" fill="none" stroke="#C3B2DD" stroke-width="0.8" stroke-dasharray="2 1.6"/>
+  <path d="M157.00,267.50 L157.96,267.50 L158.92,267.50 L159.88,267.50 L160.83,267.50 L161.79,267.50 L162.75,267.50 L163.71,267.50 L164.67,267.50 L165.62,267.49 L166.58,267.48 L167.54,267.46 L168.50,267.42 L169.46,267.36 L170.42,267.24 L171.38,267.04 L172.33,266.72 L173.29,266.24 L174.25,265.54 L175.21,264.56 L176.17,263.25 L177.12,261.61 L178.08,259.65 L179.04,257.44 L180.00,255.11 L180.96,252.82 L181.92,250.79 L182.88,249.20 L183.83,248.24 L184.79,248.02 L185.75,248.54 L186.71,249.77 L187.67,251.56 L188.62,253.72 L189.58,256.05 L190.54,258.35 L191.50,260.47 L192.46,262.31 L193.42,263.81 L194.38,264.98 L195.33,265.85 L196.29,266.46 L197.25,266.87 L198.21,267.13 L199.17,267.29 L200.12,267.39 L201.08,267.44 L202.04,267.47 L203.00,267.49 L203.00,267.50 L157.00,267.50 Z" fill="#C3B2DD"/>
+  <path d="M157.00,267.50 L157.96,267.50 L158.92,267.50 L159.88,267.50 L160.83,267.50 L161.79,267.50 L162.75,267.50 L163.71,267.50 L164.67,267.50 L165.62,267.49 L166.58,267.48 L167.54,267.46 L168.50,267.42 L169.46,267.36 L170.42,267.24 L171.38,267.04 L172.33,266.72 L173.29,266.24 L174.25,265.54 L175.21,264.56 L176.17,263.25 L177.12,261.61 L178.08,259.65 L179.04,257.44 L180.00,255.11 L180.96,252.82 L181.92,250.79 L182.88,249.20 L183.83,248.24 L184.79,248.02 L185.75,248.54 L186.71,249.77 L187.67,251.56 L188.62,253.72 L189.58,256.05 L190.54,258.35 L191.50,260.47 L192.46,262.31 L193.42,263.81 L194.38,264.98 L195.33,265.85 L196.29,266.46 L197.25,266.87 L198.21,267.13 L199.17,267.29 L200.12,267.39 L201.08,267.44 L202.04,267.47 L203.00,267.49" fill="none" stroke="#6A569E" stroke-width="1.2"/>
+  <line x1="156.00" y1="267.50" x2="204.00" y2="267.50" stroke="#7A818C" stroke-width="0.6"/>
+  <text x="113.18" y="254.10" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">Update with</text>
+  <text x="113.18" y="263.70" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">observational data</text>
+  <line x1="76.36" y1="268.70" x2="145.40" y2="268.70" stroke="#6A569E" stroke-width="1.1" stroke-linecap="round"/>
+  <polygon points="150.00,268.70 145.40,270.63 145.40,266.77" fill="#6A569E"/>
+  <rect x="219.00" y="232.00" width="186.00" height="76.50" rx="2.5" fill="#F5F2FA"/>
+  <text x="226.00" y="243.00" font-size="9" fill="#6A569E" xml:space="preserve" font-weight="700" letter-spacing="0.9">OUTPUT</text>
+  <text x="226.00" y="255.00" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600">Data-updated parameter distribution</text>
+  <text x="226.00" y="270.80" font-size="9" fill="#6A569E" xml:space="preserve" font-weight="700" letter-spacing="0.9">ASSESSMENT</text>
+  <text x="226.00" y="282.80" font-size="9.5" fill="#23262C" xml:space="preserve">Data can assess the optimality assumption</text>
+  <text x="226.00" y="294.00" font-size="9.5" fill="#23262C" xml:space="preserve">through the resulting inference.</text>
+  <line x1="209.00" y1="251.80" x2="212.90" y2="251.80" stroke="#6A569E" stroke-width="1.1" stroke-linecap="round"/>
+  <polygon points="217.50,251.80 212.90,253.73 212.90,249.87" fill="#6A569E"/>
+  <!-- Panel D: AI-aided simulation-based inference (illustrative) -->
+  <rect x="0.60" y="318.00" width="412.80" height="129.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="9.00" y="332.60" font-size="13" fill="#15171B" xml:space="preserve" font-weight="700" font-style="italic">D</text>
+  <text x="24.00" y="332.20" font-size="11" fill="#15171B" xml:space="preserve" font-weight="600">AI-aided simulation-based inference</text>
+  <text x="405.40" y="331.80" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">Illustrative</text>
+  <text x="9.00" y="348.00" font-size="9.5" fill="#5A6068" xml:space="preserve" font-style="italic">objective acts as summary statistic / validation</text>
+  <text x="9.00" y="359.20" font-size="9.5" fill="#5A6068" xml:space="preserve" font-style="italic">criterion</text>
+  <rect x="9.00" y="364.70" width="44.00" height="26.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <line x1="21.50" y1="369.40" x2="39.00" y2="369.40" stroke="#9AA0A8" stroke-width="0.6"/>
+  <circle cx="19.50" cy="369.40" r="1.70" fill="#3F6FA8"/>
+  <rect x="39.50" y="367.70" width="3.40" height="3.40" fill="#2E8B57"/>
+  <line x1="21.50" y1="374.95" x2="39.00" y2="374.95" stroke="#9AA0A8" stroke-width="0.6"/>
+  <circle cx="19.50" cy="374.95" r="1.70" fill="#3F6FA8"/>
+  <rect x="39.50" y="373.25" width="3.40" height="3.40" fill="#2E8B57"/>
+  <line x1="21.50" y1="380.50" x2="39.00" y2="380.50" stroke="#9AA0A8" stroke-width="0.6"/>
+  <circle cx="19.50" cy="380.50" r="1.70" fill="#3F6FA8"/>
+  <rect x="39.50" y="378.80" width="3.40" height="3.40" fill="#2E8B57"/>
+  <line x1="21.50" y1="386.05" x2="39.00" y2="386.05" stroke="#9AA0A8" stroke-width="0.6"/>
+  <circle cx="19.50" cy="386.05" r="1.70" fill="#3F6FA8"/>
+  <rect x="39.50" y="384.35" width="3.40" height="3.40" fill="#2E8B57"/>
+  <rect x="85.00" y="364.70" width="46.00" height="26.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <line x1="93.50" y1="370.20" x2="108.00" y2="370.20" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="93.50" y1="370.20" x2="108.00" y2="377.70" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="93.50" y1="370.20" x2="108.00" y2="385.20" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="93.50" y1="377.70" x2="108.00" y2="370.20" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="93.50" y1="377.70" x2="108.00" y2="377.70" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="93.50" y1="377.70" x2="108.00" y2="385.20" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="93.50" y1="385.20" x2="108.00" y2="370.20" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="93.50" y1="385.20" x2="108.00" y2="377.70" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="93.50" y1="385.20" x2="108.00" y2="385.20" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="108.00" y1="370.20" x2="122.50" y2="373.95" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="108.00" y1="370.20" x2="122.50" y2="381.45" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="108.00" y1="377.70" x2="122.50" y2="373.95" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="108.00" y1="377.70" x2="122.50" y2="381.45" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="108.00" y1="385.20" x2="122.50" y2="373.95" stroke="#A8D2E0" stroke-width="0.5"/>
+  <line x1="108.00" y1="385.20" x2="122.50" y2="381.45" stroke="#A8D2E0" stroke-width="0.5"/>
+  <circle cx="93.50" cy="370.20" r="1.90" fill="#FFFFFF" stroke="#2D7FA3" stroke-width="0.8"/>
+  <circle cx="93.50" cy="377.70" r="1.90" fill="#FFFFFF" stroke="#2D7FA3" stroke-width="0.8"/>
+  <circle cx="93.50" cy="385.20" r="1.90" fill="#FFFFFF" stroke="#2D7FA3" stroke-width="0.8"/>
+  <circle cx="108.00" cy="370.20" r="1.90" fill="#FFFFFF" stroke="#2D7FA3" stroke-width="0.8"/>
+  <circle cx="108.00" cy="377.70" r="1.90" fill="#FFFFFF" stroke="#2D7FA3" stroke-width="0.8"/>
+  <circle cx="108.00" cy="385.20" r="1.90" fill="#FFFFFF" stroke="#2D7FA3" stroke-width="0.8"/>
+  <circle cx="122.50" cy="373.95" r="1.90" fill="#2D8FB8" stroke="#2D7FA3" stroke-width="0.8"/>
+  <circle cx="122.50" cy="381.45" r="1.90" fill="#2D8FB8" stroke="#2D7FA3" stroke-width="0.8"/>
+  <rect x="163.00" y="364.70" width="44.00" height="26.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <ellipse cx="185.00" cy="377.70" rx="16" ry="7.6" transform="rotate(-24 185.00 377.70)" fill="#A8D2E0" fill-opacity="0.35" stroke="#2D7FA3" stroke-width="0.6"/>
+  <ellipse cx="185.00" cy="377.70" rx="10.8" ry="5.0" transform="rotate(-24 185.00 377.70)" fill="#A8D2E0" fill-opacity="0.7" stroke="#2D7FA3" stroke-width="0.6"/>
+  <ellipse cx="185.00" cy="377.70" rx="5.6" ry="2.6" transform="rotate(-24 185.00 377.70)" fill="#2D8FB8" fill-opacity="0.9" stroke="#2D7FA3" stroke-width="0.6"/>
+  <line x1="56.00" y1="377.70" x2="77.40" y2="377.70" stroke="#2D7FA3" stroke-width="1.1" stroke-linecap="round"/>
+  <polygon points="82.00,377.70 77.40,379.63 77.40,375.77" fill="#2D7FA3"/>
+  <line x1="134.00" y1="377.70" x2="155.40" y2="377.70" stroke="#2D7FA3" stroke-width="1.1" stroke-linecap="round"/>
+  <polygon points="160.00,377.70 155.40,379.63 155.40,375.77" fill="#2D7FA3"/>
+  <text x="9.00" y="401.10" font-size="9" fill="#23262C" xml:space="preserve"><tspan font-style="italic">n</tspan> simulated training</text>
+  <text x="9.00" y="411.10" font-size="9" fill="#23262C" xml:space="preserve">pairs (<tspan font-style="italic">θ</tspan>, <tspan font-style="italic">x</tspan>)</text>
+  <text x="108.00" y="401.10" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">neural</text>
+  <text x="108.00" y="411.10" font-size="9" fill="#23262C" xml:space="preserve" text-anchor="middle">estimator</text>
+  <rect x="9.00" y="417.50" width="2.20" height="21.80" rx="1" fill="#2D8FB8"/>
+  <text x="15.50" y="426.10" font-size="9.5" fill="#23262C" xml:space="preserve">Cavity example: geometry- and target-specific</text>
+  <text x="15.50" y="437.30" font-size="9.5" fill="#23262C" xml:space="preserve">sequential fitting</text>
+  <rect x="219.00" y="339.00" width="186.00" height="102.00" rx="2.5" fill="#EEF6FA"/>
+  <text x="226.00" y="350.00" font-size="9" fill="#2D7FA3" xml:space="preserve" font-weight="700" letter-spacing="0.9">OUTPUT</text>
+  <text x="226.00" y="362.00" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600">NPE: conditional parameter density</text>
+  <text x="226.00" y="373.40" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">NLE estimates a likelihood; NRE estimates a</text>
+  <text x="226.00" y="383.80" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">likelihood ratio</text>
+  <text x="226.00" y="398.80" font-size="9" fill="#2D7FA3" xml:space="preserve" font-weight="700" letter-spacing="0.9">ASSESSMENT</text>
+  <text x="226.00" y="410.80" font-size="9.5" fill="#23262C" xml:space="preserve">Predictive and calibration checks;</text>
+  <text x="226.00" y="422.00" font-size="9.5" fill="#23262C" xml:space="preserve">parameter relationships; uncertainty</text>
+  <text x="226.00" y="433.20" font-size="9.5" fill="#23262C" xml:space="preserve">requires validation</text>
+  <line x1="209.00" y1="377.70" x2="212.90" y2="377.70" stroke="#2D7FA3" stroke-width="1.1" stroke-linecap="round"/>
+  <polygon points="217.50,377.70 212.90,379.63 212.90,375.77" fill="#2D7FA3"/>
+  <!-- Symbol key -->
+  <line x1="1.00" y1="451.50" x2="413.00" y2="451.50" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="1.00" y="462.70" font-size="9" fill="#23262C" xml:space="preserve"><tspan font-style="italic">θ</tspan>: parameter vector</text>
+  <text x="94.62" y="462.70" font-size="9" fill="#23262C" xml:space="preserve">Θ: admissible parameter domain</text>
+  <text x="238.69" y="462.70" font-size="9" fill="#23262C" xml:space="preserve"><tspan font-style="italic">d</tspan>: parameter dimension</text>
+  <text x="349.54" y="462.70" font-size="9" fill="#23262C" xml:space="preserve"><tspan font-style="italic">U</tspan>: utility</text>
+  <text x="1.00" y="473.70" font-size="9" fill="#23262C" xml:space="preserve"><tspan font-style="italic">β</tspan>: strength of the optimality assumption</text>
+  <text x="161.50" y="473.70" font-size="9" fill="#23262C" xml:space="preserve"><tspan font-style="italic">J</tspan>: expected discrepancy <tspan font-style="italic">D</tspan> from target <tspan font-style="italic">T</tspan></text>
+  <text x="319.45" y="473.70" font-size="9" fill="#23262C" xml:space="preserve"><tspan font-style="italic">ω</tspan>: stochastic realization</text>
+</svg>
