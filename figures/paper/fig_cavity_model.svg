@@ -1,0 +1,386 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414pt" height="501.75pt" viewBox="0 0 414 501.75" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','STIX Two Math','Times New Roman',serif" text-rendering="geometricPrecision">
+  <title id="title">Spatial-stochastic blastocyst cavity model</title>
+  <desc id="desc">Schematic. A: fixed ICM cell compartments above the blastocyst cavity, surrounded by the trophectoderm. B: NANOG and GATA6 each activate their own gene and repress the other&#x27;s; NANOG activates and GATA6 represses Fgf4 expression; secreted FGF4 activates FGFR and ERK in the same or a neighboring cell; activated ERK activates Gata6, represses Nanog and phosphorylates NANOG; phosphorylated NANOG is dephosphorylated or degraded faster. C: the cavity and TE are effective extracellular reservoirs that exchange FGF4 with the ICM and with each other and lose it by degradation.</desc>
+  <defs>
+    <clipPath id="clip740805"><circle cx="74.00" cy="88.24" r="37.15"/></clipPath>
+    <clipPath id="clipA80"><circle cx="74.00" cy="88.24" r="37.15"/></clipPath>
+    <clipPath id="clipC"><circle cx="82.00" cy="426.50" r="46.65"/></clipPath>
+  </defs>
+  <rect width="414" height="501.75" fill="#FFFFFF"/>
+  <text x="1.00" y="11.60" font-size="12.4" fill="#15171B" xml:space="preserve" font-weight="700">Spatial–stochastic blastocyst cavity model</text>
+  <line x1="1.00" y1="17.60" x2="413.00" y2="17.60" stroke="#23262C" stroke-width="0.9"/>
+  <rect x="0.60" y="22.50" width="412.80" height="110.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="9.00" y="37.10" font-size="13" fill="#15171B" xml:space="preserve" font-weight="700" font-style="italic">A</text>
+  <text x="23.00" y="36.70" font-size="11" fill="#15171B" xml:space="preserve" font-weight="600">Fixed embryo geometry</text>
+  <text x="405.40" y="36.70" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">Schematic</text>
+  <circle cx="74.00" cy="88.24" r="43.00" fill="#B7BCC4" stroke="#7F858E" stroke-width="0.7"/>
+  <circle cx="74.00" cy="88.24" r="37.50" fill="#D9EDF1" stroke="#8FBFCB" stroke-width="0.5"/>
+  <g clip-path="url(#clip740805)">
+  <rect x="36.50" y="50.74" width="75.00" height="29.76" fill="#F7F2E6"/>
+  <rect x="27.20" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="35.00" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="42.80" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="50.60" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="58.40" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="66.20" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="74.00" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="81.80" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="89.60" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="97.40" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="105.20" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="113.00" y="72.70" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="27.20" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="35.00" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="42.80" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="50.60" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="58.40" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="66.20" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="74.00" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="81.80" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="89.60" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="97.40" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="105.20" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="113.00" y="64.90" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="27.20" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="35.00" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="42.80" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="50.60" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="58.40" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="66.20" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="74.00" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="81.80" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="89.60" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="97.40" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="105.20" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="113.00" y="57.10" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="27.20" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="35.00" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="42.80" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="50.60" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="58.40" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="66.20" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="74.00" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="81.80" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="89.60" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="97.40" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="105.20" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  <rect x="113.00" y="49.30" width="7.80" height="7.80" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.5"/>
+  </g>
+  <line x1="37.31" y1="80.50" x2="110.69" y2="80.50" stroke="#8FBFCB" stroke-width="0.6"/>
+  <g clip-path="url(#clipA80)">
+  <rect x="37.10" y="72.70" width="73.80" height="7.80" fill="none" stroke="#23262C" stroke-width="0.9" stroke-dasharray="2.4 1.6"/>
+  </g>
+  <text x="74.00" y="67.70" font-size="10.5" fill="#23262C" xml:space="preserve" font-weight="700" text-anchor="middle" letter-spacing="1.2">ICM</text>
+  <line x1="93.90" y1="53.54" x2="146.00" y2="53.50" stroke="#7A818C" stroke-width="0.6"/>
+  <circle cx="93.90" cy="53.54" r="1.10" fill="#7A818C"/>
+  <text x="0.00" y="0.00" font-size="9.5" fill="#23262C" xml:space="preserve"></text>
+  <text x="150.00" y="56.50" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600">TE (trophectoderm)</text>
+  <line x1="96.00" y1="62.50" x2="146.00" y2="68.50" stroke="#7A818C" stroke-width="0.6"/>
+  <circle cx="96.00" cy="62.50" r="1.10" fill="#7A818C"/>
+  <text x="0.00" y="0.00" font-size="9.5" fill="#23262C" xml:space="preserve"></text>
+  <text x="150.00" y="71.50" font-size="9.5" fill="#23262C" xml:space="preserve">Upper ICM layers</text>
+  <line x1="107.00" y1="76.60" x2="146.00" y2="83.50" stroke="#7A818C" stroke-width="0.6"/>
+  <circle cx="107.00" cy="76.60" r="1.10" fill="#7A818C"/>
+  <text x="0.00" y="0.00" font-size="9.5" fill="#23262C" xml:space="preserve"></text>
+  <text x="150.00" y="86.50" font-size="9.5" fill="#23262C" xml:space="preserve">Cavity-adjacent ICM layer (dashed outline)</text>
+  <line x1="94.00" y1="110.24" x2="146.00" y2="98.50" stroke="#7A818C" stroke-width="0.6"/>
+  <circle cx="94.00" cy="110.24" r="1.10" fill="#7A818C"/>
+  <text x="0.00" y="0.00" font-size="9.5" fill="#23262C" xml:space="preserve"></text>
+  <text x="150.00" y="101.50" font-size="9.5" fill="#2F6F7E" xml:space="preserve" font-weight="600">Blastocyst cavity (blastocoel)</text>
+  <rect x="148.00" y="112.00" width="2.20" height="13.00" rx="1" fill="#5A6068"/>
+  <text x="155.00" y="121.50" font-size="9.5" fill="#23262C" xml:space="preserve">Fixed ICM cells; no cell movement or division</text>
+  <rect x="0.60" y="136.00" width="412.80" height="195.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="9.00" y="150.60" font-size="13" fill="#15171B" xml:space="preserve" font-weight="700" font-style="italic">B</text>
+  <text x="23.00" y="150.20" font-size="11" fill="#15171B" xml:space="preserve" font-weight="600">EPI/PRE regulation and FGF4 signaling</text>
+  <text x="405.40" y="150.20" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">Schematic</text>
+  <text x="9.00" y="165.50" font-size="9.5" fill="#2B7A4B" xml:space="preserve" font-weight="600">FGF4: secreted signaling protein (ligand)</text>
+  <rect x="9.00" y="173.00" width="249.00" height="96.00" rx="8" fill="#FBF8F1" stroke="#B5A37C" stroke-width="0.9"/>
+  <rect x="300.00" y="173.00" width="105.40" height="96.00" rx="8" fill="#FBF8F1" stroke="#B5A37C" stroke-width="0.9"/>
+  <text x="16.00" y="184.50" font-size="9" fill="#8A7650" xml:space="preserve" font-weight="600">ICM cell</text>
+  <text x="307.00" y="184.50" font-size="9" fill="#8A7650" xml:space="preserve" font-weight="600">Neighboring ICM cell</text>
+  <rect x="55.00" y="193.50" width="58.00" height="15.00" rx="7.5" fill="#EAB389" stroke="#BC6038" stroke-width="0.9"/>
+  <text x="84.00" y="204.06" font-size="9" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">GATA6 (G)</text>
+  <rect x="53.00" y="239.50" width="62.00" height="15.00" rx="7.5" fill="#729DD8" stroke="#3F6FA8" stroke-width="0.9"/>
+  <text x="84.00" y="250.06" font-size="9" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">NANOG (N)</text>
+  <rect x="175.00" y="239.50" width="30.00" height="15.00" rx="7.5" fill="#FFFFFF" stroke="#3F6FA8" stroke-width="1.0"/>
+  <text x="190.00" y="250.06" font-size="9" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">NP</text>
+  <rect x="150.00" y="193.50" width="30.00" height="15.00" rx="7.5" fill="#E4E7EC" stroke="#6B7280" stroke-width="0.9"/>
+  <text x="165.00" y="204.06" font-size="9" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">EA</text>
+  <path d="M78.50,193.40 C70.00,178.00 98.00,178.00 91.43,189.90" fill="none" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="89.50,193.40 89.96,189.09 92.90,190.71" fill="#23262C"/>
+  <path d="M55.60,241.30 C32.00,232.00 32.00,262.00 51.88,254.17" fill="none" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="55.60,252.70 52.49,255.73 51.26,252.60" fill="#23262C"/>
+  <line x1="77.00" y1="208.50" x2="77.00" y2="238.50" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="74.70" y1="238.50" x2="79.30" y2="238.50" stroke="#23262C" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="91.00" y1="239.50" x2="91.00" y2="209.50" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="93.30" y1="209.50" x2="88.70" y2="209.50" stroke="#23262C" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="72.00" y="220.50" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">mutual</text>
+  <text x="72.00" y="230.50" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">repression</text>
+  <line x1="148.50" y1="201.00" x2="119.10" y2="201.00" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="114.50,201.00 119.10,199.07 119.10,202.93" fill="#23262C"/>
+  <text x="131.50" y="194.50" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="middle">activates</text>
+  <line x1="150.50" y1="205.50" x2="106.00" y2="238.70" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="104.62" y1="236.86" x2="107.38" y2="240.54" stroke="#23262C" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="117.50" y1="244.50" x2="168.50" y2="244.50" stroke="#3F6FA8" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="172.50,244.50 168.50,246.18 168.50,242.82" fill="#3F6FA8"/>
+  <line x1="172.50" y1="249.50" x2="121.50" y2="249.50" stroke="#3F6FA8" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="117.50,249.50 121.50,247.82 121.50,251.18" fill="#3F6FA8"/>
+  <line x1="162.00" y1="209.00" x2="147.71" y2="239.18" stroke="#6B7280" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="146.00,242.80 146.19,238.47 149.23,239.90" fill="#6B7280"/>
+  <text x="160.00" y="229.00" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">phosphorylates</text>
+  <text x="209.00" y="250.20" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">faster</text>
+  <text x="209.00" y="260.20" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">degradation</text>
+  <line x1="258.00" y1="195.50" x2="258.00" y2="206.50" stroke="#2B7A4B" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M258.00,195.50 l3.60,-3.4 M258.00,195.50 l-3.60,-3.4" fill="none" stroke="#2B7A4B" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="254.00" y="190.00" font-size="9" fill="#2B7A4B" xml:space="preserve" font-weight="600" text-anchor="end">FGFR</text>
+  <line x1="255.00" y1="201.00" x2="186.10" y2="201.00" stroke="#2B7A4B" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="181.50,201.00 186.10,199.07 186.10,202.93" fill="#2B7A4B"/>
+  <rect x="64.00" y="277.50" width="40.00" height="15.00" rx="7.5" fill="#E3F1E7" stroke="#2B7A4B" stroke-width="0.9"/>
+  <text x="84.00" y="288.06" font-size="9" fill="#2B7A4B" xml:space="preserve" font-weight="700" text-anchor="middle">FGF4</text>
+  <line x1="84.00" y1="255.00" x2="84.00" y2="271.90" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="84.00,276.50 82.07,271.90 85.93,271.90" fill="#23262C"/>
+  <text x="89.00" y="265.00" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">activates Fgf4 expression</text>
+  <path d="M55.00,201.00 L26.00,201.00 Q22.00,201.00 22.00,205.00 L22.00,281.00 Q22.00,285.00 26.00,285.00 L62.00,285.00" fill="none" stroke="#23262C" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="62.00" y1="287.30" x2="62.00" y2="282.70" stroke="#23262C" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M104.50,282.00 L268.00,282.00 Q272.00,282.00 272.00,278.00 L272.00,206.20 Q272.00,203.00 268.80,203.00 L265.60,203.00" fill="none" stroke="#2B7A4B" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.4 1.8"/>
+  <polygon points="261.00,203.00 265.60,201.07 265.60,204.93" fill="#2B7A4B"/>
+  <text x="118.00" y="278.50" font-size="9" fill="#2B7A4B" xml:space="preserve" font-weight="600" font-style="italic">autocrine</text>
+  <path d="M104.50,288.00 L282.00,288.00 Q286.00,288.00 286.00,284.00 L286.00,242.20 Q286.00,239.00 289.20,239.00 L292.40,239.00" fill="none" stroke="#2B7A4B" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.4 1.8"/>
+  <polygon points="297.00,239.00 292.40,240.93 292.40,237.07" fill="#2B7A4B"/>
+  <text x="118.00" y="299.50" font-size="9" fill="#2B7A4B" xml:space="preserve" font-weight="600" font-style="italic">paracrine</text>
+  <line x1="300.00" y1="231.50" x2="300.00" y2="242.50" stroke="#2B7A4B" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M300.00,231.50 l-3.60,-3.4 M300.00,231.50 l3.60,-3.4" fill="none" stroke="#2B7A4B" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="304.00" y="226.50" font-size="9" fill="#2B7A4B" xml:space="preserve" font-weight="600">FGFR</text>
+  <rect x="329.00" y="229.50" width="30.00" height="15.00" rx="7.5" fill="#E4E7EC" stroke="#6B7280" stroke-width="0.9"/>
+  <text x="344.00" y="240.06" font-size="9" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">EA</text>
+  <line x1="303.00" y1="237.00" x2="323.90" y2="237.00" stroke="#2B7A4B" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="328.50,237.00 323.90,238.93 323.90,235.07" fill="#2B7A4B"/>
+  <rect x="341.00" y="193.50" width="58.00" height="15.00" rx="7.5" fill="#EAB389" stroke="#BC6038" stroke-width="0.9"/>
+  <text x="370.00" y="204.06" font-size="9" fill="#23262C" xml:space="preserve" font-weight="600" text-anchor="middle">GATA6 (G)</text>
+  <line x1="350.00" y1="229.00" x2="361.36" y2="212.77" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="364.00,209.00 362.94,213.88 359.78,211.66" fill="#23262C"/>
+  <text x="364.00" y="224.00" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">activates</text>
+  <text x="307.00" y="263.00" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">same network</text>
+  <text x="9.00" y="313.00" font-size="9" fill="#23262C" xml:space="preserve">N: NANOG · G: GATA6 · NP: phosphorylated NANOG · EA: activated ERK</text>
+  <line x1="9.00" y1="321.30" x2="18.80" y2="321.30" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <polygon points="23.00,321.30 18.80,323.06 18.80,319.54" fill="#23262C"/>
+  <text x="27.00" y="324.50" font-size="9" fill="#23262C" xml:space="preserve">activation</text>
+  <line x1="79.00" y1="321.30" x2="93.00" y2="321.30" stroke="#23262C" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="93.00" y1="323.60" x2="93.00" y2="319.00" stroke="#23262C" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="98.00" y="324.50" font-size="9" fill="#23262C" xml:space="preserve">repression</text>
+  <line x1="159.00" y1="321.30" x2="172.80" y2="321.30" stroke="#2B7A4B" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="2.4 1.8"/>
+  <polygon points="177.00,321.30 172.80,323.06 172.80,319.54" fill="#2B7A4B"/>
+  <text x="181.00" y="324.50" font-size="9" fill="#23262C" xml:space="preserve">FGF4 transfer between compartments</text>
+  <rect x="0.60" y="334.50" width="412.80" height="166.00" rx="2" fill="#FFFFFF" stroke="#CDD1D7" stroke-width="0.7"/>
+  <text x="9.00" y="349.10" font-size="13" fill="#15171B" xml:space="preserve" font-weight="700" font-style="italic">C</text>
+  <text x="23.00" y="348.70" font-size="11" fill="#15171B" xml:space="preserve" font-weight="600">Cavity and TE: effective extracellular reservoirs</text>
+  <text x="405.40" y="348.70" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic" text-anchor="end">Schematic</text>
+  <path d="M136.18,412.35 A56.00,56.00 0 0 0 27.82,412.35 L36.52,414.63 A47.00,47.00 0 0 1 127.48,414.63 Z" fill="#C3C8D0" stroke="#7F858E" stroke-width="0.7"/>
+  <path d="M26.51,418.94 A56.00,56.00 0 1 0 137.49,418.94 L128.57,420.15 A47.00,47.00 0 1 1 35.43,420.15 Z" fill="#AEB4BD" stroke="#7F858E" stroke-width="0.7"/>
+  <circle cx="82.00" cy="426.50" r="47.00" fill="#D9EDF1" stroke="#8FBFCB" stroke-width="0.5"/>
+  <g clip-path="url(#clipC)">
+  <rect x="35.00" y="379.50" width="94.00" height="37.00" fill="#F7F2E6"/>
+  <rect x="21.80" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="30.40" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="39.00" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="47.60" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="56.20" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="64.80" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="73.40" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="82.00" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="90.60" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="99.20" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="107.80" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="116.40" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="125.00" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="133.60" y="407.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="21.80" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="30.40" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="39.00" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="47.60" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="56.20" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="64.80" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="73.40" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="82.00" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="90.60" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="99.20" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="107.80" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="116.40" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="125.00" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="133.60" y="399.30" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="21.80" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="30.40" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="39.00" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="47.60" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="56.20" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="64.80" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="73.40" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="82.00" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="90.60" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="99.20" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="107.80" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="116.40" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="125.00" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="133.60" y="390.70" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="21.80" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="30.40" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="39.00" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="47.60" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="56.20" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="64.80" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="73.40" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="82.00" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="90.60" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="99.20" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="107.80" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="116.40" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="125.00" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="133.60" y="382.10" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="21.80" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="30.40" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="39.00" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="47.60" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="56.20" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="64.80" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="73.40" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="82.00" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="90.60" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="99.20" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="107.80" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="116.40" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="125.00" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="133.60" y="373.50" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="21.80" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="30.40" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="39.00" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="47.60" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="56.20" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="64.80" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="73.40" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="82.00" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="90.60" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="99.20" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="107.80" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="116.40" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="125.00" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  <rect x="133.60" y="364.90" width="8.60" height="8.60" fill="#EFE6D2" stroke="#B5A37C" stroke-width="0.45"/>
+  </g>
+  <line x1="36.08" y1="416.50" x2="127.92" y2="416.50" stroke="#8FBFCB" stroke-width="0.6"/>
+  <text x="82.00" y="394.50" font-size="10.5" fill="#23262C" xml:space="preserve" font-weight="700" text-anchor="middle" letter-spacing="1.2">ICM</text>
+  <circle cx="57.19" cy="425.07" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="72.23" cy="427.87" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="41.25" cy="441.19" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="106.93" cy="431.48" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="85.45" cy="434.44" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="51.23" cy="425.23" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="110.24" cy="429.95" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="64.13" cy="453.36" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="117.72" cy="424.18" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="91.95" cy="455.77" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="82.56" cy="429.10" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="79.52" cy="424.32" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="86.48" cy="435.71" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="82.79" cy="441.85" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="91.30" cy="442.78" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="50.16" cy="435.98" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="111.38" cy="421.83" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="61.36" cy="448.37" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="79.30" cy="438.01" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="73.80" cy="430.44" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="94.47" cy="434.42" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="68.45" cy="459.83" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="65.14" cy="449.66" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="120.01" cy="424.95" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="40.79" cy="431.86" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="106.93" cy="452.73" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="57.32" cy="437.38" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="51.69" cy="444.29" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="93.33" cy="463.67" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="62.58" cy="429.84" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="76.75" cy="426.87" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="66.14" cy="420.01" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="39.21" cy="428.66" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="108.67" cy="439.09" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="62.29" cy="424.74" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="54.54" cy="422.70" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="40.20" cy="428.61" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="98.62" cy="427.58" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="46.49" cy="448.08" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="107.74" cy="441.60" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="57.74" cy="441.67" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="113.12" cy="446.42" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="57.78" cy="430.74" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="48.32" cy="422.27" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="109.34" cy="459.72" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="81.46" cy="424.52" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <line x1="55.80" y1="407.50" x2="55.80" y2="422.70" stroke="#2B7A4B" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="55.80,426.50 54.20,422.70 57.40,422.70" fill="#2B7A4B"/>
+  <line x1="60.20" y1="426.50" x2="60.20" y2="411.30" stroke="#2B7A4B" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="60.20,407.50 61.80,411.30 58.60,411.30" fill="#2B7A4B"/>
+  <line x1="103.80" y1="407.50" x2="103.80" y2="422.70" stroke="#2B7A4B" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="103.80,426.50 102.20,422.70 105.40,422.70" fill="#2B7A4B"/>
+  <line x1="108.20" y1="426.50" x2="108.20" y2="411.30" stroke="#2B7A4B" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="108.20,407.50 109.80,411.30 106.60,411.30" fill="#2B7A4B"/>
+  <line x1="76.20" y1="376.50" x2="76.20" y2="375.80" stroke="#4B5563" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="76.20,372.00 77.80,375.80 74.60,375.80" fill="#4B5563"/>
+  <line x1="71.80" y1="372.00" x2="71.80" y2="372.70" stroke="#4B5563" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="71.80,376.50 70.20,372.70 73.40,372.70" fill="#4B5563"/>
+  <line x1="87.80" y1="461.50" x2="87.80" y2="477.20" stroke="#4B5563" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="87.80,481.00 86.20,477.20 89.40,477.20" fill="#4B5563"/>
+  <line x1="92.20" y1="481.00" x2="92.20" y2="465.30" stroke="#4B5563" stroke-width="0.9" stroke-linecap="round"/>
+  <polygon points="92.20,461.50 93.80,465.30 90.60,465.30" fill="#4B5563"/>
+  <line x1="22.84" y1="405.50" x2="19.96" y2="420.05" stroke="#4B5563" stroke-width="0.8" stroke-linecap="round"/>
+  <polygon points="19.30,423.38 18.56,419.77 21.36,420.32" fill="#4B5563"/>
+  <line x1="22.83" y1="424.08" x2="25.71" y2="409.53" stroke="#4B5563" stroke-width="0.8" stroke-linecap="round"/>
+  <polygon points="26.37,406.20 27.11,409.81 24.31,409.25" fill="#4B5563"/>
+  <line x1="137.63" y1="406.20" x2="140.51" y2="420.74" stroke="#4B5563" stroke-width="0.8" stroke-linecap="round"/>
+  <polygon points="141.17,424.08 139.11,421.02 141.91,420.47" fill="#4B5563"/>
+  <line x1="144.70" y1="423.38" x2="141.82" y2="408.83" stroke="#4B5563" stroke-width="0.8" stroke-linecap="round"/>
+  <polygon points="141.16,405.50 143.22,408.55 140.42,409.11" fill="#4B5563"/>
+  <line x1="46.00" y1="448.50" x2="53.93" y2="455.29" stroke="#7A818C" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="1.8 1.4"/>
+  <polygon points="56.66,457.64 52.94,456.44 54.91,454.15" fill="#7A818C"/>
+  <circle cx="60.00" cy="460.50" r="3.60" fill="#FFFFFF" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="55.50" y1="465.00" x2="64.50" y2="456.00" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="49.04" y1="381.22" x2="36.33" y2="371.39" stroke="#7A818C" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="1.8 1.4"/>
+  <polygon points="33.48,369.19 37.25,370.20 35.40,372.59" fill="#7A818C"/>
+  <circle cx="30.00" cy="366.50" r="3.60" fill="#FFFFFF" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="25.50" y1="371.00" x2="34.50" y2="362.00" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="122.97" y1="464.67" x2="136.37" y2="468.89" stroke="#7A818C" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="1.8 1.4"/>
+  <polygon points="139.80,469.98 135.92,470.34 136.82,467.45" fill="#7A818C"/>
+  <circle cx="144.00" cy="471.30" r="3.60" fill="#FFFFFF" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="139.50" y1="475.80" x2="148.50" y2="466.80" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="70.00" y1="408.50" x2="66.25" y2="405.50" stroke="#7A818C" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="1.8 1.4"/>
+  <polygon points="63.44,403.25 67.19,404.32 65.30,406.68" fill="#7A818C"/>
+  <circle cx="60.00" cy="400.50" r="3.60" fill="#FFFFFF" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="55.50" y1="405.00" x2="64.50" y2="396.00" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="100.66" y1="378.50" x2="154.00" y2="378.50" stroke="#7A818C" stroke-width="0.6"/>
+  <circle cx="100.66" cy="378.50" r="1.10" fill="#7A818C"/>
+  <text x="0.00" y="0.00" font-size="9.5" fill="#23262C" xml:space="preserve"></text>
+  <text x="158.00" y="381.70" font-size="9.5" fill="#4B5563" xml:space="preserve" font-weight="600">TE-associated exchange and degradation</text>
+  <text x="158.00" y="393.00" font-size="9" fill="#5A6068" xml:space="preserve" font-style="italic">upper and lower TE-associated pools</text>
+  <line x1="108.50" y1="417.50" x2="154.00" y2="408.50" stroke="#7A818C" stroke-width="0.6"/>
+  <circle cx="108.50" cy="417.50" r="1.10" fill="#7A818C"/>
+  <text x="0.00" y="0.00" font-size="9.5" fill="#23262C" xml:space="preserve"></text>
+  <text x="158.00" y="411.70" font-size="9.5" fill="#2B7A4B" xml:space="preserve" font-weight="600">Exchange with ICM</text>
+  <line x1="112.00" y1="438.50" x2="154.00" y2="430.50" stroke="#7A818C" stroke-width="0.6"/>
+  <circle cx="112.00" cy="438.50" r="1.10" fill="#7A818C"/>
+  <text x="0.00" y="0.00" font-size="9.5" fill="#23262C" xml:space="preserve"></text>
+  <text x="158.00" y="433.70" font-size="9.5" fill="#23262C" xml:space="preserve" font-weight="600">Initial cavity-associated FGF4</text>
+  <circle cx="160.00" cy="449.50" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="164.50" cy="447.50" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <circle cx="168.50" cy="450.30" r="1.0" fill="#C0392B" fill-opacity="0.85"/>
+  <text x="175.00" y="452.50" font-size="9" fill="#23262C" xml:space="preserve" font-style="italic">Schematic ligand distribution</text>
+  <line x1="330.00" y1="450.90" x2="344.80" y2="450.90" stroke="#4B5563" stroke-width="0.8" stroke-linecap="round"/>
+  <polygon points="348.00,450.90 344.80,452.24 344.80,449.56" fill="#4B5563"/>
+  <line x1="348.00" y1="447.70" x2="333.20" y2="447.70" stroke="#4B5563" stroke-width="0.8" stroke-linecap="round"/>
+  <polygon points="330.00,447.70 333.20,446.36 333.20,449.04" fill="#4B5563"/>
+  <text x="352.00" y="452.50" font-size="9" fill="#23262C" xml:space="preserve">exchange</text>
+  <line x1="158.00" y1="461.30" x2="162.00" y2="461.30" stroke="#7A818C" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="1.8 1.4"/>
+  <polygon points="165.60,461.30 162.00,462.81 162.00,459.79" fill="#7A818C"/>
+  <circle cx="170.00" cy="461.30" r="3.60" fill="#FFFFFF" stroke="#7A818C" stroke-width="0.7"/>
+  <line x1="165.50" y1="465.80" x2="174.50" y2="456.80" stroke="#7A818C" stroke-width="0.7"/>
+  <text x="178.00" y="464.50" font-size="9" fill="#23262C" xml:space="preserve">degradation</text>
+  <rect x="156.00" y="471.50" width="2.20" height="24.00" rx="1" fill="#5A6068"/>
+  <text x="163.00" y="480.50" font-size="9.5" fill="#23262C" xml:space="preserve">Cavity-associated FGF4 and TE-associated transport provide</text>
+  <text x="163.00" y="491.50" font-size="9.5" fill="#23262C" xml:space="preserve">a spatial signaling hypothesis tested by the model.</text>
+</svg>

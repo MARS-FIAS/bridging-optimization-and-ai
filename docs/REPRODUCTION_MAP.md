@@ -5,6 +5,9 @@ supplementary numbers depend on the final article. Paths below start at the
 repository root. Reference plots are numerical renderings, separate from the
 paper's designed layout. Begin with the [reader guide](START_HERE.md).
 
+The [enhanced paper artwork](../figures/paper/README.md) is supplied separately
+as approved PDFs, editable SVGs and PNG previews, with matching font files.
+
 `python -m cavity_sbi reproduce --execute` rebuilds the supplied computed plots
 and tables in `outputs/reproduction/`. Restrict work with `--component selection`,
 `predictive`, `calibration` or `parameters`. It verifies input hashes, recomputes
@@ -38,7 +41,7 @@ retains all 26 marginals, Holm correction and its original-prior reference.
 Coverage and target attainment remain separate; see the [diagnostic guide](diagnostics.md).
 
 Parameter boxes use the declared 256 ideal-target draws from the final `(5,3,1)`
-density. Only marginal summaries are distributed. Dots are saved geometry-specific
+density. Only marginal summaries are distributed. Markers are saved geometry-specific
 MAP coordinates. Native linear coordinates are normalized as
 `100 × (value − prior lower) / (prior upper − prior lower)`.
 The four groups are in `config/figures.json`. Fitted quantiles are not calibrated

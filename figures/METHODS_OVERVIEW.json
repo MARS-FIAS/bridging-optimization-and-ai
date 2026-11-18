@@ -1,12 +1,47 @@
 {
-  "schema_version": 1,
-  "date": "2026-11-16",
+  "schema_version": 2,
+  "date": "2026-11-18",
   "asset": "methods_overview.svg",
-  "sha256": "9e997449a6d1ba73a1a52103e54eab6d7792758d4a85ac42929fc95140996f42",
+  "sha256": "55fb5e3757bfa19235616893f5ffa31f4eec269851f974696b9c256b402a767a",
   "scientific_status": "Conceptual review diagram; no numerical measurements.",
   "source": "The review framework: direct optimization, optimization priors and neural conditional density estimation.",
   "repository_implementation": "Goal-conditioned neural workflow for the blastocyst-cavity worked example.",
-  "author_request": "Place a methods-focused figure before the biological geometries in the README.",
-  "article_figure_asset_edited": false,
-  "format": "Editable native SVG; no external images, fonts, scripts or network resources."
+  "variants": {
+    "methods_overview.svg": {
+      "path": "methods_overview.svg",
+      "sha256": "55fb5e3757bfa19235616893f5ffa31f4eec269851f974696b9c256b402a767a"
+    },
+    "methods_overview_stacked.svg": {
+      "path": "methods_overview_stacked.svg",
+      "sha256": "ef904216dfaaa66f691fd67ffcb07ad49ffffebf91a282b4ff91a35c3a7dcf49"
+    },
+    "methods_overview.png": {
+      "path": "methods_overview.png",
+      "sha256": "e324dc44ed66719e4c9eaa68945409097d81aa0d384f863d6335b3df6b7882c5"
+    },
+    "methods_overview_stacked.png": {
+      "path": "methods_overview_stacked.png",
+      "sha256": "a3150d05514393f68c6149e3e742df60521b6ee227cd3893b5bcde2f9849a706"
+    }
+  },
+  "mobile_breakpoint_px": 640,
+  "scientific_wording_changed": false,
+  "format": "Editable self-contained SVGs with system-font fallbacks; PNG copies are also supplied. No external resources or scripts.",
+  "creation_record": {
+    "assistance": "Claude, Anthropic; figure layout, plotting code and graphical checks",
+    "session_model_identifiers": [
+      {
+        "date": "2026-11-17",
+        "identifier": "claude-fable-5-2",
+        "record_type": "configured session identifier"
+      },
+      {
+        "date": "2026-11-18",
+        "identifier": "claude-opus-5-5",
+        "record_type": "recorded session identifier"
+      }
+    ],
+    "image_generation_model_used": false,
+    "publication_operation": "Unmodified copies of the approved vector/raster assets; no simulation, posterior sampling or training."
+  }
 }

@@ -27,3 +27,11 @@ The supplied estimator files contain the released model state and refer to
 classes from that separately installed environment. They are not dependency
 installers. Checksums, parameter order and loading instructions are in
 [`artifacts/`](artifacts/).
+
+## Bundled figure fonts
+
+The editable figure collection includes STIX Two Text and STIX Two Math TTFs.
+Their SIL Open Font License 1.1 notices remain intact in
+[figures/fonts/](figures/fonts/README.md). Font licences are independent of
+the project MIT licence. Scientific software dependencies remain installed
+separately as described above.

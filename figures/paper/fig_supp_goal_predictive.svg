@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="414pt" height="324pt" viewBox="0 0 414 324" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Biological target attainment across the fitted density (Figure S3)</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Biological target attainment across the fitted density (Figure S3)</dc:title>
+    <dc:date>2026-11-17T17:55:03.754699</dc:date>
+    <dc:description>Computed from predictive_score_timeseries.csv, predictive_score_histogram.csv, predictive_intended_fates.csv</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324 
+L 414 324 
+L 414 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 37 145 
+L 197 145 
+L 197 55 
+L 37 55 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="FillBetweenPolyCollection_1">
+    <defs>
+     <path id="m21fbefd8f9" d="M 44.272727 -262.333333 
+L 44.272727 -244.863243 
+L 47.30303 -244.863243 
+L 50.333333 -244.863243 
+L 53.363636 -244.863243 
+L 56.393939 -244.863243 
+L 59.424242 -244.863243 
+L 62.454545 -244.863243 
+L 65.484848 -244.863243 
+L 68.515152 -244.863243 
+L 71.545455 -244.863243 
+L 74.575758 -244.863243 
+L 77.606061 -244.863243 
+L 80.636364 -244.863243 
+L 83.666667 -241.014934 
+L 86.69697 -241.014934 
+L 89.727273 -241.014934 
+L 92.757576 -241.014934 
+L 95.787879 -241.014934 
+L 98.818182 -241.014934 
+L 101.848485 -241.014934 
+L 104.878788 -241.014934 
+L 107.909091 -241.014934 
+L 110.939394 -241.014934 
+L 113.969697 -241.014934 
+L 117 -241.014934 
+L 120.030303 -241.014934 
+L 123.060606 -241.014934 
+L 126.090909 -241.014934 
+L 129.121212 -241.014934 
+L 132.151515 -241.014934 
+L 135.181818 -241.014934 
+L 138.212121 -241.014934 
+L 141.242424 -241.014934 
+L 144.272727 -241.014934 
+L 147.30303 -241.014934 
+L 150.333333 -241.014934 
+L 153.363636 -241.014934 
+L 156.393939 -241.014934 
+L 159.424242 -241.014934 
+L 162.454545 -241.014934 
+L 165.484848 -241.014934 
+L 168.515152 -241.014934 
+L 171.545455 -241.014934 
+L 174.575758 -241.014934 
+L 177.606061 -241.014934 
+L 180.636364 -241.014934 
+L 183.666667 -241.014934 
+L 186.69697 -241.014934 
+L 189.727273 -241.014934 
+L 189.727273 -262.333333 
+L 189.727273 -262.333333 
+L 186.69697 -262.333333 
+L 183.666667 -262.333333 
+L 180.636364 -262.333333 
+L 177.606061 -262.333333 
+L 174.575758 -262.333333 
+L 171.545455 -262.333333 
+L 168.515152 -262.333333 
+L 165.484848 -262.333333 
+L 162.454545 -262.333333 
+L 159.424242 -262.333333 
+L 156.393939 -262.333333 
+L 153.363636 -262.333333 
+L 150.333333 -262.333333 
+L 147.30303 -262.333333 
+L 144.272727 -262.333333 
+L 141.242424 -262.333333 
+L 138.212121 -262.333333 
+L 135.181818 -262.333333 
+L 132.151515 -262.333333 
+L 129.121212 -262.333333 
+L 126.090909 -262.333333 
+L 123.060606 -262.333333 
+L 120.030303 -262.333333 
+L 117 -262.333333 
+L 113.969697 -262.333333 
+L 110.939394 -262.333333 
+L 107.909091 -262.333333 
+L 104.878788 -262.333333 
+L 101.848485 -262.333333 
+L 98.818182 -262.333333 
+L 95.787879 -262.333333 
+L 92.757576 -262.333333 
+L 89.727273 -262.333333 
+L 86.69697 -262.333333 
+L 83.666667 -262.333333 
+L 80.636364 -262.333333 
+L 77.606061 -262.333333 
+L 74.575758 -262.333333 
+L 71.545455 -262.333333 
+L 68.515152 -262.333333 
+L 65.484848 -262.333333 
+L 62.454545 -262.333333 
+L 59.424242 -262.333333 
+L 56.393939 -262.333333 
+L 53.363636 -262.333333 
+L 50.333333 -262.333333 
+L 47.30303 -262.333333 
+L 44.272727 -262.333333 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pe349b11d15)">
+     <use xlink:href="#m21fbefd8f9" x="0" y="324" style="fill: #a8d2e0; fill-opacity: 0.55"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m3adfd22d02" d="M 0 0 
+L 0 2.6 
+" style="stroke: #23262c; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#m3adfd22d02" x="44.272727" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="44.272727" y="156.658" transform="rotate(-0 44.272727 156.658)">36</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="68.515152" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="68.515152" y="156.658" transform="rotate(-0 68.515152 156.658)">38</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="92.757576" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="92.757576" y="156.658" transform="rotate(-0 92.757576 156.658)">40</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="117" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="117" y="156.658" transform="rotate(-0 117 156.658)">42</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="141.242424" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="141.242424" y="156.658" transform="rotate(-0 141.242424 156.658)">44</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="165.484848" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="165.484848" y="156.658" transform="rotate(-0 165.484848 156.658)">46</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="189.727273" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="189.727273" y="156.658" transform="rotate(-0 189.727273 156.658)">48</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="117" y="170.039" transform="rotate(-0 117 170.039)">Time (h)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <defs>
+       <path id="ma5cb70bb11" d="M 0 0 
+L -2.6 0 
+" style="stroke: #23262c; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="37" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="32.2" y="148.429" transform="rotate(-0 32.2 148.429)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="37" y="124.166667" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="32.2" y="127.595667" transform="rotate(-0 32.2 127.595667)">0.25</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="37" y="103.333333" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="32.2" y="106.762333" transform="rotate(-0 32.2 106.762333)">0.5</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="37" y="82.5" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="32.2" y="85.929" transform="rotate(-0 32.2 85.929)">0.75</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="37" y="61.666667" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="32.2" y="65.095667" transform="rotate(-0 32.2 65.095667)">1</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="7.739" y="100" transform="rotate(-90 7.739 100)">Score</text>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <path d="M 44.272727 61.666667 
+L 47.30303 61.666667 
+L 50.333333 61.666667 
+L 53.363636 61.666667 
+L 56.393939 61.666667 
+L 59.424242 61.666667 
+L 62.454545 61.666667 
+L 65.484848 61.666667 
+L 68.515152 61.666667 
+L 71.545455 61.666667 
+L 74.575758 61.666667 
+L 77.606061 61.666667 
+L 80.636364 61.666667 
+L 83.666667 61.666667 
+L 86.69697 61.666667 
+L 89.727273 61.666667 
+L 92.757576 61.666667 
+L 95.787879 61.666667 
+L 98.818182 61.666667 
+L 101.848485 61.666667 
+L 104.878788 61.666667 
+L 107.909091 61.666667 
+L 110.939394 61.666667 
+L 113.969697 61.666667 
+L 117 61.666667 
+L 120.030303 61.666667 
+L 123.060606 61.666667 
+L 126.090909 61.666667 
+L 129.121212 61.666667 
+L 132.151515 61.666667 
+L 135.181818 61.666667 
+L 138.212121 61.666667 
+L 141.242424 61.666667 
+L 144.272727 61.666667 
+L 147.30303 61.666667 
+L 150.333333 61.666667 
+L 153.363636 61.666667 
+L 156.393939 61.666667 
+L 159.424242 61.666667 
+L 162.454545 61.666667 
+L 165.484848 61.666667 
+L 168.515152 61.666667 
+L 171.545455 61.666667 
+L 174.575758 61.666667 
+L 177.606061 61.666667 
+L 180.636364 61.666667 
+L 183.666667 61.666667 
+L 186.69697 61.666667 
+L 189.727273 61.666667 
+" clip-path="url(#pe349b11d15)" style="fill: none; stroke: #2d7fa3; stroke-width: 2.2"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 44.272727 69.318187 
+L 47.30303 69.383042 
+L 50.333333 69.288992 
+L 53.363636 69.437121 
+L 56.393939 69.417975 
+L 59.424242 69.780541 
+L 62.454545 70.118366 
+L 65.484848 69.938108 
+L 68.515152 69.866247 
+L 71.545455 69.810375 
+L 74.575758 69.700384 
+L 77.606061 69.699889 
+L 80.636364 69.832986 
+L 83.666667 70.230032 
+L 86.69697 70.449792 
+L 89.727273 70.628634 
+L 92.757576 70.434484 
+L 95.787879 70.416142 
+L 98.818182 70.552627 
+L 101.848485 70.682336 
+L 104.878788 70.8611 
+L 107.909091 70.591596 
+L 110.939394 70.823289 
+L 113.969697 71.058082 
+L 117 71.209599 
+L 120.030303 71.271066 
+L 123.060606 71.342697 
+L 126.090909 71.193841 
+L 129.121212 71.330326 
+L 132.151515 71.546699 
+L 135.181818 71.605959 
+L 138.212121 71.605959 
+L 141.242424 71.780582 
+L 144.272727 71.848825 
+L 147.30303 71.768212 
+L 150.333333 71.703357 
+L 153.363636 71.999617 
+L 156.393939 71.830116 
+L 159.424242 72.141618 
+L 162.454545 72.136254 
+L 165.484848 72.557354 
+L 168.515152 72.378053 
+L 171.545455 72.708194 
+L 174.575758 72.746285 
+L 177.606061 72.964633 
+L 180.636364 73.144161 
+L 183.666667 73.203421 
+L 186.69697 73.297921 
+L 189.727273 73.614699 
+" clip-path="url(#pe349b11d15)" style="fill: none; stroke: #23262c; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 37 61.666667 
+L 197 61.666667 
+" clip-path="url(#pe349b11d15)" style="fill: none; stroke-dasharray: 2.88,1.98; stroke-dashoffset: 0; stroke: #9e4a2e; stroke-width: 0.9"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 37 145 
+L 37 55 
+" style="fill: none; stroke: #23262c; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 37 145 
+L 197 145 
+" style="fill: none; stroke: #23262c; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_16">
+     <path d="M 43.75 121.258 
+L 49.6 121.258 
+L 55.45 121.258 
+" style="fill: none; stroke: #2d7fa3; stroke-width: 2.2"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start" x="59.5" y="124.408" transform="rotate(-0 59.5 124.408)">Median</text>
+    </g>
+    <g id="line2d_17">
+     <path d="M 43.75 132.958 
+L 49.6 132.958 
+L 55.45 132.958 
+" style="fill: none; stroke: #23262c; stroke-width: 1.1; stroke-linecap: square"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start" x="59.5" y="136.108" transform="rotate(-0 59.5 136.108)">Mean</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 95.851562 124.408 
+L 107.551563 124.408 
+L 107.551563 118.108 
+L 95.851562 118.108 
+z
+" style="fill: #a8d2e0; fill-opacity: 0.55"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start" x="111.601562" y="124.408" transform="rotate(-0 111.601562 124.408)">25th–75th percentiles</text>
+    </g>
+    <g id="line2d_18">
+     <path d="M 95.851562 132.958 
+L 101.701562 132.958 
+L 107.551563 132.958 
+" style="fill: none; stroke-dasharray: 2.88,1.98; stroke-dashoffset: 0; stroke: #9e4a2e; stroke-width: 0.9"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start" x="111.601562" y="136.108" transform="rotate(-0 111.601562 136.108)">Ideal score</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 258 145 
+L 410 145 
+L 410 55 
+L 258 55 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 258 145 
+L 265.6 145 
+L 265.6 145 
+L 258 145 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 265.6 145 
+L 273.2 145 
+L 273.2 145 
+L 265.6 145 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 273.2 145 
+L 280.8 145 
+L 280.8 145 
+L 273.2 145 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 280.8 145 
+L 288.4 145 
+L 288.4 145 
+L 280.8 145 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 288.4 145 
+L 296 145 
+L 296 145 
+L 288.4 145 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 296 145 
+L 303.6 145 
+L 303.6 143.457143 
+L 296 143.457143 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 303.6 145 
+L 311.2 145 
+L 311.2 145 
+L 303.6 145 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 311.2 145 
+L 318.8 145 
+L 318.8 143.971429 
+L 311.2 143.971429 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 318.8 145 
+L 326.4 145 
+L 326.4 144.485714 
+L 318.8 144.485714 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 326.4 145 
+L 334 145 
+L 334 145 
+L 326.4 145 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 334 145 
+L 341.6 145 
+L 341.6 138.314286 
+L 334 138.314286 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 341.6 145 
+L 349.2 145 
+L 349.2 138.828571 
+L 341.6 138.828571 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 349.2 145 
+L 356.8 145 
+L 356.8 141.4 
+L 349.2 141.4 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 356.8 145 
+L 364.4 145 
+L 364.4 142.942857 
+L 356.8 142.942857 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 364.4 145 
+L 372 145 
+L 372 137.285714 
+L 364.4 137.285714 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 372 145 
+L 379.6 145 
+L 379.6 141.914286 
+L 372 141.914286 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 379.6 145 
+L 387.2 145 
+L 387.2 140.885714 
+L 379.6 140.885714 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 387.2 145 
+L 394.8 145 
+L 394.8 139.342857 
+L 387.2 139.342857 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 394.8 145 
+L 402.4 145 
+L 402.4 138.314286 
+L 394.8 138.314286 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 402.4 145 
+L 410 145 
+L 410 62.2 
+L 402.4 62.2 
+z
+" clip-path="url(#p68c42eb1f3)" style="fill: #2d7fa3; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_8">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="258" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="258" y="156.658" transform="rotate(-0 258 156.658)">0</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="296" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="296" y="156.658" transform="rotate(-0 296 156.658)">0.25</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="334" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="334" y="156.658" transform="rotate(-0 334 156.658)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="372" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="372" y="156.658" transform="rotate(-0 372 156.658)">0.75</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="410" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="410" y="156.658" transform="rotate(-0 410 156.658)">1</text>
+     </g>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="334" y="170.039" transform="rotate(-0 334 170.039)">Time-averaged joint score</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="145" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="148.429" transform="rotate(-0 253.2 148.429)">0</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="119.285714" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="122.714714" transform="rotate(-0 253.2 122.714714)">50</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="93.571429" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="97.000429" transform="rotate(-0 253.2 97.000429)">100</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="67.857143" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="71.286143" transform="rotate(-0 253.2 71.286143)">150</text>
+     </g>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="228.739" y="100" transform="rotate(-90 228.739 100)">Paired predictions</text>
+    </g>
+   </g>
+   <g id="patch_27">
+    <path d="M 258 145 
+L 258 55 
+" style="fill: none; stroke: #23262c; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 258 145 
+L 410 145 
+" style="fill: none; stroke: #23262c; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; fill: #23262c" transform="translate(261.04 63.779219)">Complete target at all 49 times:</text>
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; fill: #23262c" transform="translate(261.04 74.575)">107/256 pairs (41.8%)</text>
+   </g>
+   <g id="patch_29">
+    <path d="M 396.020278 87.4 
+Q 399.058139 87.4 402.096 87.4 
+" style="fill: none; stroke: #5a6068; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; fill: #23262c" transform="translate(311.806875 84.308359)">Includes near-perfect</text>
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; fill: #23262c" transform="translate(350.390156 94.680859)">trajectories</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_30">
+    <path d="M 86 292 
+L 197 292 
+L 197 202 
+L 86 202 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_28">
+    <path d="M 168.835821 292 
+L 168.835821 202 
+" clip-path="url(#pc20f0ae73e)" style="fill: none; stroke-dasharray: 1.92,1.32; stroke-dashoffset: 0; stroke: #5a6068; stroke-width: 0.6"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 86 207.268293 
+L 168.458094 207.268293 
+L 168.458094 220.878049 
+L 86 220.878049 
+z
+" clip-path="url(#pc20f0ae73e)" style="fill: #9dbbe4; stroke: #3f6fa8; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 86 229.219512 
+L 168.606345 229.219512 
+L 168.606345 242.829268 
+L 86 242.829268 
+z
+" clip-path="url(#pc20f0ae73e)" style="fill: #9dbbe4; stroke: #3f6fa8; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 86 251.170732 
+L 166.944544 251.170732 
+L 166.944544 264.780488 
+L 86 264.780488 
+z
+" clip-path="url(#pc20f0ae73e)" style="fill: #eab389; stroke: #bc6038; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 86 273.121951 
+L 162.928882 273.121951 
+L 162.928882 286.731707 
+L 86 286.731707 
+z
+" clip-path="url(#pc20f0ae73e)" style="fill: #9dbbe4; stroke: #3f6fa8; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_13">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="86" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="86" y="303.658" transform="rotate(-0 86 303.658)">0</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="106.708955" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="106.708955" y="303.658" transform="rotate(-0 106.708955 303.658)">0.25</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="127.41791" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="127.41791" y="303.658" transform="rotate(-0 127.41791 303.658)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="148.126866" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="148.126866" y="303.658" transform="rotate(-0 148.126866 303.658)">0.75</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="168.835821" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="168.835821" y="303.658" transform="rotate(-0 168.835821 303.658)">1</text>
+     </g>
+    </g>
+    <g id="text_37">
+     <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="127.41791" y="318.239" transform="rotate(-0 127.41791 318.239)">Mean fraction</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_10">
+     <g id="line2d_34"/>
+     <g id="text_38">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="82" y="217.502171" transform="rotate(-0 82 217.502171)">Knockout lower EPI</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_35"/>
+     <g id="text_39">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="82" y="239.45339" transform="rotate(-0 82 239.45339)">Knockout upper EPI</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_36"/>
+     <g id="text_40">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="82" y="261.40461" transform="rotate(-0 82 261.40461)">Wild type lower PRE</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_37"/>
+     <g id="text_41">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="82" y="283.355829" transform="rotate(-0 82 283.355829)">Wild type upper EPI</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_35">
+    <path d="M 86 292 
+L 197 292 
+" style="fill: none; stroke: #23262c; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #23262c" x="172.563433" y="217.502171" transform="rotate(-0 172.563433 217.502171)">99.5%</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #23262c" x="172.563433" y="239.45339" transform="rotate(-0 172.563433 239.45339)">99.7%</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #23262c" x="172.563433" y="261.40461" transform="rotate(-0 172.563433 261.40461)">97.7%</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #23262c" x="172.563433" y="283.355829" transform="rotate(-0 172.563433 283.355829)">92.9%</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_36">
+    <path d="M 258 292 
+L 410 292 
+L 410 202 
+L 258 202 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_7">
+    <g id="xtick_18">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="264.909091" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_46">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="264.909091" y="303.658" transform="rotate(-0 264.909091 303.658)">36</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="287.939394" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="287.939394" y="303.658" transform="rotate(-0 287.939394 303.658)">38</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="310.969697" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="310.969697" y="303.658" transform="rotate(-0 310.969697 303.658)">40</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="334" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="334" y="303.658" transform="rotate(-0 334 303.658)">42</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="357.030303" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="357.030303" y="303.658" transform="rotate(-0 357.030303 303.658)">44</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="380.060606" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="380.060606" y="303.658" transform="rotate(-0 380.060606 303.658)">46</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m3adfd22d02" x="403.090909" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_52">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="403.090909" y="303.658" transform="rotate(-0 403.090909 303.658)">48</text>
+     </g>
+    </g>
+    <g id="text_53">
+     <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: middle; fill: #23262c" x="334" y="317.039" transform="rotate(-0 334 317.039)">Time (h)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_14">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="292" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_54">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="295.429" transform="rotate(-0 253.2 295.429)">0</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="271.166667" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_55">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="274.595667" transform="rotate(-0 253.2 274.595667)">0.25</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="250.333333" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_56">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="253.762333" transform="rotate(-0 253.2 253.762333)">0.5</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="229.5" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_57">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="232.929" transform="rotate(-0 253.2 232.929)">0.75</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#ma5cb70bb11" x="258" y="208.666667" style="fill: #23262c; stroke: #23262c; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_58">
+      <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #23262c" x="253.2" y="212.095667" transform="rotate(-0 253.2 212.095667)">1</text>
+     </g>
+    </g>
+    <g id="text_59">
+     <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; fill: #23262c" transform="translate(209.666602 282.720742) rotate(-90)">Fraction of paired</text>
+     <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; fill: #23262c" transform="translate(220.083203 269.448945) rotate(-90)">predictions</text>
+    </g>
+   </g>
+   <g id="line2d_50">
+    <path d="M 264.909091 231.453125 
+L 267.787879 231.453125 
+L 270.666667 231.127604 
+L 273.545455 231.453125 
+L 276.424242 230.476562 
+L 279.30303 232.429688 
+L 282.181818 233.731771 
+L 285.060606 233.080729 
+L 287.939394 232.755208 
+L 290.818182 232.755208 
+L 293.69697 232.104167 
+L 296.575758 231.127604 
+L 299.454545 231.453125 
+L 302.333333 232.429688 
+L 305.212121 233.40625 
+L 308.090909 233.731771 
+L 310.969697 233.080729 
+L 313.848485 233.40625 
+L 316.727273 234.057292 
+L 319.606061 234.057292 
+L 322.484848 234.057292 
+L 325.363636 233.40625 
+L 328.242424 234.057292 
+L 331.121212 235.033854 
+L 334 235.684896 
+L 336.878788 235.359375 
+L 339.757576 236.010417 
+L 342.636364 235.033854 
+L 345.515152 235.684896 
+L 348.393939 236.335938 
+L 351.272727 236.661458 
+L 354.151515 236.661458 
+L 357.030303 236.986979 
+L 359.909091 237.3125 
+L 362.787879 236.661458 
+L 365.666667 236.661458 
+L 368.545455 237.638021 
+L 371.424242 237.3125 
+L 374.30303 237.638021 
+L 377.181818 237.3125 
+L 380.060606 238.940104 
+L 382.939394 238.289062 
+L 385.818182 239.265625 
+L 388.69697 238.940104 
+L 391.575758 239.265625 
+L 394.454545 239.591146 
+L 397.333333 239.916667 
+L 400.212121 240.567708 
+L 403.090909 241.544271 
+" clip-path="url(#p868e63a393)" style="fill: none; stroke: #2d7fa3; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_51">
+    <path d="M 258 257.169271 
+L 410 257.169271 
+" clip-path="url(#p868e63a393)" style="fill: none; stroke-dasharray: 2.88,1.98; stroke-dashoffset: 0; stroke: #9e4a2e; stroke-width: 0.9"/>
+   </g>
+   <g id="patch_37">
+    <path d="M 258 292 
+L 258 202 
+" style="fill: none; stroke: #23262c; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_38">
+    <path d="M 258 292 
+L 410 292 
+" style="fill: none; stroke: #23262c; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; fill: #9e4a2e" transform="translate(261.454545 267.515156)">Complete target throughout</text>
+    <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; fill: #9e4a2e" transform="translate(261.454545 278.202656)">the sampled window</text>
+   </g>
+  </g>
+  <g id="line2d_52">
+   <path d="M 1 31 
+L 413 31 
+" style="fill: none; stroke: #23262c; stroke-width: 0.9; stroke-linecap: square"/>
+  </g>
+  <g id="text_61">
+   <text style="font-size: 12.4px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="1" y="11.6" transform="rotate(-0 1 11.6)">Biological target attainment across the fitted density</text>
+  </g>
+  <g id="text_62">
+   <text style="font-size: 9.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #5a6068" x="1" y="25" transform="rotate(-0 1 25)">(5,3,1); 256 parameter draws; one simulation per condition and draw</text>
+  </g>
+  <g id="text_63">
+   <text style="font-size: 9px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: end; fill: #5a6068" x="413" y="25" transform="rotate(-0 413 25)">All panels computed</text>
+  </g>
+  <g id="text_64">
+   <text style="font-size: 13px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="1" y="47" transform="rotate(-0 1 47)">A</text>
+  </g>
+  <g id="text_65">
+   <text style="font-size: 10.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="15" y="47" transform="rotate(-0 15 47)">Joint biological pattern score</text>
+  </g>
+  <g id="text_66">
+   <text style="font-size: 13px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="213" y="47" transform="rotate(-0 213 47)">B</text>
+  </g>
+  <g id="text_67">
+   <text style="font-size: 10.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="227" y="47" transform="rotate(-0 227 47)">Variation across paired predictions</text>
+  </g>
+  <g id="text_68">
+   <text style="font-size: 13px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="1" y="194" transform="rotate(-0 1 194)">C</text>
+  </g>
+  <g id="text_69">
+   <text style="font-size: 10.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="15" y="194" transform="rotate(-0 15 194)">Cells attaining the intended fate</text>
+  </g>
+  <g id="text_70">
+   <text style="font-size: 13px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="213" y="194" transform="rotate(-0 213 194)">D</text>
+  </g>
+  <g id="text_71">
+   <text style="font-size: 10.5px; font-family: 'STIX Two Text', 'STIX Two Math'; text-anchor: start; fill: #15171b" x="227" y="194" transform="rotate(-0 227 194)">Complete joint target attainment</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe349b11d15">
+   <rect x="37" y="55" width="160" height="90"/>
+  </clipPath>
+  <clipPath id="p68c42eb1f3">
+   <rect x="258" y="55" width="152" height="90"/>
+  </clipPath>
+  <clipPath id="pc20f0ae73e">
+   <rect x="86" y="202" width="111" height="90"/>
+  </clipPath>
+  <clipPath id="p868e63a393">
+   <rect x="258" y="202" width="152" height="90"/>
+  </clipPath>
+ </defs>
+</svg>

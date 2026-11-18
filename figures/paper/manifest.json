@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "source": "Revised manuscript artwork, 18 November 2026",
+  "source_graphics_unmodified": true,
+  "numerical_reproduction": "../../docs/REPRODUCTION_MAP.md",
+  "editable_font_files": "../fonts/",
+  "creation_record": {
+    "assistance": "Claude, Anthropic; figure layout, plotting code and graphical checks",
+    "session_model_identifiers": [
+      {
+        "date": "2026-11-17",
+        "identifier": "claude-fable-5-2",
+        "record_type": "configured session identifier"
+      },
+      {
+        "date": "2026-11-18",
+        "identifier": "claude-opus-5-5",
+        "record_type": "recorded session identifier"
+      }
+    ],
+    "image_generation_model_used": false,
+    "publication_operation": "Unmodified copies of the approved vector/raster assets; no simulation, posterior sampling or training."
+  },
+  "figures": [
+    {
+      "figure": "1",
+      "title": "Calibration strategies for spatial-stochastic biochemical models",
+      "scientific_status": "Illustrative method comparison",
+      "files": {
+        "pdf": {
+          "path": "fig_calibration_strategies.pdf",
+          "sha256": "5206a0cad95fd7332e8c7f686819672ca26450eb3196138b5e7dd0b9c67bbfc2",
+          "bytes": 65093
+        },
+        "svg": {
+          "path": "fig_calibration_strategies.svg",
+          "sha256": "dae02d591449d26c582b51d9bb84293b8ab8edf4d4bdd23a8571f97675f7e165",
+          "bytes": 26624
+        },
+        "png": {
+          "path": "fig_calibration_strategies.png",
+          "sha256": "a52c6510be6e51af1ade07a717d976fe86184881d5dde964157d38dd9e681cd5",
+          "bytes": 460813
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "2",
+      "title": "Spatial-stochastic blastocyst cavity model",
+      "scientific_status": "Schematic model and regulatory network",
+      "files": {
+        "pdf": {
+          "path": "fig_cavity_model.pdf",
+          "sha256": "6e23edd848bbf970e7db249efa86b60f2b76934ec1541c2f92242c39e8f71453",
+          "bytes": 97044
+        },
+        "svg": {
+          "path": "fig_cavity_model.svg",
+          "sha256": "cbb05b7bf4aec9dcfc8f780a1044e143acf7412800ead5fd162de84f117412b6",
+          "bytes": 40549
+        },
+        "png": {
+          "path": "fig_cavity_model.png",
+          "sha256": "a54d7f38ab97185f541b3b36aaae8896d6579481b5290cc9190f21df3e995037",
+          "bytes": 436051
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "3",
+      "title": "Pattern score and ensemble meta-score",
+      "scientific_status": "Illustrative pattern scores and ensemble summary",
+      "files": {
+        "pdf": {
+          "path": "fig_pattern_score.pdf",
+          "sha256": "f5a54d79157dc4c8dd55ae195345865b92c2af428c3903554d13be3afa6c4451",
+          "bytes": 60947
+        },
+        "svg": {
+          "path": "fig_pattern_score.svg",
+          "sha256": "6d3489880f4d92da82bf8f5d6a310d9ea93342630279582cfbbdcc9211866f9a",
+          "bytes": 58456
+        },
+        "png": {
+          "path": "fig_pattern_score.png",
+          "sha256": "ea33e0949ef12c92bef79fae0242716e2baeebd4950e933fdafd605482c916b4",
+          "bytes": 417385
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "4",
+      "title": "Two-condition training and ensemble-based candidate selection",
+      "scientific_status": "Illustrative inference workflow",
+      "files": {
+        "pdf": {
+          "path": "fig_sbi_workflow.pdf",
+          "sha256": "30a521be33ab29b2384d329026c8bc29b370189f82e04161d8cbfa83fed9d7a4",
+          "bytes": 77261
+        },
+        "svg": {
+          "path": "fig_sbi_workflow.svg",
+          "sha256": "8fb11d2f8dbcab5be9cd8c43aa16b04b6ab6ac9ca2ed49780cbdd6dd22c0d8ca",
+          "bytes": 42668
+        },
+        "png": {
+          "path": "fig_sbi_workflow.png",
+          "sha256": "c65873138690a352e77eb41aa36bcd48347e27594f2805de73c32ab08fbdfdb4",
+          "bytes": 372014
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "5",
+      "title": "Selected MAP performance and conceptual interpretation",
+      "scientific_status": "A computed; B–D illustrative",
+      "files": {
+        "pdf": {
+          "path": "fig_cavity_results.pdf",
+          "sha256": "6644310d1ce90259e1dff64255aa22614e47bbc4a93e398e924e3debb2e3d22b",
+          "bytes": 66518
+        },
+        "svg": {
+          "path": "fig_cavity_results.svg",
+          "sha256": "e44e24b8dcf177a88d1a45b1669d602e2ca8fe682a98f8f2de83f3c6bb8a077f",
+          "bytes": 47276
+        },
+        "png": {
+          "path": "fig_cavity_results.png",
+          "sha256": "55bc9ce461e8a41ee673bb930948c9e85f7d5d417fc73c49545cb10c69f60a42",
+          "bytes": 397382
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "S1",
+      "title": "Eight fixed ICM geometries (schematic model inputs)",
+      "scientific_status": "Schematic model inputs",
+      "files": {
+        "pdf": {
+          "path": "fig_supp_geometry.pdf",
+          "sha256": "af9713749c6b36f6f0e8c2f6197a26ea7099e57febae92031ca28eb5403a2b27",
+          "bytes": 34555
+        },
+        "svg": {
+          "path": "fig_supp_geometry.svg",
+          "sha256": "34d93b53244d68de4d138d30b359c6367919a21d909dd1bb213825fbc436930d",
+          "bytes": 16354
+        },
+        "png": {
+          "path": "fig_supp_geometry.png",
+          "sha256": "cbe71c3e0fe7578ec54e7d643865e5d797cfa82ef26fbeaa4e4508522cd8bbf0",
+          "bytes": 131994
+        }
+      },
+      "insertion_width_pt": 372.6,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "S2",
+      "title": "Agreement of meta-score selection policies",
+      "scientific_status": "Computed score-policy comparison",
+      "files": {
+        "pdf": {
+          "path": "fig_score_policy_agreement.pdf",
+          "sha256": "35be93826a91b6858adeead1a281e92baf16e76fdd674ff1504110923258a0fe",
+          "bytes": 16499
+        },
+        "svg": {
+          "path": "fig_score_policy_agreement.svg",
+          "sha256": "e4bd4aa56a2482b269d03d97245c2a2fa09b04941d35e4975fa6960055f6f1f7",
+          "bytes": 12520
+        },
+        "png": {
+          "path": "fig_score_policy_agreement.png",
+          "sha256": "f42726d1186de220332a2eca5739611b7d59f2e71feb0976819a9b3bdf6eec03",
+          "bytes": 146971
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "S3",
+      "title": "Biological target attainment across the fitted density (Figure S3)",
+      "scientific_status": "Computed predictive assessment",
+      "files": {
+        "pdf": {
+          "path": "fig_supp_goal_predictive.pdf",
+          "sha256": "d2c2bb28d65d306a0a511856430eb90680faafbbbdac3a65773a0ad4fc2073d2",
+          "bytes": 38599
+        },
+        "svg": {
+          "path": "fig_supp_goal_predictive.svg",
+          "sha256": "49d417b7c49b8649a9f8d1031d916e990c41c3e6c7afeb16bc5fb4622f9da71a",
+          "bytes": 42192
+        },
+        "png": {
+          "path": "fig_supp_goal_predictive.png",
+          "sha256": "cb09ba92b3c589bdfb092a9bd312c7752e66fbd16f7a2d5265da9272299df6cb",
+          "bytes": 245922
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "S4",
+      "title": "Frozen-estimator marginal SBC under the original prior",
+      "scientific_status": "Computed marginal rank assessment",
+      "files": {
+        "pdf": {
+          "path": "fig_supp_sbc_ranks.pdf",
+          "sha256": "054552a56cf7c0c9690a82bec7261b7a2a5e0a042d4902ca13c0c28497c4ca41",
+          "bytes": 35915
+        },
+        "svg": {
+          "path": "fig_supp_sbc_ranks.svg",
+          "sha256": "d7fec4a6a936cc6bc87628a50f3ba1a49ef99dcbda832d0e3bd767d89c294c0d",
+          "bytes": 83562
+        },
+        "png": {
+          "path": "fig_supp_sbc_ranks.png",
+          "sha256": "cf17870e0d4884702c1fdfacc5ec2a56a3d27f8a132dfe77fb852f32a5ada95a",
+          "bytes": 269882
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "S5",
+      "title": "Empirical marginal interval coverage",
+      "scientific_status": "Computed marginal coverage",
+      "files": {
+        "pdf": {
+          "path": "fig_supp_sbc_coverage.pdf",
+          "sha256": "3d49cb84bba8acdbf960d5b40fb8885c7c277ed47062a08791c0b9e38219863d",
+          "bytes": 27449
+        },
+        "svg": {
+          "path": "fig_supp_sbc_coverage.svg",
+          "sha256": "57dd2fb52ebb019a821761cce7c072ae0175fdf59d2b59cb376afd413b6bbe8d",
+          "bytes": 36810
+        },
+        "png": {
+          "path": "fig_supp_sbc_coverage.png",
+          "sha256": "79432cd4b65034791d35830f94486d8a0083b8603fa3a47b769df4fc901c29d6",
+          "bytes": 483751
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    },
+    {
+      "figure": "S6",
+      "title": "Conditional parameter correlations at the MAP",
+      "scientific_status": "Preserved computed conditional-correlation artwork",
+      "files": {
+        "pdf": {
+          "path": "fig_supp_posterior_correlations.pdf",
+          "sha256": "36928aaccc85afb8e4780e688dbb7d117481e1b1ec74c7d9101410a44d1c7f63",
+          "bytes": 33345
+        },
+        "svg": {
+          "path": "fig_supp_posterior_correlations.svg",
+          "sha256": "46c874f82e6751fdb08b123846d356f5d8cc09f9f36ee9cc4bc3798156214178",
+          "bytes": 79274
+        },
+        "png": {
+          "path": "fig_supp_posterior_correlations.png",
+          "sha256": "408d8a7c2c035874e2e9d072bc4499e8c88f84e67407144e8f6ebaa074eb4972",
+          "bytes": 411849
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": true
+    },
+    {
+      "figure": "S7",
+      "title": "Selected MAP parameterizations and fitted reference ranges",
+      "scientific_status": "Computed selected parameters and fitted reference ranges",
+      "files": {
+        "pdf": {
+          "path": "fig_supp_parameter_reproducibility_fgf4.pdf",
+          "sha256": "4f5306cd1f3a2188e2cff930aa39bbcf777c02e9ca0963e81b1f7e7f466806e4",
+          "bytes": 51785
+        },
+        "svg": {
+          "path": "fig_supp_parameter_reproducibility_fgf4.svg",
+          "sha256": "93d52b7c2196795dce41141db7f12a4c19c5b26233f5a585ae488c6d2fb6ff37",
+          "bytes": 66097
+        },
+        "png": {
+          "path": "fig_supp_parameter_reproducibility_fgf4.png",
+          "sha256": "e2a593be4598385e6fe2fff3c1ae9c776fc1f596f724e5250f3e694f5eb1a87a",
+          "bytes": 444489
+        }
+      },
+      "insertion_width_pt": 414.0,
+      "S6_coefficient_size_exception": false
+    }
+  ]
+}
